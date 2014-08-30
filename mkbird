@@ -72,6 +72,9 @@ def create_config(srcdir, exclude, prefix, defaulttemplate, templates, bird4):
                 if data['community'] in exclude:
                     continue
 
+                if not 'bgp' in data:
+                    continue
+
                 for host in sorted(data['bgp'].keys()):
                     d = data['bgp'][host]
                     if not family in d:
