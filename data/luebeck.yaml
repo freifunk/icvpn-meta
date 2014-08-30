@@ -1,0 +1,24 @@
+community: luebeck
+asn: 65052
+networks:
+  ipv4: 
+    - 10.130.0.0/16
+  ipv6:
+    - fdef:ffc0:3dd7::/48
+    - 2001:bf7:110::/44
+bgp:
+  luebeck1:
+    ipv4: 10.207.0.130
+    ipv6: fec0::a:cf:0:82
+  luebeck2:
+    ipv4: 10.207.0.131
+    ipv6: fec0::a:cf:0:83
+domains:
+  - ffhl
+nameservers:
+  - 10.130.10.1
+  - 10.130.12.1
+  - 10.130.14.1
+  - fdef:ffc0:3dd7::a01
+  - fdef:ffc0:3dd7::c01
+  - fdef:ffc0:3dd7::e01
