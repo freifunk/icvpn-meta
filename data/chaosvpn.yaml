@@ -1,0 +1,10 @@
+community: chaosvpn
+domains:
+ - hack
+ - 31.172.in-addr.arpa
+ - 100.10.in-addr.arpa
+ - 101.10.in-addr.arpa
+ - 102.10.in-addr.arpa
+ - 103.10.in-addr.arpa
+nameservers:
+ - 172.31.0.5
