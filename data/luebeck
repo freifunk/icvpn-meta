@@ -1,6 +1,6 @@
 asn: 65052
 networks:
-  ipv4: 
+  ipv4:
     - 10.130.0.0/16
   ipv6:
     - fdef:ffc0:3dd7::/48
