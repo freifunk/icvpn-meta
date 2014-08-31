@@ -1,0 +1,13 @@
+asn: 65529
+networks:
+  ipv4:
+    - 10.29.0.0/16
+  ipv6:
+    - fdaf:17a0:ffb1::/48
+bgp:
+  bielefeld1:
+    ipv4: 10.207.0.59
+    ipv6: fec0::a:cf:0:59
+  bielefeld2:
+    ipv4: 10.207.0.67
+    ipv6: fec0::a:cf:0:60
