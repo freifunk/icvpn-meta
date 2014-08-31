@@ -1,3 +1,5 @@
+tech-c:
+  - noc@freifunk-flensburg.de
 asn: 65056
 networks:
   ipv4: 
