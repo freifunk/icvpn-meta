@@ -79,18 +79,15 @@ def create_config(srcdir, fmtclass, exclude=set(), filters=[]):
     The files are read in lexicographic order to produce deterministic results.
     """
     formatter = fmtclass()
-    for fname in sorted(list(set(os.listdir(srcdir)))):
+    for fname in sorted(list(set(os.listdir(srcdir)) - set(exclude))):
         fpath = os.path.join(srcdir, fname)
         if os.path.isfile(fpath):
             with open(fpath) as f:
                 data = yaml.load(f)
-                if data['community'] in exclude:
-                    continue
-
                 if not ('domains' in data and 'nameservers' in data):
                     continue
 
-                formatter.add_comment("\n%s\n" % data['community'])
+                formatter.add_comment("\n%s\n" % fname)
 
                 servers = filter(lambda d: all(f(d) for f in filters), data['nameservers'])
 

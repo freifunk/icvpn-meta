@@ -64,13 +64,12 @@ def create_config(srcdir, exclude, prefix, defaulttemplate, templates, bird4):
 
     family = "ipv4" if bird4 else "ipv6"
 
-    for fname in sorted(list(set(os.listdir(srcdir)))):
+    for fname in sorted(list(set(os.listdir(srcdir)) - set(exclude))):
         fpath = os.path.join(srcdir, fname)
         if os.path.isfile(fpath):
             with open(fpath) as f:
                 data = yaml.load(f)
-                if data['community'] in exclude:
-                    continue
+                community = fname
 
                 if not 'bgp' in data:
                     continue
@@ -83,7 +82,7 @@ def create_config(srcdir, exclude, prefix, defaulttemplate, templates, bird4):
                     peer = d[family]
 
                     formatter.add_data(data['asn'], prefix + host,
-                            template[data['community']], peer)
+                            template[community], peer)
 
     print(formatter.finalize())
 
