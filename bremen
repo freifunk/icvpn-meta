@@ -1,0 +1,20 @@
+tech-c:
+  - noc@bremen.freifunk.net
+asn: 65196
+networks:
+  ipv4:
+    - 10.196.0.0/16
+  ipv6:
+    - fd2f:5119:f2c::/48
+    - 2a02:2919::/32
+bgp:
+  bremen2:
+    ipv4: 10.207.0.196
+    ipv6: fec0::a:cf:0:c4
+domains:
+  - ffhb
+  - c.2.f.0.9.1.1.5.f.2.d.f.ip6.arpa
+  - 196.10.in-addr.arpa
+nameservers:
+  - 10.196.0.1
+  - fd2f:5119:f2c::1
