@@ -1,0 +1,14 @@
+asn: 65055
+networks:
+  ipv4:
+    - 10.17.0.0/16
+bgp:
+  jena1:
+    ipv4: 10.207.0.33
+  jena2:
+    ipv4: 10.207.0.66
+domains:
+  - ffj
+  - 117.10.in-addr.arpa
+nameservers:
+  - 10.117.0.1
