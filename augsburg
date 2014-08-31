@@ -1,0 +1,25 @@
+tech-c:
+  - freifunk@somakoma.de
+asn: 65050
+networks:
+  ipv4:
+    - 10.11.0.0/16
+  ipv6:
+    - fdca:ffee:ffa::/48
+bgp:
+  augsburg1:
+    ipv4: 10.207.0.17
+    ipv6: fec0::a:cf:0:a
+  augsburg2:
+    ipv4: 10.207.0.68
+domains:
+  - ffa
+  - a.f.f.0.e.e.f.f.a.c.d.f.ip6.arpa
+  - 11.10.in-addr.arpa
+nameservers:
+  - 10.11.0.8
+  - 10.11.10.15
+  - 10.11.63.26
+  - fdca:ffee:0ffa:8::1
+  - fdca:ffee:0ffa:a0f::1
+  - fdca:ffee:0ffa:3f1a::1
