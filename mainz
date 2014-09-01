@@ -4,8 +4,10 @@ asn: 65037
 networks:
   ipv4:
     - 10.37.0.0/18
+    - 10.56.0.0/18
   ipv6:
     - fd37:b4dc:4b1e::/64
+    - fd56:b4dc:4b1e::/64
 bgp:
   mainz1:
     ipv4: 10.207.0.37
