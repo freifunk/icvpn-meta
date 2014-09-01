@@ -1,3 +1,6 @@
+tech-c:
+  - sargon@toppoint.de
+  - wklaebe@toppoint.de
 asn: 65525
 networks:
   ipv4:
@@ -11,15 +14,14 @@ bgp:
   kiel1:
     ipv4: 10.207.0.53
     ipv6: fec0::a:cf:0:35
-  kiel2:
-    ipv6: fec0::a:cf:0:3b
   kiel3:
-    ipv4: 10.207.0.54
-    ipv6: fec0::a:cf:0:36
+    ipv4: 10.207.0.59
+    ipv6: fec0::a:cf:0:3b
 domains:
   - ffki
   - e.d.4.7.a.4.8.3.1.a.d.f.ip6.arpa
   - 116.10.in-addr.arpa
 nameservers:
   - fda1:384a:74de:4242::1
-  - fda1:384a:74de:4242::2
+  - fda1:384a:74de:4242::ff00
+  - fda1:384a:74de:4242::ff03
