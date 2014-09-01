@@ -1,0 +1,9 @@
+tech-c:
+  - dominik@kupschke.net
+asn: 65034
+networks:
+  ipv4:
+    - 10.216.0.0/16
+bgp:
+  luenen:
+    ipv4: 10.207.0.34

@@ -1,0 +1,15 @@
+tech-c:
+  - freifunk@andi95.de
+asn: 65057
+networks:
+  ipv4:
+    - 10.63.0.0/16
+    - 10.64.0.0/16
+    - 104.64.0.0/16
+bgp:
+  weimar1:
+    ipv4: 10.207.0.3
+    ipv6: fec0::a:cf:0:3
+  weimar2:
+    ipv4: 10.207.0.4
+    ipv6: fec0::a:cf:0:4

@@ -1,0 +1,15 @@
+tech-c:
+  - icvpn@freifunk-3laendereck.de
+asn: 65043
+networks:
+  ipv4:
+    - 10.119.0.0/16
+  ipv6:
+    - fdc7:3c9d:b889:a272::/64
+bgp:
+  dreilaendereck1:
+    ipv4: 10.207.0.75
+    ipv6: fec0::a:cf:0:be
+domains:
+  - ffwr
+# FIXME: Nameserver eintragen

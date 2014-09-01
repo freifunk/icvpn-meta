@@ -1,0 +1,15 @@
+tech-c:
+  - admin@freifunk-mainz.de
+asn: 65037
+networks:
+  ipv4:
+    - 10.37.0.0/16
+  ipv6:
+    - fd37:b4dc:4b1e::/48
+bgp:
+  mainz1:
+    ipv4: 10.207.0.37
+    ipv6: fec0::a:cf:0:25
+  mainz2:
+    ipv4: 10.207.1.37
+    ipv6: fec0::a:cf:1:25

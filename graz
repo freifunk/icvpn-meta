@@ -1,0 +1,12 @@
+tech-c:
+  - otti-ff@graz.funkfeuer.de
+asn: 65048
+networks:
+  ipv4:
+    - 10.12.0.0/16
+    - 193.33.150.0/23
+bgp:
+  graz1:
+    ipv4: 10.207.1.2
+  graz2:
+    ipv4: 10.207.1.3

@@ -1,0 +1,9 @@
+tech-c:
+  - ulli_1@ewetel.net
+asn: 65025
+networks:
+  ipv4:
+    - 10.20.0.0/16
+bgp:
+  bad_zwischenahn:
+    ipv4: 10.207.0.26

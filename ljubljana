@@ -1,0 +1,17 @@
+tech-c:
+  - l0ki@frubsd.org
+  - janprunk@gmail.com
+asn: 65023
+networks:
+  ipv4:
+    - 10.14.0.0/16
+    - 10.254.0.0/16
+  ipv6:
+    - 2001:15c0:66e9::/48
+bgp:
+  ljubljana1:
+    ipv4: 10.207.3.23
+    ipv6: fec0::a:cf:3:23
+  ljubljana2:
+    ipv4: 10.207.3.30
+    ipv6: fec0::a:cf:3:30
