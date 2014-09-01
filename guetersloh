@@ -13,10 +13,10 @@ bgp:
     ipv4: 10.207.0.132
     ipv6: fec0::a:cf:0:84
   guetersloh2:
-    ipv4: 10.207.133
+    ipv4: 10.207.0.133
     ipv6: fec0::a:cf:0:85
   guetersloh4:
-    ipv4: 10.207.134
+    ipv4: 10.207.0.134
     ipv6: fec0::a:cf:0:86
 domains:
   - ffgt

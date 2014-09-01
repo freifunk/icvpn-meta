@@ -3,7 +3,7 @@ tech-c:
 asn: 65032
 networks:
   ipv4:
-    - 10.i222.0.0/16
+    - 10.222.0.0/16
 bgp:
   koblenz:
     ipv4: 10.207.0.32
