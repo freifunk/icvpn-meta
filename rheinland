@@ -1,0 +1,36 @@
+tech-c:
+  - nomaster@chaosdorf.de
+  - privat@herms-it.de
+asn: 65078
+networks:
+  ipv4:
+    # FIXME: Dies sind alle Netze von http://wiki.freifunk.net/IP-Netze
+    # deren Communities keine eigenen ICVPN-Peers haben. Stimmt diese
+    # Heuristik?
+    - 10.7.0.0/16
+    - 10.40.0.0/16
+    - 10.41.0.0/16
+    - 10.57.0.0/16
+    - 10.71.0.0/16
+    - 10.78.0.0/16
+    - 10.84.0.0/16
+    - 10.85.0.0/16
+    - 10.90.0.0/16
+    - 10.108.0.0/16
+    - 10.140.0.0/16
+  ipv6:
+    - fda0:747e:ab29::/48
+bgp:
+  rheinland0:
+    ipv4: 10.207.0.76
+    ipv6: fec0::a:cf:0:4c
+  rheinland1:
+    ipv4: 10.207.0.77
+    ipv6: fec0::a:cf:0:4d
+  rheinland0:
+    ipv4: 10.207.0.78
+    ipv6: fec0::a:cf:0:4e
+domains:
+  - ffw
+  - ffdev
+# FIXME: Nameserver eintragen

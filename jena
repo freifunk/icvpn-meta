@@ -1,7 +1,11 @@
+tech-c:
+  - post@freifunk-jena.de
 asn: 65055
 networks:
   ipv4:
     - 10.17.0.0/16
+  ipv6:
+    - fd59:b1b7:1d1f::/48
 bgp:
   jena1:
     ipv4: 10.207.0.33

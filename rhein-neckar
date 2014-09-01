@@ -1,0 +1,11 @@
+tech-c:
+  - mail@nazco.de
+asn: 76118
+networks:
+  ipv4:
+    - 10.142.0.0/16
+    - 172.23.138.0/23
+bgp:
+  rhein_neckar:
+    ipv4: 10.207.0.142
+    ipv6: fec0::a:cf:0:142

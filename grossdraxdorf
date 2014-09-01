@@ -1,0 +1,9 @@
+tech-c:
+  - n3ph@evilprojects.org
+asn: 65025
+networks:
+  ipv4:
+    - 104.59.246.0/24
+bgp:
+  grossdraxdorf:
+    ipv4: 10.207.0.25

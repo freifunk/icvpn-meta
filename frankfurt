@@ -1,0 +1,9 @@
+tech-c:
+  - klaus_dieter.FF@gmx.de
+asn: 65026
+networks:
+  ipv4:
+    - 10.126.0.0/16
+bgp:
+  :
+    ipv4: 10.207.0.35

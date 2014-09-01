@@ -1,0 +1,9 @@
+tech-c:
+  - hallo@freifunk-moehne.de
+asn: 65057
+networks:
+  ipv4:
+    - 10.15.0.0/16
+bgp:
+  moehne1:
+    ipv4: 10.207.0.120

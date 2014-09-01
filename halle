@@ -1,0 +1,12 @@
+tech-c:
+  - freifunk@3dfxatwork.de
+asn: 65046
+networks:
+  ipv4:
+    - 10.62.0.0/16
+    - 104.62.0.0/16
+bgp:
+  halle1:
+    ipv4: 10.207.0.13
+  halle2:
+    ipv4: 10.207.0.14

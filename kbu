@@ -1,0 +1,10 @@
+tech-c:
+  - hundfred@s23.org
+asn: 65528
+networks:
+  ipv4:
+    - 10.26.0.0/15
+bgp:
+  kbu:
+    ipv4: 10.207.0.57
+    ipv6: fec0::a:cf:0:57

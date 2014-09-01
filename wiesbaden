@@ -1,0 +1,12 @@
+tech-c:
+  - admin@freifunk-mainz.de
+asn: 65036
+networks:
+  ipv4:
+    - 10.56.0.0/16
+  ipv6:
+    - fd56:b4dc:4b1e::/48
+bgp:
+  wiesbaden1:
+    ipv4: 10.207.0.56
+    ipv6: fec0::a:cf:0:38

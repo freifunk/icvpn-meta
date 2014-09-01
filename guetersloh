@@ -1,0 +1,23 @@
+tech-c:
+  - wusel+ff@uu.org
+  - technik@guetersloh.freifunk.net
+asn: 65533
+networks:
+  ipv4:
+    - 10.255.0.0/16
+  ipv6:
+    - fd42:ffee:ff12:aff::0/64
+    - 2a01:198:200:8b6d::/64
+bgp:
+  guetersloh1:
+    ipv4: 10.207.0.132
+    ipv6: fec0::a:cf:0:84
+  guetersloh2:
+    ipv4: 10.207.133
+    ipv6: fec0::a:cf:0:85
+  guetersloh4:
+    ipv4: 10.207.134
+    ipv6: fec0::a:cf:0:86
+domains:
+  - ffgt
+# FIXME: Nameserver eintragen

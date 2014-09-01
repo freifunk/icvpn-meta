@@ -1,0 +1,9 @@
+tech-c:
+  - robert.kiendl@gmail.com
+asn: 65054
+networks:
+  ipv4:
+    - 10.51.0.0/16
+bgp:
+  schilcher1:
+    ipv4: 10.207.0.51
