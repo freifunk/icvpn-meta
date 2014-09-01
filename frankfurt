@@ -5,5 +5,5 @@ networks:
   ipv4:
     - 10.126.0.0/16
 bgp:
-  :
+  frankfurt1:
     ipv4: 10.207.0.35
