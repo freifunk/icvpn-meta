@@ -15,7 +15,6 @@ bgp:
     ipv6: fec0::a:cf:0:9
 domains:
   - ffrg
-  - 26.0.f98.2a02.ip6.arpa
   - 53.10.in-addr.arpa
 nameservers:
   - 10.53.16.2
