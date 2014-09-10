@@ -1,5 +1,5 @@
 tech-c:
-  - hallo@freifunk-moehne.de
+  - thomas@drewermann.org
 asn: 65057
 networks:
   ipv4:
@@ -7,3 +7,4 @@ networks:
 bgp:
   moehne1:
     ipv4: 10.207.0.120
+    ipv6: fec0::a:cf:0:120
