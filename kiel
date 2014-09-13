@@ -10,10 +10,10 @@ networks:
     - fda1:384a:74de::/48
 bgp:
   kiel0:
-    ipv4: 10.207.0.52
+    #ipv4: 10.207.0.52
     ipv6: fec0::a:cf:0:34
   kiel3:
-    ipv4: 10.207.0.59
+    #ipv4: 10.207.0.59
     ipv6: fec0::a:cf:0:3b
 domains:
   - ffki
