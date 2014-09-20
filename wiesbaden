@@ -10,9 +10,3 @@ bgp:
   wiesbaden1:
     ipv4: 10.207.0.56
     ipv6: fec0::a:cf:0:38
-  mainz1:
-    ipv4: 10.207.0.37
-    ipv6: fec0::a:cf:0:25
-  mainz2:
-    ipv4: 10.207.1.37
-    ipv6: fec0::a:cf:1:25
