@@ -1,6 +1,6 @@
 tech-c:
   - freifunk@andi95.de
-asn: 65057
+asn: 65042
 networks:
   ipv4:
     - 10.63.0.0/16
