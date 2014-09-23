@@ -11,4 +11,8 @@ bgp:
     ipv4: 10.207.0.38
 domains:
   - ffnw
-# FIXME: Nameserver eintragen
+  - 18.10.in-addr.arpa
+
+nameservers:
+  - 10.18.0.1
+
