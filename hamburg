@@ -1,3 +1,5 @@
+tech-c:
+  - leo@hamburg.freifunk.net
 asn: 65112
 networks:
   ipv4:
