@@ -13,6 +13,3 @@ bgp:
   mainz2:
     ipv4: 10.207.1.37
     ipv6: fec0::a:cf:1:25
-  mainz11:
-    ipv4: 10.207.11.37
-    ipv6: fec0::a:cf:b:25
