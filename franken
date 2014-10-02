@@ -1,18 +1,11 @@
 tech-c:
-  - tokkee@fffranken.de
-  - octo@fffranken.de
-  - info@freifunk-ansbach.de
+  - fragen@freifunk-franken.de
+  - casandro_lion@web.de
+  - franken-dev@freifunk.net
 asn: 65024
 networks:
   ipv4:
     - 10.50.0.0/16
-    - 10.83.0.0/16
 bgp:
-  franken1:
+  franken_ro1:
     ipv4: 10.207.0.23
-    ipv6: fec0::a:cf:0:17
-  franken2:
-    ipv4: 10.207.0.24
-    ipv6: fec0::a:cf:0:18
-  franken3:
-    ipv4: 10.207.0.31
