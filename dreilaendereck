@@ -11,5 +11,12 @@ bgp:
     ipv4: 10.207.0.75
     ipv6: fec0::a:cf:0:be
 domains:
-  - ffwr
-# FIXME: Nameserver eintragen
+  - ff3l
+  - 119.10.in-addr.arpa
+  - 2.7.2.a.9.8.8.b.d.9.c.3.7.c.d.f.ip6.arpa
+nameservers:
+  - 10.119.0.2
+  - 10.119.0.3
+  - fdc7:3c9d:b889:a272::2
+  - fdc7:3c9d:b889:a272::3
+
