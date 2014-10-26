@@ -10,3 +10,6 @@ bgp:
   wiesbaden1:
     ipv4: 10.207.0.56
     ipv6: fec0::a:cf:0:38
+  wiesbaden2:
+    ipv4: 10.207.1.56
+    ipv6: fec0::a:cf:1:38
