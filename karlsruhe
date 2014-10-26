@@ -1,0 +1,12 @@
+tech-c:
+  - noc@freifunk-karlsruhe.de
+asn: 65081
+networks:
+  ipv4:
+    - 10.214.0.0/16
+  ipv6:
+    - 2a03:2260:a::/48
+bgp:
+  karlsruhe1:
+    ipv4: 10.207.0.214
+    ipv6: fdf7:6d4f:b77a:cafe::3
