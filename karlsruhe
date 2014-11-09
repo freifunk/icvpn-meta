@@ -9,4 +9,4 @@ networks:
 bgp:
   karlsruhe1:
     ipv4: 10.207.0.214
-    ipv6: fdf7:6d4f:b77a:cafe::3
+    ipv6: fec0::a:cf:0:d6
