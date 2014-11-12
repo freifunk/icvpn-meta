@@ -7,3 +7,5 @@ networks:
 bgp:
   muenchen1:
     ipv4: 10.207.0.80
+  muenchen4:
+    ipv4: 10.207.4.80
