@@ -16,6 +16,9 @@ bgp:
   hamburg01:
     ipv4: 10.207.0.62
     ipv6: fec0::a:cf:0:3e
+  hamburg02:
+    ipv4: 10.207.0.64
+    ipv6: fec0::a:cf:0:40
   hamburg05:
     ipv4: 10.207.0.65
     ipv6: fec0::a:cf:0:41
