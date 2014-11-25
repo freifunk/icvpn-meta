@@ -1,6 +1,7 @@
 tech-c:
-  - info@freifunk-ol.de
+  - info@nordwest.freifunk.net
 asn: 65513
+
 networks:
   ipv4:
     - 10.18.0.0/16
@@ -15,4 +16,5 @@ domains:
 
 nameservers:
   - 10.18.0.1
+  - 10.18.64.1
 
