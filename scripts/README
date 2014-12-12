@@ -1,0 +1,2 @@
+Simple script to generate bird peer entries from the meta info files.
+Call with ./meta2bird.py <dir with files> <ipv4|ipv6>
