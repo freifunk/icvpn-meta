@@ -1,0 +1,3 @@
+protocol bgp $peerid from peers {
+    neighbor $ip as $asn;
+};
