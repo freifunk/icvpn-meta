@@ -8,6 +8,10 @@ apply to your community (e.g. `domains` and `nameservers`).
 One file per community. You may add stub DNS zones (e.g. dn42, rzl,
 hack) by leaving out everything but `domains` and `nameservers`.
 
+Scripts for auto-generating various config files (bird, bind, dnsmasq,
+...) are kept in a separate repository:
+https://github.com/freifunk/icvpn-scripts
+
 ::
 
   # This is your ASN.
