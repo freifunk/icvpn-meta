@@ -9,7 +9,7 @@ networks:
 bgp:
   schaben1:
     ipv4: 10.207.0.29
-    ipv6: fdca:ffff:ffa::/48
+    ipv6: fec0::a:cf:0:29
 domains:
   - nfa
   - a.f.f.0.f.f.f.f.a.c.d.f.ip6.arpa
