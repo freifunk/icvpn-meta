@@ -1,0 +1,19 @@
+tech-c:
+  - freifunk@priv.de
+asn: 65058
+networks:
+  ipv4:
+    - 10.11.64.0/18
+  ipv6:
+    - fdca:ffff:ffa::/48
+bgp:
+  schaben1:
+    ipv4: 10.207.0.29
+    ipv6: fdca:ffff:ffa::/48
+domains:
+  - nfa
+  - a.f.f.0.f.f.f.f.a.c.d.f.ip6.arpa
+  - 64.11.10.in-addr.arpa
+nameservers:
+  - 10.11.64.1
+  - fdca:ffff:0ffa:8::1
