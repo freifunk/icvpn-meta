@@ -1,0 +1,46 @@
+tech-c:
+  - freifunk@priv.de
+asn: 65058
+networks:
+  ipv4:
+    - 10.11.64.0/18
+  ipv6:
+    - fdca:ffff:ffa::/48
+bgp:
+  schaben1:
+    ipv4: 10.207.0.29
+    ipv6: fec0::a:cf:0:29
+domains:
+  - nfa
+  - a.f.f.0.f.f.f.f.a.c.d.f.ip6.arpa
+  - 64.11.10.in-addr.arpa
+  - 65.11.10.in-addr.arpa
+  - 66.11.10.in-addr.arpa
+  - 67.11.10.in-addr.arpa
+  - 68.11.10.in-addr.arpa
+  - 69.11.10.in-addr.arpa
+  - 70.11.10.in-addr.arpa
+  - 71.11.10.in-addr.arpa
+  - 72.11.10.in-addr.arpa
+  - 73.11.10.in-addr.arpa
+  - 74.11.10.in-addr.arpa
+  - 75.11.10.in-addr.arpa
+  - 76.11.10.in-addr.arpa
+  - 77.11.10.in-addr.arpa
+  - 78.11.10.in-addr.arpa
+  - 79.11.10.in-addr.arpa
+  - 80.11.10.in-addr.arpa
+  - 81.11.10.in-addr.arpa
+  - 82.11.10.in-addr.arpa
+  - 83.11.10.in-addr.arpa
+  - 84.11.10.in-addr.arpa
+  - 85.11.10.in-addr.arpa
+  - 86.11.10.in-addr.arpa
+  - 87.11.10.in-addr.arpa
+  - 88.11.10.in-addr.arpa
+  - 89.11.10.in-addr.arpa
+  - 90.11.10.in-addr.arpa
+  - 91.11.10.in-addr.arpa
+nameservers:
+  - 10.11.64.1
+  - fdca:ffff:0ffa:8::1
