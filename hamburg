@@ -31,9 +31,5 @@ domains:
   - 112.10.in-addr.arpa
   - d.0.d.f.2.b.b.2.1.5.d.f.ip6.arpa
 nameservers:
-  - 10.112.10.1
-  - 10.112.14.1
-  - fd51:2bb2:fd0d::a01
-  - fd51:2bb2:fd0d::e01
-  - 2001:bf7:180::a01
-  - 2001:bf7:180::e01
+  - 10.112.1.1
+  - fd51:2bb2:fd0d::101
