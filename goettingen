@@ -7,9 +7,9 @@ networks:
   ipv6:
     - fde6:36fc:c985::/64
 bgp:
-  goettingen:
-    ipv4: 10.207.0.64
-    ipv6: fec0::a:cf:0:40
+  goettingen1:
+    ipv4: 10.207.0.65
+    ipv6: fec0::a:cf:ab:01
 domains:
   - ffgoe
   - 109.10.in-addr.arpa
