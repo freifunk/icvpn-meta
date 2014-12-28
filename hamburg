@@ -14,9 +14,6 @@ bgp:
   hamburg03:
     ipv4: 10.207.0.63
     ipv6: fec0::a:cf:0:3f
-  hamburg05:
-    ipv4: 10.207.0.65
-    ipv6: fec0::a:cf:0:41
 domains:
   - ffhh
   - 112.10.in-addr.arpa
