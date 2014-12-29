@@ -4,6 +4,8 @@ asn: 65528
 networks:
   ipv4:
     - 172.26.0.0/15
+  ipv6:
+    - fdd3:5d16:b5dd::/48
 bgp:
   kbu:
     ipv4: 10.207.0.57
