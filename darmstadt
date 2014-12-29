@@ -16,7 +16,7 @@ bgp:
 domains:
   - ffda
   - a.d.f.f.e.e.f.f.a.c.d.f.ip6.arpa
-  - 130.223.in-addr.arpa
+  - 223.10.in-addr.arpa
 nameservers:
   - 10.223.0.1
   - 10.223.0.2
