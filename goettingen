@@ -1,6 +1,6 @@
 tech-c:
   - freifunk@cccgoe.de
-asn: 65535
+asn: 65527
 networks:
   ipv4:
     - 10.109.0.0/16
