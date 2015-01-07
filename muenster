@@ -20,14 +20,12 @@ networks:
   ipv6:
     - fd68:e2ea:a53::/48
 
-	
 # A list of BGP peers in IC-VPN announcing your AS.
 bgp:
   muenster1:
     ipv4: 10.207.0.43
     ipv6: fec0::a:cf:0:43
-	
-	
+
 # If you're using custom TLDs, include them here.
 # Don't forget reverse zones!
 domains:
@@ -46,4 +44,3 @@ nameserver:
   - 10.43.0.5
   - fd68:e2ea:a53::5
 
-  
