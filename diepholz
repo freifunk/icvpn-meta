@@ -1,0 +1,15 @@
+tech-c:
+  - noc@freifunk-dh.de
+asn: 65501
+networks:
+  ipv4:
+    - 10.213.0.0/16
+bgp:
+  diepholz1:
+    ipv4: 10.207.1.12
+    ipv6: fec0::a:cf:0:1a
+domains:
+  - ffdh
+  - 213.10.in-addr.arpa
+nameservers:
+  - 10.213.0.2
