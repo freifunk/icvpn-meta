@@ -16,5 +16,5 @@ bgp:
 domains:
   - fftr
   - f.0.c.f.e.e.f.f.a.c.d.f.ip6.arpa
-  - 207.10.in-addr.arpa
+  - 172.10.in-addr.arpa
   
