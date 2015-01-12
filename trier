@@ -3,12 +3,12 @@ tech-c:
   - icvpn@basisbit.de
 networks:
   ipv4:
-    - 10.207.0.0/16
+    - 10.172.0.0/16
   ipv6:
     - fdca:ffee:fc0f::/64
 bgp:
   trier1:
-    ipv4: 10.172.0.220
+    ipv4: 10.207.0.220
     ipv6: fec0::a:cf:0:dc
   trier2:
     ipv4: 10.207.0.221
