@@ -3,9 +3,9 @@ tech-c:
 asn: 65534
 networks:
   ipv4:
-    - 10.1690.0/16
+    - 10.169.0.0/16
   ipv6:
-    - fd39:e4e3:eee1:0aa9::/48
+    - fd39:e4e3:eee1::/48
 bgp:
   mueritz_bgp1:
     ipv4: 10.207.0.138
