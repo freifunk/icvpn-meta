@@ -9,10 +9,10 @@ networks:
 bgp:
   darmstadt1:
     ipv4: 10.207.0.218
-    ipv6: fec0::a:cf:0:218
+    ipv6: fec0::a:cf:0:da
   darmstadt2:
     ipv4: 10.207.0.219
-    ipv6: fec0::a:cf:0:219
+    ipv6: fec0::a:cf:0:db
 domains:
   - ffda
   - a.d.f.f.e.e.f.f.a.c.d.f.ip6.arpa
