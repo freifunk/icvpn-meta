@@ -13,7 +13,7 @@ bgp:
     ipv6: fec0::a:cf:0:8
   nrw3:
     ipv4: 10.207.0.55
-    ipv6: fec0::a:cf:0:55
+    ipv6: fec0::a:cf:0:37
 domains:
   - ffwk
   - ffgro
