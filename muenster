@@ -1,0 +1,46 @@
+
+# This is your ASN.
+asn: 65251
+
+
+# A list of people to contact in case of technical emergency.
+# Automated monitoring systems might use this.
+tech-c:
+  - info@freifunk-muenster.de
+
+  
+# Prefixes announced by your AS. This may be used for filtering
+# routes. Keep the prefixes a short as possible. If you're
+# assigned 10.130.0.0/16 while you're using just a subnet of it
+# (e.g. 10.130.0.0/20) you must include 10.130.0.0/16 here. The details
+# will be taken care of by the routing daemons.
+networks:
+  ipv4:
+    - 10.43.0.0/16
+  ipv6:
+    - fd68:e2ea:a53::/48
+
+# A list of BGP peers in IC-VPN announcing your AS.
+bgp:
+  muenster1:
+    ipv4: 10.207.0.43
+    ipv6: fec0::a:cf:0:43
+
+# If you're using custom TLDs, include them here.
+# Don't forget reverse zones!
+domains:
+  - ffms
+  - 43.10.in-addr.arpa
+  - 3.5.a.a.e.2.e.8.6.d.f.ip6.arpa
+
+  
+# A list of nameservers capable of resolving your domains.
+# All nameservers must be able to handle all domains listed above!  
+nameserver:
+  - 10.43.0.2
+  - fd68:e2ea:a53::2
+  - 10.43.0.4
+  - fd68:e2ea:a53::4
+  - 10.43.0.5
+  - fd68:e2ea:a53::5
+

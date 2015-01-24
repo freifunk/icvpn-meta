@@ -1,5 +1,4 @@
 tech-c:
-  - wusel+ff@uu.org
   - technik@guetersloh.freifunk.net
 asn: 65533
 networks:
@@ -26,3 +25,5 @@ domains:
 nameserver:
   - 10.255.128.53
   - 2001:bf7:1310:200::53
+  - 10.255.1.1
+  - 2001:bf7:1310::1

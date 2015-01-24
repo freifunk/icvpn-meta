@@ -1,5 +1,9 @@
 InterCityVPN meta information
 -----------------------------
+.. image:: https://travis-ci.org/freifunk/icvpn-meta.svg
+    :alt: Build Status
+    :target: https://travis-ci.org/freifunk/icvpn-meta
+    :height: 20
 
 The data in this repository can be used for automatic configuration of
 routing daemons and DNS servers.  You may leave out fields that do not
