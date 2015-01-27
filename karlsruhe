@@ -10,6 +10,9 @@ bgp:
   karlsruhe1:
     ipv4: 10.207.0.214
     ipv6: fec0::a:cf:0:d6
+  karlsruhe2:
+    ipv4: 10.207.1.214
+    ipv6: fec0::a:cf:1:d6
 domains:
   - ffka
   - 214.10.in-addr.arpa
