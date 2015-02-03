@@ -1,0 +1,18 @@
+tech-c:
+  - thomas@drewermann.org
+asn: 65057
+networks:
+  ipv4:
+    - 10.15.0.0/16
+  ipv6:
+    - 2a03:2260:10::/48
+bgp:
+  moehne1:
+    ipv4: 10.207.0.120
+    ipv6: fec0::a:cf:0:120
+  moehne003:
+    ipv4: 10.207.0.121
+    ipv6: fec0::a:cf:0:121
+  moehne103:
+    ipv4: 10.207.0.122
+    ipv6: fec0::a:cf:0:122
