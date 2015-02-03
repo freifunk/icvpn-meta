@@ -1,10 +1,13 @@
 tech-c:
-  - hundfred@s23.org
+  - icvpn@kbu.freifunk.net
 asn: 65528
 networks:
   ipv4:
-    - 10.26.0.0/15
+    - 10.158.0.0/15
+    - 172.26.0.0/15
+  ipv6:
+    - fdd3:5d16:b5dd::/48
 bgp:
-  kbu:
+  koeln1:
     ipv4: 10.207.0.57
     ipv6: fec0::a:cf:0:57

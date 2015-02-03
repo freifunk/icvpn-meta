@@ -3,9 +3,10 @@ tech-c:
 asn: 65050
 networks:
   ipv4:
-    - 10.11.0.0/16
+    - 10.11.0.0/18
   ipv6:
     - fdca:ffee:ffa::/48
+    - 2001:bf7:2520::/44
 bgp:
   augsburg1:
     ipv4: 10.207.0.17

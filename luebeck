@@ -7,6 +7,7 @@ networks:
     - 10.130.0.0/16
   ipv6:
     - fdef:ffc0:3dd7::/48
+    - 2001:67c:2d50::/48
     - 2001:bf7:110::/44
 bgp:
   luebeck1:
