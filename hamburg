@@ -11,7 +11,7 @@ networks:
 bgp:
   hamburg01:
     ipv4: 10.207.0.61
-    ipv6: fec0::a:cf:0:31
+    ipv6: fec0::a:cf:0:3d
   hamburg02:
     ipv4: 10.207.0.64
     ipv6: fec0::a:cf:0:40
