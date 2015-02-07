@@ -4,7 +4,7 @@ asn: 65099
 networks:
   ipv4:
     - 10.99.0.0/16
-  bgp:
+bgp:
   erfurt1:
     ipv4: 10.207.0.9
   erfurt2:
