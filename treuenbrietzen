@@ -4,6 +4,3 @@ asn: 65045
 networks:
   ipv4:
     - 10.24.0.0/20
-bgp:
-  treuenbrietzen:
-    ipv4: 10.207.0.18
