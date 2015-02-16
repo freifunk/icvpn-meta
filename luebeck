@@ -1,7 +1,7 @@
 tech-c:
   - nils@nilsschneider.net
   - mschiffer@universe-factory.net
-asn: 65052
+asn: 201173
 networks:
   ipv4:
     - 10.130.0.0/16
