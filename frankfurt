@@ -1,9 +1,19 @@
 tech-c:
   - klaus_dieter.FF@gmx.de
+  - info@ffm.freifunk.net
 asn: 65026
 networks:
   ipv4:
     - 10.126.0.0/16
+  ipv6:
+    - fddd:5d16:b5dd::/48
 bgp:
   frankfurt1:
     ipv4: 10.207.0.35
+
+domains:
+  - ffffm
+  - 126.10.in-addr.arpa
+nameservers:
+  - 10.126.255.14
+
