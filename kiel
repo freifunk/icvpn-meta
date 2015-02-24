@@ -12,14 +12,14 @@ bgp:
   kiel0:
     #ipv4: 10.207.0.52
     ipv6: fec0::a:cf:0:34
-  #kiel3:
-  #  #ipv4: 10.207.0.59
-  #  ipv6: fec0::a:cf:0:3b
+  kiel4:
+    #ipv4: 10.207.0.53
+    ipv6: fec0::a:cf:0:35
 domains:
   - ffki
   - e.d.4.7.a.4.8.3.1.a.d.f.ip6.arpa
   - 116.10.in-addr.arpa
 nameservers:
   - fda1:384a:74de:4242::ff00
-  - fda1:384a:74de:4242::ff01
-  - fda1:384a:74de:4242::ff03
+  - fda1:384a:74de:4242::ff02
+  - fda1:384a:74de:4242::ff04
