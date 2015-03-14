@@ -9,6 +9,8 @@ networks:
     - 10.172.0.0/16
   ipv6:
     - fdca:ffee:fc0f::/64
+    - 2001:bf7:fc0f::/44
+
 bgp:
   trier1:
     ipv4: 10.207.0.220
