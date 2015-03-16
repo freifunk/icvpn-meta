@@ -4,6 +4,6 @@ tech-c:
 asn: 65189
 networks:
   ipv4:
-    - 10.189.0.0/16
+    - 10.189.0.0/18
 # ipv6:
 #   - 2a03:2267:4e16::/48 from the hamburg /32
