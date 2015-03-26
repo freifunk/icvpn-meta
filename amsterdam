@@ -1,0 +1,13 @@
+asn: 65205
+tech-c:
+  - wireless-amsterdam@lists.puscii.nl
+networks:                             
+  ipv4:  
+    - 10.205.0.0/16
+bgp:               
+  amsterdam1:      
+    ipv4: 10.207.0.205
+domains:              
+  - 020              
+nameservers:          
+  - 10.205.253.1
