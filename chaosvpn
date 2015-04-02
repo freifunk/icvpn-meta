@@ -8,6 +8,7 @@ domains:
 nameservers:
  - 172.31.0.5
 networks:
+  # https://wiki.hamburg.ccc.de/ChaosVPN:IPRanges
   ipv4:
     - 10.4.0.0/16   # ChaosVPN Hamburg
     - 10.9.0.0/16   # ChaosVPN Hannover
@@ -16,3 +17,4 @@ networks:
     - 10.96.0.0/16  # ChaosVPN Stuttgart
     - 10.100.0.0/14 # In use by American and other hackerspaces 
     # Without warzones. Who would want to peer with a warzone anyway?
+    - 172.31.0.0/16 # In use by European Hackerspaces

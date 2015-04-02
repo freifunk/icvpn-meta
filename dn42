@@ -5,3 +5,9 @@ domains:
 nameservers:
   - 172.22.0.53
   - fd42:d42:d42:53::1
+networks:
+  # https://dn42.net/services/Whois#names-and-numbers_address-space
+  ipv4:
+    - 172.16.0.0/14 # reserved
+    - 172.20.0.0/16 # reserved
+    - 172.22.0.0/15 # in use
