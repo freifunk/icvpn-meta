@@ -7,7 +7,7 @@ networks:
   ipv6:
     - fdb5:078b:64cc::/48
 bgp:
-  gera-greiz1:
+  gera_greiz1:
     ipv4: 10.207.0.181
     ipv6: fec0::a:cf:0:b5
 domains:
