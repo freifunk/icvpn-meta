@@ -9,7 +9,6 @@ bgp:
     ipv4: 10.207.0.205
 domains:              
   - "020"
-  - "wg"
   - "adm"
   - "205.10.in-addr.arpa"       
 nameservers:          
