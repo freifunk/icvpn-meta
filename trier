@@ -2,7 +2,7 @@ asn: 65022
 
 tech-c:
   - icvpn@basisbit.de
-  - icvpn-trier@starletp.de
+  - icvpn-trier@starletp9.de
 
 networks:
   ipv4:
