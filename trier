@@ -21,8 +21,8 @@ bgp:
 
 domains:
   - fftr
-  - f.0.c.f.e.e.f.f.a.c.d.f.ip6.arpa
-  - c.f.7.f.b.0.1.0.0.2.ip6.arpa
+  - 0.0.0.0.f.0.c.f.e.e.f.f.a.c.d.f.ip6.arpa
+  - 0.c.f.7.f.b.0.1.0.0.2.ip6.arpa
   - 172.10.in-addr.arpa
 
 nameservers:
