@@ -9,11 +9,11 @@ networks:
 bgp:
   goettingen1:
     ipv4: 10.207.0.65
-    ipv6: fec0::a:cf:ab:01
+    ipv6: fec0::a:cf:ab:41
 domains:
   - ffgoe
   - 109.10.in-addr.arpa
-  - 5.8.9.c.c.f.6.3.6.e.d.f.ip6.arpa
+  - 0.0.0.0.5.8.9.c.c.f.6.3.6.e.d.f.ip6.arpa
 nameservers:
   - 10.109.0.42
   - fde6:36fc:c985::42 
