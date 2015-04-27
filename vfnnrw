@@ -8,7 +8,6 @@ networks:
     - 10.79.0.0/16 #Bottrop
     - 10.82.0.0/16 #Recklinghausen
     - 10.92.0.0/16 #Fröndenberg
-    - 10.120.0.0/16 #Altdorf
     - 10.144.0.0/16 #Straelen
     - 10.146.0.0/16 #Hückeswagen
     - 10.147.0.0/16 #Düsseldorf
