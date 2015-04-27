@@ -4,6 +4,7 @@ asn: 65530
 networks:
   ipv4:
     - 10.0.0.0/16 #VfN-Sammelnetzwerk
+    - 10.1.0.0/16 #Bad Bentheim
     - 10.45.0.0/16 #VfN-Veranstaltungsnetzwerk
     - 10.52.0.0/16 #Wermelskirchen
     - 10.69.0.0/16 #Remscheid
