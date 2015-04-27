@@ -16,7 +16,6 @@ networks:
     - 10.147.0.0/16 #Düsseldorf
     - 10.151.0.0/16 #Bochum
     - 10.154.0.0/16 #Hagen
-    - 10.156.0.0/16 #Burscheid
     - 10.206.0.0/16 #Gronau
     - 10.224.0.0/16 #Wipperfürth
   ipv6:
