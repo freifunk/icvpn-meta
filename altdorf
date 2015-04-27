@@ -14,6 +14,4 @@ bgp:
   nrw2:
     ipv4: 10.207.0.8
     ipv6: fec0::a:cf:0:8
-domains:
-  - ffwk
 # FIXME: Nameserver eintragen
