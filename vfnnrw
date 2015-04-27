@@ -5,7 +5,6 @@ networks:
   ipv4:
     - 10.0.0.0/16 #VfN-Sammelnetzwerk
     - 10.45.0.0/16 #VfN-Veranstaltungsnetzwerk
-    - 10.69.0.0/16 #Remscheid
     - 10.76.0.0/16 #Leverkusen
     - 10.79.0.0/16 #Bottrop
     - 10.82.0.0/16 #Recklinghausen
