@@ -3,14 +3,10 @@ tech-c:
 asn: 65530
 networks:
   ipv4:
-    - 10.0.0.0/16 #VfN-Sammelnetzwerk
-    - 10.45.0.0/16 #VfN-Veranstaltungsnetzwerk
-    - 10.82.0.0/16 #Recklinghausen
-    - 10.92.0.0/16 #Fröndenberg
-    - 10.151.0.0/16 #Bochum
-    - 10.154.0.0/16 #Hagen
+    - 10.206.0.0/16
   ipv6:
-    - 2001:bf7:100::/44
+    - 2001:bf7:100:4859::/64
+    - fddf:ebfd:a801:4859::/64
 bgp:
   nrw1:
     ipv4: 10.207.0.7
@@ -21,4 +17,6 @@ bgp:
   nrw3:
     ipv4: 10.207.0.55
     ipv6: fec0::a:cf:0:37
+domains:
+  - ffgro
 # FIXME: Nameserver eintragen
