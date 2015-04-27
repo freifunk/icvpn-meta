@@ -7,7 +7,6 @@ networks:
     - 10.45.0.0/16 #VfN-Veranstaltungsnetzwerk
     - 10.82.0.0/16 #Recklinghausen
     - 10.92.0.0/16 #Fröndenberg
-    - 10.147.0.0/16 #Düsseldorf
     - 10.151.0.0/16 #Bochum
     - 10.154.0.0/16 #Hagen
   ipv6:
