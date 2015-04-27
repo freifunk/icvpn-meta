@@ -21,6 +21,9 @@ networks:
   ipv6:
     - 2001:bf7:100::/44
 bgp:
+  nrw1:
+    ipv4: 10.207.0.7
+    ipv6: fec0::a:cf:0:7
   nrw2:
     ipv4: 10.207.0.8
     ipv6: fec0::a:cf:0:8
