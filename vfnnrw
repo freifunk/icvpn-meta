@@ -15,7 +15,6 @@ networks:
     - 10.92.0.0/16 #Fröndenberg
     - 10.120.0.0/16 #Altdorf
     - 10.146.0.0/16 #Hückeswagen
-    - 10.147.0.0/16 #Düsseldorf
     - 10.151.0.0/16 #Bochum
     - 10.154.0.0/16 #Hagen
     - 10.206.0.0/16 #Gronau
