@@ -1,6 +1,6 @@
 tech-c:
   - itself@hanspolo.net
-asn: 65536
+asn: 65514
 networks:
   ipv4:
     - 10.54.0.0/16
