@@ -1,0 +1,12 @@
+tech-c:
+  - backend@hamburg.freifunk.net
+asn: 65187
+networks:
+  ipv4:
+    - 10.187.0.0/16
+domains:
+  - ffnord
+  - 187.10.in-addr.arpa
+nameservers:
+  - 10.112.1.1
+  - 2a03:2267::101
