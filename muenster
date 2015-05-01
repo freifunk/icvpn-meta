@@ -31,7 +31,6 @@ bgp:
 domains:
   - ffms
   - 43.10.in-addr.arpa
-  - 3.5.a.a.e.2.e.8.6.d.f.ip6.arpa
 
   
 # A list of nameservers capable of resolving your domains.
