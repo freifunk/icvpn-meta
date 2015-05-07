@@ -1,0 +1,18 @@
+tech-c:
+  - stefan@freifunk-troisdorf.de
+asn: 65066
+networks:
+  ipv4:
+    - 10.188.0.0/16
+  ipv6:
+    - fda0:747e:ab29:7405::/64
+bgp:
+  troisdorf1:
+    ipv4: 10.207.0.185
+    ipv6: fec0::a:cf:0:b9
+domains:
+  - fftdf
+nameservers:
+  - 10.188.1.100
+  - 10.188.1.23
+  
