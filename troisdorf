@@ -1,6 +1,6 @@
 tech-c:
   - stefan@freifunk-troisdorf.de
-asn: 65536
+asn: 65066
 networks:
   ipv4:
     - 10.188.0.0/16
