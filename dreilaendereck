@@ -16,6 +16,9 @@ bgp:
   dreilaendereck3:
     ipv4: 10.207.0.72
     ipv6: fec0::a:cf:0:bc
+  dreilaendereck4:
+    ipv4: 10.207.0.71
+    ipv6: fec0::a:cf:0:47
 domains:
   - ff3l
   - 119.10.in-addr.arpa
@@ -24,6 +27,8 @@ nameservers:
   - 10.119.0.2
   - 10.119.0.3
   - 10.119.0.4
+  - 10.119.0.5
   - 2001:bf7:20::2
   - 2001:bf7:20::3
   - 2001:bf7:20::4
+  - 2001:bf7:20::5
