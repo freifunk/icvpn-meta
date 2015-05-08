@@ -1,6 +1,6 @@
 tech-c:
   - freifunk-rade@life.de
-asn: 65077
+asn: 65067
 networks:
   ipv4:
     - 10.57.0.0/16
