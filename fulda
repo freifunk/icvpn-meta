@@ -1,0 +1,20 @@
+asn: 65142
+tech-c:
+  - icvpn@freifunk-fulda.de
+networks:
+  ipv4:
+    - 10.185.0.0/16
+  ipv6:
+    - fd00:fffd:fffd::/48
+bgp:
+  fulda1:
+    ipv4: 10.207.0.42
+    ipv6: fec0::a:cf:0:2a
+domains:
+  - fffd
+  - 185.10.in-addr.arpa
+nameservers:
+  - 10.185.0.1
+  - 10.185.0.2
+  - 10.185.0.3
+
