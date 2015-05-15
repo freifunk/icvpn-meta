@@ -20,7 +20,6 @@ networks:
   ipv6:
     - 2a03:2260:115::/48
 
-	
 # A list of BGP peers in IC-VPN announcing your AS.
 bgp:
   muenster1:
