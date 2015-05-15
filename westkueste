@@ -3,7 +3,7 @@ tech-c:
 asn: 65432
 networks:
   ipv4: 
-    - 10.10.64.0/18
+    - 10.13.0.0/18
   ipv6:
     - fd23:dead:beef::/48
 bgp:
@@ -13,5 +13,5 @@ bgp:
 domains:
   - ffwk
 nameservers:
-  - 10.10.64.1
+  - 10.13.0.1
   - fd23:dead:beef::ff01
