@@ -19,7 +19,7 @@ networks:
     - 10.146.0.0/16 #Hückeswagen
     - 10.151.0.0/16 #Bochum
     - 10.154.0.0/16 #Hagen
-    - 10.171.0.016 #VfN-Sammelnetzwerk
+    - 10.171.0.0/16 #VfN-Sammelnetzwerk
     - 10.206.0.0/16 #Gronau
     - 10.224.0.0/16 #Wipperfürth
   ipv6:
