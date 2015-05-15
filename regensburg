@@ -1,0 +1,16 @@
+asn: 65190
+tech-c:
+  - info@regensburg.freifunk.net
+networks:
+  ipv4:
+    - 10.90.0.0/16
+  ipv6:
+    - fdef:f00f:1337:cafe::/64
+
+domains:
+  - ffrgb
+  - e.f.a.c.7.3.3.1.f.0.0.f.f.e.d.f.ip6.arpa
+  - 90.10.in-addr.arpa
+nameservers:
+  - 10.90.0.11
+  - fdef:f00f:1337:cafe::11
