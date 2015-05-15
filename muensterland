@@ -29,7 +29,6 @@ bgp:
     ipv4: 10.207.0.44
     ipv6: fec0::a:cf:0:44
 
-	
 # If you're using custom TLDs, include them here.
 # Don't forget reverse zones!
 domains:
