@@ -6,7 +6,6 @@ tech-c:
 asn: 65530
 networks:
   ipv4:
-    - 10.0.0.0/16 #VfN-Sammelnetzwerk
     - 10.1.0.0/17 #Bad Bentheim
     - 10.6.0.0/16 #Solingen
     - 10.45.0.0/16 #VfN-Veranstaltungsnetzwerk
@@ -20,6 +19,7 @@ networks:
     - 10.146.0.0/16 #Hückeswagen
     - 10.151.0.0/16 #Bochum
     - 10.154.0.0/16 #Hagen
+    - 10.171.0.016 #VfN-Sammelnetzwerk
     - 10.206.0.0/16 #Gronau
     - 10.224.0.0/16 #Wipperfürth
   ipv6:
