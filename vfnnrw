@@ -1,5 +1,8 @@
 tech-c:
-  - kontakt@freifunk-nrw.de
+  - sascha@vfn-nrw.de
+  - kevin@vfn-nrw.de
+  - felix@vfn-nrw.de
+  - ruben@vfn-nrw.de
 asn: 65530
 networks:
   ipv4:
