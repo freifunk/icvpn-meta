@@ -9,7 +9,7 @@ networks:
 
 domains:
   - ffrgb
-  - e.f.a.c.7.3.3.1.f.o.o.f.f.e.d.f.ip6.arpa
+  - e.f.a.c.7.3.3.1.f.0.0.f.f.e.d.f.ip6.arpa
   - 90.10.in-addr.arpa
 nameservers:
   - 10.90.0.11
