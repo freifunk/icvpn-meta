@@ -20,6 +20,7 @@ networks:
   ipv6:
     - 2a03:2260:115::/48
 
+	
 # A list of BGP peers in IC-VPN announcing your AS.
 bgp:
   muenster1:
@@ -28,12 +29,12 @@ bgp:
   muensterlandFusselkater:
     ipv4: 10.207.0.44
     ipv6: fec0::a:cf:0:44
+
 	
 # If you're using custom TLDs, include them here.
 # Don't forget reverse zones!
 domains:
   - ffms
-  - nodes.ffms
 
   
 # A list of nameservers capable of resolving your domains.
