@@ -1,0 +1,11 @@
+tech-c:
+- info@regensburg.freifunk.net
+asn: 65190
+networks:
+ipv4:
+- 10.90.0.0/16
+bgp:
+regensburg1:
+ipv4: 10.207.1.90
+regensburg4:
+ipv4: 10.207.4.90
