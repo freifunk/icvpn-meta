@@ -13,5 +13,5 @@ bgp:
 domains:
   - ffwk
 nameservers:
-  - 10.13.0.1
+  - 10.13.1.1
   - fd23:dead:beef::ff01
