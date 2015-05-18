@@ -8,7 +8,6 @@ networks:
   ipv4:
     - 10.172.0.0/16
   ipv6:
-    - fdca:ffee:fc0f::/64
     - 2001:bf7:fc00::/44
 
 bgp:
@@ -21,7 +20,6 @@ bgp:
 
 domains:
   - fftr
-  - 0.0.0.0.f.0.c.f.e.e.f.f.a.c.d.f.ip6.arpa
   - 0.c.f.7.f.b.0.1.0.0.2.ip6.arpa
   - 172.10.in-addr.arpa
 
