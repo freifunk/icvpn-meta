@@ -62,3 +62,11 @@ https://github.com/freifunk/icvpn-scripts
     - 10.130.14.1
     - fdef:ffc0:3dd7::a01
     - fdef:ffc0:3dd7::e01
+
+  # Delegate part of our network allocations to another community
+  # this needs to be a subnet to an already allocated network in the
+  # networks section.
+  delegate:
+    65038: # Darmstadt
+      - 10.130.252.0/22
+      - fdef:ffc0:3dd7:ffda::/64
