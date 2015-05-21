@@ -13,6 +13,6 @@ bgp:
   bielefeld1:
     ipv4: 10.207.0.59
     ipv6: fec0::a:cf:0:59
-  bielefeld4:
+  bielefeld6:
     ipv4: 10.207.0.58
     ipv6: fec0::a:cf:0:3a
