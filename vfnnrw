@@ -8,6 +8,7 @@ networks:
   ipv4:
     - 10.1.0.0/17 #Bad Bentheim
     - 10.6.0.0/16 #Solingen
+    - 10.16.0.0/17 #Kürten
     - 10.45.0.0/16 #VfN-Veranstaltungsnetzwerk
     - 10.52.0.0/16 #Wermelskirchen
     - 10.69.0.0/16 #Remscheid
