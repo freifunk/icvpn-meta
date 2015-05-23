@@ -1,7 +1,7 @@
 tech-c:
   - technik@harz.freifunk.net 
-networks:
 asn: 65134
+networks:
   ipv4:
     - 10.7.0.0/16
 bgp:
