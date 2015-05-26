@@ -9,7 +9,7 @@ networks:
   ipv6:
     - fd4e:f2d7:88d2:ffff::/64
 
-bgp:
+#bgp:
 # Not participating in the IC-VPN yet!
 
 domains:
