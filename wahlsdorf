@@ -1,0 +1,5 @@
+tech-c:
+  - rensky@gmx.de
+networks:
+  ipv4:
+    - 10.93.0.0/22
