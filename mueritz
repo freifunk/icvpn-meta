@@ -12,7 +12,9 @@ bgp:
     ipv6: fec0::a:cf:0:8a
 domains:
   - mueritz
+  - icvpn
   - 169.10.in-addr.arpa
+  - 207.10.in-addr.arpa
   - 9.a.a.0.1.e.e.e.3.e.4.e.9.3.d.f.ip6.arpa
 nameserver:
   - 10.169.1.1
