@@ -1,0 +1,18 @@
+tech-c:
+  - kevin@vfn-nrw.de
+networks:
+  ipv4:
+    - 10.146.0.0/16 #Hückeswagen
+  ipv6:
+    - 2001:bf7:100:2192::/64
+    - fddf:ebfd:a801:2192::/64
+domains:
+  - ffhw
+delgate:
+  65530:  
+    ipv4:
+      - 10.146.0.0/16 #Hückeswagen
+    ipv6:
+      - 2001:bf7:100:2192::/64
+      - fddf:ebfd:a801:2192::/64
+# FIXME: Nameserver eintragen
