@@ -6,7 +6,7 @@ networks:
     - 10.137.0.0/16
   ipv6:
     - fde8:21c6:9d82::/48
-    - 2001:bf7:23::/44
+    - 2001:bf7:20::/44
 domains:
   - ffpi
   - 137.10.in-addr.arpa
