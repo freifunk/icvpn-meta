@@ -1,0 +1,7 @@
+tech-c:
+  - noc@freifunk-schwabach.de
+
+networks:
+  ipv4:
+    - 10.105.0.0/18
+
