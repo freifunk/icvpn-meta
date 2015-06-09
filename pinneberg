@@ -6,10 +6,10 @@ networks:
     - 10.137.0.0/16
   ipv6:
     - fde8:21c6:9d82::/48
-    - 2001:bf7:30::/44
 bgp:
   pinneberg:
     ipv4: 10.207.0.30
+    ipv6: fec0::a:cf:0:1e
 domains:
   - ffpi
   - 137.10.in-addr.arpa
