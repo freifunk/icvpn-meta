@@ -1,0 +1,6 @@
+tech-c:
+  - orga@freifunk-potsdam.de
+  - orga@lists.freifunk-potsdam.de
+networks:
+  ipv4:
+    - 10.22.0.0/16
