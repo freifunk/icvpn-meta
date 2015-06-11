@@ -1,0 +1,12 @@
+tech-c:
+  - kontakt@freifunk-sankt-augustin.de
+asn: 65111
+networks:
+  ipv4:
+    - 10.24.64.0/18
+  ipv6:
+    - fda0:747e:ab29:7407::/64
+bgp:
+  sanktaugustin1:
+    ipv4: 10.207.0.207
+    ipv6: fec0::a:cf:0:cf
