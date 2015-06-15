@@ -1,0 +1,7 @@
+tech-c:
+  - noc@freifunk-ansbach.de
+
+networks:
+  ipv4:
+    - 10.123.1.0/24
+    - 10.123.64.0/18
