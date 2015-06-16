@@ -43,6 +43,5 @@ bgp:
     ipv4: 10.207.66.66
     ipv6: fec0::a:cf:42:42
 domains:
-  - ffwk
   - ffgro
 # FIXME: Nameserver eintragen
