@@ -8,7 +8,7 @@ networks:
     - fddf:ebfd:a801:2192::/64
 domains:
   - ffhw
-delgate:
+delegate:
   65530:  
     ipv4:
       - 10.146.0.0/16 #Hückeswagen
