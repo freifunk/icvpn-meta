@@ -13,10 +13,12 @@ networks:
     - 10.45.128.0/17 #VfN-Veranstaltungsnetzwerk 2
     - 10.52.0.0/16 #Wermelskirchen
     - 10.69.0.0/16 #Remscheid
+    - 10.76.0.0/16 #Leverkusen
     - 10.79.0.0/16 #Bottrop
     - 10.82.0.0/16 #Recklinghausen
     - 10.92.0.0/16 #Fröndenberg
     - 10.120.0.0/16 #Altdorf
+    - 10.146.0.0/16 #Hückeswagen
     - 10.151.0.0/16 #Bochum
     - 10.154.0.0/16 #Hagen
     - 10.171.0.0/16 #VfN-Sammelnetzwerk
@@ -24,6 +26,8 @@ networks:
     - 10.224.0.0/16 #Wipperfürth
   ipv6:
     - 2001:bf7:100::/44
+    - fddf:ebfd:a801:2192::/64
+    - fddf:ebfd:a801:2144::/64
 bgp:
   nrw1:
     ipv4: 10.207.0.7
