@@ -7,7 +7,6 @@ networks:
   ipv6:
     - fda0:747e:ab29:209::/64
 domains:
-  - ffsg
   - 28.10.in-addr.arpa
   - 9.0.2.0.9.2.b.a.e.7.4.7.0.a.d.f.ip6.arpa
 nameservers:
