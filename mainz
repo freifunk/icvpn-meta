@@ -7,6 +7,9 @@ networks:
   ipv6:
     - fd37:b4dc:4b1e::/48
 bgp:
+  mainz1:
+    ipv4: 10.207.0.37
+    ipv6: fec0::a:cf:0:25
   mainz2:
     ipv4: 10.207.1.37
     ipv6: fec0::a:cf:1:25
@@ -18,6 +21,8 @@ nameservers:
   - 10.37.0.5
   - 10.37.0.7
   - 10.37.0.23
+  - 10.37.0.231
   - fd37:b4dc:4b1e::a25:5
   - fd37:b4dc:4b1e::a25:7
   - fd37:b4dc:4b1e::a25:17
+  - fd37:b4dc:4b1e::a25:e7
