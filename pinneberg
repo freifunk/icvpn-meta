@@ -5,10 +5,19 @@ networks:
   ipv4:
     - 10.137.0.0/16
   ipv6:
-    - 2001:bf7:23::/44
+    - fde8:21c6:9d82::/48
+bgp:
+  pinneberg:
+    ipv4: 10.207.0.30
+    ipv6: fec0::a:cf:0:1e
 domains:
   - ffpi
   - 137.10.in-addr.arpa
+  - 2.8.d.9.6.c.1.2.8.e.d.f.ip6.arpa
 nameservers:
-  - 10.137.1.1
-  - 2001:bf7:23::101
+  - 10.137.10.1
+  - 10.137.11.1
+  - 10.137.12.1
+  - fde8:21c6:9d82::0a01
+  - fde8:21c6:9d82::0b01
+  - fde8:21c6:9d82::0c01

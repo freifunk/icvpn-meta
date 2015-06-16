@@ -1,0 +1,9 @@
+tech-c:
+  - noc@freifunk-emskirchen.de
+
+networks:
+  ipv4:
+    - 10.123.3.0/24
+    - 10.123.192.0/18
+  ipv6:
+    - 2001:470:5168:2::/64
