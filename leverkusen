@@ -7,7 +7,7 @@ networks:
   ipv6:
     - 2001:bf7:100:2144::/64
     - fddf:ebfd:a801:2144::/64
-delgate:
+delegate:
   65530:  
     ipv4:
       - 10.76.0.0/16 #Leverkusen
