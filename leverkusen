@@ -1,0 +1,15 @@
+tech-c:
+  - felix@vfn-nrw.de
+  - ruben@vfn-nrw.de
+networks:
+  ipv4:
+    - 10.76.0.0/16 #Leverkusen
+  ipv6:
+    - 2001:bf7:100:2144::/64
+    - fddf:ebfd:a801:2144::/64
+delegate:
+  65530:  
+    - 10.76.0.0/16 #Leverkusen
+    - 2001:bf7:100:2144::/64
+    - fddf:ebfd:a801:2144::/64
+
