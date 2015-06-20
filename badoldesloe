@@ -1,0 +1,13 @@
+
+tech-c:
+  - kst87@stormarn.freifunk.net
+networks:
+  ipv4: 
+    - 10.144.0.0/20
+  ipv6:
+    - fddf:0bf7:80::/48
+domains:
+  - ffod.org
+nameservers:
+  - 10.144.0.2
+  - fddf:0bf7:80::a38:0001
