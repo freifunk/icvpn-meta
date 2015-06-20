@@ -15,7 +15,6 @@ networks:
     - 10.79.0.0/16 #Bottrop
     - 10.82.0.0/16 #Recklinghausen
     - 10.92.0.0/16 #Fröndenberg
-    - 10.120.0.0/16 #Altdorf
     - 10.151.0.0/16 #Bochum
     - 10.154.0.0/16 #Hagen
     - 10.171.0.0/16 #VfN-Sammelnetzwerk
