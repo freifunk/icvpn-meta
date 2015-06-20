@@ -6,8 +6,6 @@ networks:
   ipv6:
     - 2001:bf7:100:2191::/64
     - fddf:ebfd:a801:2191::/64
-domains:
-  - ffhw
 delegate:
   65530:  
     - 10.69.0.0/16
