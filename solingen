@@ -1,16 +1,16 @@
 tech-c:
-  - phip@devtal.de
-asn: 65399
+  - kevin@vfn-nrw.de
 networks:
   ipv4:
-    - 10.6.0.0/16
+    - 10.6.0.0/16 #Solingen
   ipv6:
-    - fda0:747e:ab29:212::/64
+    - 2001:bf7:100:212::/64
+    - fddf:ebfd:a801:212::/64
 domains:
   - ffsg
-  - 6.10.in-addr.arpa
-  - 2.1.2.0.9.2.b.a.e.7.4.7.0.a.d.f.ip6.arpa
-nameservers:
-  - 10.6.0.247
-  - fda0:747e:ab29:212:ff07::1
-
+delegate:
+  65530:  
+    - 10.6.0.0/16 #Solingen
+    - 2001:bf7:100:212::/64
+    - fddf:ebfd:a801:212::/64
+# FIXME: Nameserver eintragen
