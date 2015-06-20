@@ -4,13 +4,13 @@ tech-c:
   - tobias@vfn-nrw.de
 networks:
   ipv4:
-    - 10.16.0.0/16
+    - 10.16.0.0/17
   ipv6:
     - 2001:bf7:100:2267::/64
     - fddf:ebfd:a801:2267::/64
 delegate:
   65530:  
-    - 10.16.0.0/16
+    - 10.16.0.0/17
     - 2001:bf7:100:2267::/64
     - fddf:ebfd:a801:2267::/64
 # FIXME: Nameserver eintragen
