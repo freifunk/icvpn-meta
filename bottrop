@@ -1,0 +1,16 @@
+tech-c:
+  - kevin@vfn-nrw.de
+  - ruben@vfn-nrw.de
+  - felix@vfn-nrw.de
+networks:
+  ipv4:
+    - 10.79.0.0/16
+  ipv6:
+    - 2001:bf7:100:2041::/64
+    - fddf:ebfd:a801:2041::/64
+delegate:
+  65530:  
+    - 10.79.0.0/16
+    - 2001:bf7:100:2041::/64
+    - fddf:ebfd:a801:2041::/64
+# FIXME: Nameserver eintragen
