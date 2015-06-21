@@ -18,7 +18,6 @@ networks:
     - 10.151.0.0/16 #Bochum
     - 10.154.0.0/16 #Hagen
     - 10.171.0.0/16 #VfN-Sammelnetzwerk
-    - 10.206.0.0/16 #Gronau
     - 10.224.0.0/16 #Wipperfürth
   ipv6:
     - 2001:bf7:100::/44
@@ -38,6 +37,4 @@ bgp:
   nrw5:
     ipv4: 10.207.66.66
     ipv6: fec0::a:cf:42:42
-domains:
-  - ffgro
 # FIXME: Nameserver eintragen
