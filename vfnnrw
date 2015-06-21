@@ -17,7 +17,6 @@ networks:
     - 10.151.0.0/16 #Bochum
     - 10.154.0.0/16 #Hagen
     - 10.171.0.0/16 #VfN-Sammelnetzwerk
-    - 10.224.0.0/16 #Wipperfürth
   ipv6:
     - 2001:bf7:100::/44
 bgp:
