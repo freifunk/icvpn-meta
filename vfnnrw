@@ -10,7 +10,6 @@ networks:
     - 10.6.0.0/16 #Solingen
     - 10.45.0.0/17 #VfN-Veranstaltungsnetzwerk
     - 10.45.128.0/17 #VfN-Veranstaltungsnetzwerk 2
-    - 10.69.0.0/16 #Remscheid
     - 10.82.0.0/16 #Recklinghausen
     - 10.92.0.0/16 #Fröndenberg
     - 10.151.0.0/16 #Bochum
