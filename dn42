@@ -4,7 +4,7 @@ domains:
   - 22.172.in-addr.arpa
   - 23.172.in-addr.arpa
 nameservers:
-  - 172.22.0.53
+  - 172.23.0.53
   - fd42:d42:d42:53::1
 networks:
   # https://dn42.net/services/Whois#names-and-numbers_address-space
