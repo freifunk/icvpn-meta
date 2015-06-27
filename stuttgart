@@ -1,0 +1,5 @@
+tech-c:
+  - info@freifunk-stuttgart.de
+networks:
+  ipv4:
+    - 10.190.0.0/15
