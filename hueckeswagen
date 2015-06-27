@@ -2,15 +2,19 @@ tech-c:
   - kevin@vfn-nrw.de
 networks:
   ipv4:
-    - 10.146.0.0/16 #Hückeswagen
+    - 10.146.0.0/16
   ipv6:
     - 2001:bf7:100:2192::/64
     - fddf:ebfd:a801:2192::/64
 domains:
   - ffhw
+  - 146.10.in-addr.arpa
+  - 2.9.1.2.0.0.1.0.7.f.b.0.1.0.0.2.ip6.arpa
+  - 2.9.1.2.1.0.8.a.d.f.b.e.f.d.d.f.ip6.arpa
+nameservers:
+  - 10.45.128.100 # ff-dns01.nic.ffhw
 delegate:
   65530:  
     - 10.146.0.0/16 #Hückeswagen
     - 2001:bf7:100:2192::/64
     - fddf:ebfd:a801:2192::/64
-# FIXME: Nameserver eintragen
