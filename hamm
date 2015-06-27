@@ -1,0 +1,10 @@
+tech-c:
+  - kontakt@freifunk-hamm.de
+
+networks:
+  ipv4:
+    - 10.25.0.0/18
+
+domains:
+  - ffham
+
