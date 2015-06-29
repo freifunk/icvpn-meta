@@ -6,8 +6,8 @@ networks:
     - 10.11.128.0/18
 domains:
   - ffmee
-  - 128.1.10.in-addr.arpa
-  - 129.1.10.in-addr.arpa
+  - 128.11.10.in-addr.arpa
+  - 129.11.10.in-addr.arpa
 nameservers:
   - 10.11.128.1
   - 10.11.129.1
