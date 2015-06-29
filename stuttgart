@@ -1,5 +1,6 @@
 tech-c:
   - info@freifunk-stuttgart.de
+asn: 65019
 networks:
   ipv4:
     - 10.190.0.0/15
