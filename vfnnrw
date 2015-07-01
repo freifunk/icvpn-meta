@@ -12,7 +12,6 @@ networks:
     - 10.82.0.0/16 #Recklinghausen
     - 10.92.0.0/16 #Fröndenberg
     - 10.151.0.0/16 #Bochum
-    - 10.154.0.0/16 #Hagen
     - 10.171.0.0/16 #VfN-Sammelnetzwerk
   ipv6:
     - 2001:bf7:100::/44
