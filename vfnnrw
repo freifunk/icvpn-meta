@@ -12,10 +12,22 @@ networks:
     - 10.82.0.0/16 #Recklinghausen
     - 10.92.0.0/16 #Fröndenberg
     - 10.151.0.0/16 #Bochum
-    - 10.154.0.0/16 #Hagen
     - 10.171.0.0/16 #VfN-Sammelnetzwerk
   ipv6:
-    - 2001:bf7:100::/44
+    - 2001:bf7:100:5922::/64 #Bad Bentheim
+    - fddf:ebfd:a801:5922::/64 #Bad Bentheim
+    - 2001:bf7:100:abcd::/64 #VfN-Veranstaltungsnetzwerk
+    - fddf:ebfd:a801:abcd::/64 #VfN-Veranstaltungsnetzwerk
+    - 2001:bf7:100:a::/64 #VfN-Veranstaltungsnetzwerk 2
+    - fddf:ebfd:a801:a::/64 #VfN-Veranstaltungsnetzwerk 2
+    - 2001:bf7:100:2361::/64 #Recklinghausen
+    - fddf:ebfd:a801:2361::/64 #Recklinghausen
+    - 2001:bf7:100:2373::/64 #Fröndenberg
+    - fddf:ebfd:a801:2373::/64 #Fröndenberg
+    - 2001:bf7:100:234::/64 #Bochum
+    - fddf:ebfd:a801:234::/64 #Bochum
+    - 2001:bf7:100:ff::/64 #VfN-Sammelnetzwerk
+    - fddf:ebfd:a801:ff::/64 #VfN-Sammelnetzwerk
 bgp:
   nrw1:
     ipv4: 10.207.0.7
