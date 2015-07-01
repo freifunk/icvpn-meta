@@ -4,10 +4,16 @@ asn: 65409
 networks:
   ipv4:
     - 10.11.128.0/18
+  ipv6:
+    - fdb3:d4be:da01::/48
 domains:
   - ffmee
   - 128.11.10.in-addr.arpa
   - 129.11.10.in-addr.arpa
+  - 191.11.10.in-addr.arpa
+  - 1.0.a.d.e.b.4.d.3.b.d.f.ip6.arpa
 nameservers:
   - 10.11.128.1
   - 10.11.129.1
+  - fdb3:d4be:da01:9fa8::b3
+  - fdb3:d4be:da01::1
