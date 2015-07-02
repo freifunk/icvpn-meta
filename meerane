@@ -6,6 +6,10 @@ networks:
     - 10.11.128.0/18
   ipv6:
     - fdb3:d4be:da01::/48
+bgp:
+  meerane1:
+    ipv4: 10.207.0.31
+    ipv6: fec0::a:cf:0:1f
 domains:
   - ffmee
   - 128/18.11.10.in-addr.arpa
