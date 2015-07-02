@@ -18,9 +18,9 @@ domains:
   - 56.10.in-addr.arpa
   - e.1.b.4.c.d.4.b.6.5.d.f.ip6.arpa
 nameservers:
-  - 10.56.0.5
   - 10.56.0.7
   - 10.56.0.23
-  - fd56:b4dc:4b1e::a38:5
+  - 10.56.0.231
   - fd56:b4dc:4b1e::a38:7
   - fd56:b4dc:4b1e::a38:17
+  - fd56:b4dc:4b1e::a38:e7
