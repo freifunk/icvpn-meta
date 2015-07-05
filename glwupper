@@ -13,3 +13,6 @@ domains:
   - ffbgl
 nameservers:
   - 10.156.3.1
+bgp:
+  gl1:
+    ipv4: 5.45.100.14
