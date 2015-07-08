@@ -1,0 +1,17 @@
+tech-c:
+  - petabyteboy@gmail.com
+asn: 64780
+networks:
+  ipv4:
+    - 10.19.0.0/16
+  ipv6:
+    - fd99:4c33:9699:8c08::/64
+domains:
+  - fflln
+nameservers:
+  - 10.19.0.200
+bgp:
+  leichlingen0:
+    ipv4: 10.207.0.15
+    ipv6: fec0::a:cf:0:f
+

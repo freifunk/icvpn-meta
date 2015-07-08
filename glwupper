@@ -1,5 +1,6 @@
 tech-c:
-  - petabyteboy@gmail.com
+  - dustin@schmidtberg.de
+  - philipp.psurek@gmail.com
 asn: 65120
 networks:
   ipv4:
@@ -8,7 +9,6 @@ networks:
     - fda0:747e:ab29:5142::/64
 domains:
   - ffgl
-  - fflln
   - ffbcd
   - ffbgl
 nameservers:
