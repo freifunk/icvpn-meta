@@ -6,6 +6,7 @@ networks:
     - 10.132.0.0/16
   ipv6:
     - fdca:ffee:ff12::/48
+    - 2001:470:6d:860::/64
 bgp:
   paderborn01:
     ipv4: 10.207.0.231
@@ -18,8 +19,8 @@ domains:
   - 132.10.in-addr.arpa
   - 2.1.f.f.e.e.f.f.a.c.d.f.ip6.arpa
 nameservers:
-  - 10.132.254.53
-  - fdca:ffee:ff12:a254::53
+  - 10.132.251.53
+  - fdca:ffee:ff12:a251::53
   - 10.132.12.1
   - fdca:ffee:ff12:132::12:1
   - 80.70.181.58
