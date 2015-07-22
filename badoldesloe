@@ -1,13 +1,15 @@
-
 tech-c:
-  - kst87@stormarn.freifunk.net
+  - kaj@stormarn.freifunk.net
+  - marc@stormarn.freifunk.net
 networks:
   ipv4: 
-    - 10.144.0.0/20
+    - 10.144.0.0/16
   ipv6:
-    - fddf:0bf7:80::/48
+    - 2001:bf7:80::/48
 domains:
   - ffod.org
 nameservers:
   - 10.144.0.2
-  - fddf:0bf7:80::a38:0001
+  - 10.144.0.3
+  - fddf:0bf7:80::a38:0002
+  - fddf:0bf7:80::a38:0003
