@@ -1,0 +1,14 @@
+tech-c:
+  - freifunk@freifunk-lindlar.net
+networks:
+  ipv4:
+    - 10.250.0.0/16
+  ipv6:
+    - 2001:bf7:100:2266::/64
+    - fddf:ebfd:a801:2266::/64
+delegate:
+  65530:  
+    - 10.250.0.0/16
+    - 2001:bf7:100:2266::/64
+    - fddf:ebfd:a801:2266::/64
+# FIXME: Nameserver eintragen
