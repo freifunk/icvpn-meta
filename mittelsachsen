@@ -1,0 +1,16 @@
+asn: 65210
+tech-c:
+  - dnoelte@gmail.com
+networks:
+  ipv4:
+    - 10.23.0.0/16
+bgp:
+  mittelsachsen1:
+    ipv4: 10.207.0.45
+domains:
+  - ffmtl
+  - fftup
+  - 23.10.in-addr.arpa
+nameservers:
+  - 10.23.0.1
+  - 172.22.176.1
