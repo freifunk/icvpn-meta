@@ -5,10 +5,10 @@ networks:
   ipv4:
     - 10.23.0.0/16
 bgp:
-  mittelsachsen1:
+  waldheim1:
     ipv4: 10.207.0.45
 domains:
-  - ffmtl
+  - ffwdh
   - fftup
   - 23.10.in-addr.arpa
 nameservers:
