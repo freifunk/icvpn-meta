@@ -9,4 +9,4 @@ networks:
 bgp:
   harz1:
     ipv4: 10.207.0.11
-    ipv6: fd0e:8db3:d50a::2
+    ipv6: fec0::a:cf:0:b 
