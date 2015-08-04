@@ -4,13 +4,16 @@ tech-c:
 networks:
   ipv4:
     - 10.23.0.0/16
+    - 10.33.0.0/16
 bgp:
   waldheim1:
     ipv4: 10.207.0.45
+  waldheim2:
+    ipv4: 10.207.0.46
 domains:
   - ffwdh
   - fftup
   - 23.10.in-addr.arpa
 nameservers:
   - 10.23.0.1
-  - 172.22.176.1
+  - 10.23.0.2
