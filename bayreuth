@@ -4,7 +4,3 @@ asn: 65025
 networks:
   ipv4:
     - 10.195.0.0/16
-bgp:
-  bayreuth:
-    ipv4: 10.207.0.28
-    ipv6: fec0::a:cf:0:19
