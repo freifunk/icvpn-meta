@@ -6,10 +6,6 @@ networks:
     - 104.60.0.0/16
   ipv6:
     - fdf0:09bb:7814::/48
-bgp:
-  freiburg1:
-    ipv4: 10.207.0.21
-    ipv6: fec0::a:cf:0:21
 domains:
   - fffr
 # FIXME: Nameserver eintragen
