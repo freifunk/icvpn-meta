@@ -13,12 +13,6 @@ bgp:
   westpfalz2:
     ipv4: 10.207.0.86
     ipv6: fec0::a:cf:0:56
-domains:
-  - ffwp
-  - 198.10.in-addr.arpa
-  - 4.e.d.1.e.f.4.c.6.c.d.f.ip6.arpa
-nameservers:
-  - 10.198.2.1
-  - 10.198.4.1
-  - fdc6:c4fe:1de4::c1
-  - fdc6:c4fe:1de4::d1
+  westpfalz3:
+    ipv4: 10.207.0.87
+    ipv6: fec0::a:cf:0:58
