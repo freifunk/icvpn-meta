@@ -15,6 +15,6 @@ nameservers:
   - 10.45.128.100 # ff-dns01.nic.ffhw
 delegate:
   65530:  
-    - 10.146.0.0/16 #Hückeswagen
+    - 10.146.0.0/16
     - 2001:bf7:100:2192::/64
     - fddf:ebfd:a801:2192::/64
