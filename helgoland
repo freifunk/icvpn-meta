@@ -11,5 +11,3 @@ domains:
 nameservers:
   - 10.112.1.1
   - 2a03:2267::101
-# ipv6:
-#   - 2a03:2267:4e16::/48 from the hamburg /32
