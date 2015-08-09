@@ -5,11 +5,11 @@ asn: 65189
 networks:
   ipv4:
     - 10.189.0.0/18
+  ipv6:
+    - 2a03:2267:4e16::/48
 domains:
   - helgo
   - 189.10.in-addr.arpa
 nameservers:
   - 10.112.1.1
   - 2a03:2267::101
-# ipv6:
-#   - 2a03:2267:4e16::/48 from the hamburg /32
