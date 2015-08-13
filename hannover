@@ -9,6 +9,7 @@ networks:
 bgp:
   hannover1:
     ipv4: 10.207.0.22
+    ipv6: fec0::a:cf:0:16
 domains:
   - ffh
 # FIXME: Nameserver eintragen
