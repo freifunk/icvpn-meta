@@ -1,5 +1,5 @@
 tech-c:
-  - mickey@netfreaks.org
+  - info@hannover.freifunk.net 
 asn: 65511
 networks:
   ipv4:
@@ -12,4 +12,15 @@ bgp:
     ipv6: fec0::a:cf:0:16
 domains:
   - ffh
-# FIXME: Nameserver eintragen
+  - ffi
+nameservers:
+  - 10.2.10.1
+  - fdca:ffee:8::a01
+  - 10.2.20.1
+  - fdca:ffee:8::1401
+  - 10.2.30.1
+  - fdca:ffee:8::1e01
+  - 10.2.40.1
+  - fdca:ffee:8::2801
+  - 10.2.50.1
+  - fdca:ffee:8::3201
