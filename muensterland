@@ -22,9 +22,6 @@ networks:
 
 # A list of BGP peers in IC-VPN announcing your AS.
 bgp:
-  muenster1:
-    ipv4: 10.207.0.43
-    ipv6: fec0::a:cf:0:43
   muensterlandFusselkater:
     ipv4: 10.207.0.44
     ipv6: fec0::a:cf:0:44

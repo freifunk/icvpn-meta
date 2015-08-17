@@ -7,8 +7,6 @@ networks:
     - 10.59.0.0/21
     - 10.59.16.0/20
 bgp:
-  leipzig1:
-    ipv4: 10.207.0.1
   leipzig2:
     ipv4: 10.207.0.2
     ipv6: fec0::a:cf:0:2

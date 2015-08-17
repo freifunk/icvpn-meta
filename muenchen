@@ -4,8 +4,3 @@ asn: 65080
 networks:
   ipv4:
     - 10.80.0.0/16
-bgp:
-  muenchen1:
-    ipv4: 10.207.0.80
-  muenchen4:
-    ipv4: 10.207.4.80

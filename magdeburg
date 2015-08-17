@@ -6,10 +6,3 @@ networks:
     - 10.139.0.0/16
   ipv6:
     - fda9:026e:5805::/48
-bgp:
-  magdeburg1:
-    ipv4: 10.207.39.1
-    ipv6: fec0::a:cf:39:1
-  magdeburg2:
-    ipv4: 10.207.39.2
-    ipv6: fec0::a:cf:39:2

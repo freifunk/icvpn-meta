@@ -11,6 +11,3 @@ bgp:
   weimar1:
     ipv4: 10.207.0.3
     ipv6: fec0::a:cf:0:3
-  weimar2:
-    ipv4: 10.207.0.4
-    ipv6: fec0::a:cf:0:4
