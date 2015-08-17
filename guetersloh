@@ -12,21 +12,25 @@ networks:
     - fd42:ffee:ff13::/48
     - fd42:ffee:ff14::/48
 bgp:
-  guetersloh1:
+  guetersloh-bgp3:
     ipv4: 10.207.0.132
     ipv6: fec0::a:cf:0:84
-  gueterslohbgp2:
+  guetersloh-bgp2:
     ipv4: 10.207.0.133
     ipv6: fec0::a:cf:0:85
   guetersloh4:
     ipv4: 10.207.0.134
     ipv6: fec0::a:cf:0:86
-  gueterslohbgp1:
+  guetersloh-bgp1:
     ipv4: 10.207.0.136
     ipv6: fec0::a:cf:0:88
-  rhwdbgp1:
+  rhwd-bgp1:
     ipv4: 10.207.0.137
     ipv6: fec0::a:cf:0:89
+  guetersloh-bgp4:
+    ipv4: 10.207.0.1
+    ipv6: fec0::a:cf:0:1
+
 domains:
   - ffgt
   - 255.10.in-addr.arpa
