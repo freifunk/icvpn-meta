@@ -1,8 +1,0 @@
-tech-c:
-  - leo@hamburg.freifunk.net
-  - noc@hamburg.freifunk.net
-asn: 65112
-bgp:
-  camp2015:
-    ipv4: 10.207.0.21
-    ipv6: fec0::a:cf:0:15
