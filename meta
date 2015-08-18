@@ -1,0 +1,18 @@
+# Meta file for the icvpn-TLD. See https://github.com/wusel42/icvpn-aux
+# for details how to set up this for yourself.
+tech-c:
+  - wusel+ffmue@uu.org
+networks:
+  ipv4:
+    - 10.207.0.0/16
+  ipv6:
+    - fec0::a:cf:0:0/96
+domains:
+  - icvpn
+  - 207.10.in-addr.arpa
+  - f.c.0.0.a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.c.e.f.ip6.arpa.
+nameserver:
+  - 10.207.0.138
+  - 10.207.0.134
+  - fec0::a:cf:0:86
+  - fec0::a:cf:0:8a
