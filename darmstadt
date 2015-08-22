@@ -6,11 +6,15 @@ networks:
     - 10.223.0.0/16
   ipv6:
     - fdca:ffee:ffda::/48
+    - 2a03:2260:118::/48
 bgp:
-  darmstadt1:
+  darmstadt2:
+    ipv4: 10.207.0.217
+    ipv6: fec0::a:cf:0:d9
+  darmstadt3:
     ipv4: 10.207.0.218
     ipv6: fec0::a:cf:0:da
-  darmstadt2:
+  darmstadt4:
     ipv4: 10.207.0.219
     ipv6: fec0::a:cf:0:db
 domains:
