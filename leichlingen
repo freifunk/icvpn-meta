@@ -3,15 +3,14 @@ tech-c:
 asn: 64780
 networks:
   ipv4:
-    - 10.19.0.0/16
+    - 10.21.0.0/16
   ipv6:
-    - fd99:4c33:9699:8c08::/64
+    - fddf:ebfd:a801:2175::/64
 domains:
   - fflln
 nameservers:
-  - 10.19.0.200
+  - 10.21.3.1
 bgp:
   leichlingen0:
     ipv4: 10.207.0.15
     ipv6: fec0::a:cf:0:f
-
