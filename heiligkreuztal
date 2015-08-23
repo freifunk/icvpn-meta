@@ -6,6 +6,8 @@ asn: 64864
 networks:
   ipv4: 
     - 10.1.128.0/19
+  ipv6:  
+    - fd0c:9a97:47dc::/48
 
 bgp:
   hkt01:
