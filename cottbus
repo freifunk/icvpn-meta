@@ -1,0 +1,6 @@
+tech-c:
+  - noc@freifunk-cottbus.de
+asn: 64868
+networks:
+  ipv4:
+    - 10.35.0.0/16
