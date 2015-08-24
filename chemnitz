@@ -11,5 +11,6 @@ bgp:
 domains:
   - ffc
   - 8.10.in-addr.arpa
+  - 149.10.in-addr.arpa
 nameservers:
   - 10.8.6.6
