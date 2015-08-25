@@ -1,0 +1,5 @@
+tech-c:
+  - jeannine.holz@fh-brandenburg.de
+networks:
+  ipv4:
+    - 10.21.0.0/16
