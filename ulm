@@ -9,6 +9,11 @@ networks:
 domains:
   - ffulm
   - 33.10.in-addr.arpa
+  - 1.f.f.f.0.a.7.1.f.a.d.f.ip6.arpa
 nameservers:
-  - 10.196.0.1
-  - fd2f:5119:f2c::1
+  - 10.33.72.1
+  - 10.33.80.1
+  - 10.33.84.1
+  - fdaf:17a0:fff1:72::1
+  - fdaf:17a0:fff1:80::1
+  - fdaf:17a0:fff1:84::1
