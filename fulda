@@ -6,6 +6,7 @@ networks:
     - 10.185.0.0/16
   ipv6:
     - fd00:fffd:fffd::/48
+    - fd00:65a8:93a4::/48
 bgp:
   fulda3:
     ipv4: 10.207.0.42
