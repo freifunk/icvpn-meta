@@ -1,25 +1,19 @@
-InterCityVPN meta information
------------------------------
-.. image:: https://travis-ci.org/freifunk/icvpn-meta.svg
-    :alt: Build Status
-    :target: https://travis-ci.org/freifunk/icvpn-meta
-    :height: 20
+# InterCityVPN meta information
+[![Build Status](https://travis-ci.org/freifunk/icvpn-meta.svg?branch=master)](https://travis-ci.org/freifunk/icvpn-meta)
 
 The data in this repository can be used for automatic configuration of
 routing daemons and DNS servers.  You may leave out fields that do not
-apply to your community (e.g. `domains` and `nameservers`).
+apply to your community (e.g. `asn`, `domains` and `nameservers`).
 
-One file per community. Filename should match your communityname in
-the [freifunk-api](https://github.com/freifunk/api.freifunk.net).
+Stick to one file per community. The filename must match your communityname
+on the [freifunk-api](https://github.com/freifunk/api.freifunk.net).
 You may add stub DNS zones (e.g. dn42, rzl, hack) by leaving out
 everything but `domains` and `nameservers`.
 
-Scripts for auto-generating various config files (bird, bind, dnsmasq,
-...) are kept in a separate repository:
-https://github.com/freifunk/icvpn-scripts
+Scripts for the automatic configuration provisioning various services (bird, bind, dnsmasq,
+...) are kept in a separate repository: [icvpn-scripts](https://github.com/freifunk/icvpn-scripts)
 
-::
-
+```
   # This is your ASN.
   asn: 65052
 
@@ -72,3 +66,4 @@ https://github.com/freifunk/icvpn-scripts
     65038: # Darmstadt
       - 10.130.252.0/22
       - fdef:ffc0:3dd7:ffda::/64
+```
