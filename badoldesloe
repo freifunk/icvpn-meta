@@ -6,8 +6,6 @@ networks:
     - 10.144.0.0/16
   ipv6:
     - 2001:bf7:80::/48
-domains:
-  - ffod.org
 nameservers:
   - 10.144.0.2
   - 10.144.0.3
