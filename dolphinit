@@ -4,8 +4,6 @@ tech-c:
   - rw@dolphin-it.de
 asn: 204028
 networks:
-  ipv4:
-    - 10.252.0.0/20
   ipv6:
     - 2001:67c:2e70::/48
 bgp:
