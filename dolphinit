@@ -1,0 +1,15 @@
+tech-c:
+  - noc@dolphin-it.de
+  - kevin.olbrich@dolphin-it.de
+  - rw@dolphin-it.de
+asn: 204028
+networks:
+  ipv4:
+    - 10.252.0.0/20
+  ipv6:
+    - 2001:67c:2e70::/48
+bgp:
+  dolphinit01:
+    ipv4: 10.207.0.91
+    ipv6: fec0::a:cf:0:5b
+# FIXME: Nameserver eintragen
