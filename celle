@@ -1,0 +1,12 @@
+tech-c:
+  - info@freifunk-celle.de
+networks:
+  ipv4:
+    - 10.252.0.0/18
+  ipv6:
+    - fd92:2dff:d232::/64
+domains:
+  - freifunk-celle.de
+nameservers:
+  - 10.252.0.1
+  - fd92:2dff:d232::1
