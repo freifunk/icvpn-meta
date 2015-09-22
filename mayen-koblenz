@@ -2,6 +2,16 @@ tech-c:
   - freifunk@ansgartaflinski.de
   - freifunk@adlerweb.info
 asn: 65032
+bgp:
+  myk1:
+    ipv4: 10.207.0.80
+    ipv6: fec0::a:cf:1:80
+  myk2:
+    ipv4: 10.207.0.81
+    ipv6: fec0::a:cf:1:81
+  myk3:
+    ipv4: 10.207.0.82
+    ipv6: fec0::a:cf:1:82
 networks:
   ipv4:
     - 10.222.0.0/16
