@@ -5,13 +5,13 @@ asn: 65032
 bgp:
   myk1:
     ipv4: 10.207.0.80
-    ipv6: fec0::a:cf:1:80
+    ipv6: fec0::a:cf:0:50
   myk2:
     ipv4: 10.207.0.81
-    ipv6: fec0::a:cf:1:81
+    ipv6: fec0::a:cf:0:51
   myk3:
     ipv4: 10.207.0.82
-    ipv6: fec0::a:cf:1:82
+    ipv6: fec0::a:cf:0:52
 networks:
   ipv4:
     - 10.222.0.0/16
