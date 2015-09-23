@@ -19,6 +19,7 @@ bgp:
     ipv6: fec0::a:cf:0:db
 domains:
   - ffda
+  - ffda.io
   - a.d.f.f.e.e.f.f.a.c.d.f.ip6.arpa
   - 223.10.in-addr.arpa
 nameservers:
