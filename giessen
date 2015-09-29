@@ -1,4 +1,6 @@
 asn: 64865
+tech-c:
+    - icvpn-tech-c@nonchip.de
 networks:
   ipv4:
     - 87.239.143.0/25
