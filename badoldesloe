@@ -14,3 +14,5 @@ nameservers:
 bgp:
   stormarn3:
     ipv4: 10.207.0.90
+    
+asn: 64859
