@@ -9,5 +9,8 @@ networks:
 nameservers:
   - 10.144.0.2
   - 10.144.0.3
-  - fddf:0bf7:80::a38:0002
-  - fddf:0bf7:80::a38:0003
+  - fddf:0bf7:80::a38:2
+  - fddf:0bf7:80::a38:3
+bgp:
+  stormarn3:
+    ipv4: 10.207.0.90
