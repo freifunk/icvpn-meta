@@ -12,7 +12,7 @@ nameservers:
   - fddf:0bf7:80::a38:2
   - fddf:0bf7:80::a38:3
 bgp:
-  stormarn3:
+  badoldesloe3:
     ipv4: 10.207.0.90
     
 asn: 64859
