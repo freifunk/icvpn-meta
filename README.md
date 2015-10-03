@@ -10,7 +10,7 @@ on the [freifunk-api](https://github.com/freifunk/api.freifunk.net).
 You may add stub DNS zones (e.g. dn42, rzl, hack) by leaving out
 everything but `domains` and `nameservers`.
 
-Scripts for the automatic configuration provisioning various services (bird, bind, dnsmasq,
+Scripts for the automatic configuration generation and provisioning of various services (bird, bind, dnsmasq,
 ...) are kept in a separate repository: [icvpn-scripts](https://github.com/freifunk/icvpn-scripts)
 
 ```
