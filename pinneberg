@@ -1,5 +1,5 @@
 tech-c:
-  - pirat@hoogi.de
+  - noc@pinneberg.freifunk.net
 asn: 65433
 networks:
   ipv4:
@@ -15,9 +15,9 @@ domains:
   - 137.10.in-addr.arpa
   - 2.8.d.9.6.c.1.2.8.e.d.f.ip6.arpa
 nameservers:
-  - 10.137.10.1
-  - 10.137.11.1
   - 10.137.12.1
-  - fde8:21c6:9d82::0a01
-  - fde8:21c6:9d82::0b01
+  - 10.137.13.1
+  - 10.137.10.1
   - fde8:21c6:9d82::0c01
+  - fde8:21c6:9d82::0d01
+  - fde8:21c6:9d82::0a01
