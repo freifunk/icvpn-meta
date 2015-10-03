@@ -1,0 +1,9 @@
+tech-c:
+  - noc@freifunk-treuchtlingen.de
+
+networks:
+  ipv4:
+    - 10.105.128.0/18
+  ipv6:
+    - 2001:470:5168:5::/64
+
