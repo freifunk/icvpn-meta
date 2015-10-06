@@ -16,3 +16,6 @@ bgp:
   bielefeld6:
     ipv4: 10.207.0.58
     ipv6: fec0::a:cf:0:3a
+delegate:
+    64866: 
+     - 2001:bf7:1320::/48 # herford
