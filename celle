@@ -4,7 +4,7 @@ networks:
   ipv4:
     - 10.252.0.0/18
   ipv6:
-    - fd92:2dff:d232::/64
+    - fd92:2dff:d232::/48
 domains:
   - freifunk-celle.de
 nameservers:
