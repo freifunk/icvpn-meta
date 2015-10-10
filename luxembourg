@@ -1,0 +1,30 @@
+asn: 64769
+
+tech-c:
+  - vpn@luxembourg.freifunk.net
+
+networks:
+  ipv4:
+    - 10.24.128.0/18
+  ipv6:
+    - fd4e:f2d7:88d2:fffe::/64
+
+bgp:
+  luxembourg1:
+    ipv4: 10.207.10.101
+    ipv6: fec0::a:cf:a:65
+  luxembourg2:
+    ipv4: 10.207.10.102
+    ipv6: fec0::a:cf:a:66
+
+domains:
+  - fflux
+  - e.f.f.f.2.d.8.8.7.d.2.f.e.4.d.f.ip6.arpa
+  - 128/18.24.10.in-addr.arpa
+
+nameservers:
+  - 10.24.128.6
+  - 10.24.128.7
+  - fd4e:f2d7:88d2:fffe::6
+  - fd4e:f2d7:88d2:fffe::7
+
