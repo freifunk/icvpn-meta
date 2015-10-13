@@ -1,0 +1,13 @@
+tech-c:
+  - niclas@freifunk-lindlar.net
+networks:
+  ipv4:
+    - 10.141.128.0/17
+  ipv6:
+    - 2001:bf7:100:2263::/64
+    - fddf:ebfd:a801:2263::/64
+delegate:
+  65530:  
+    - 10.141.128.0/17
+    - 2001:bf7:100:2263::/64
+    - fddf:ebfd:a801:2263::/64
