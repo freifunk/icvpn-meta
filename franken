@@ -8,3 +8,5 @@ networks:
 bgp:
   franken_ro1:
     ipv4: 10.207.0.23
+  franken_fff_gw_m1:
+    ipv4: 10.207.0.26
