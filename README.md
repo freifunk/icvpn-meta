@@ -25,12 +25,12 @@ Scripts for the automatic configuration generation and provisioning of various s
   
   # Prefixes announced by your AS. This may be used for filtering
   # routes. Keep the prefixes a short as possible. If you're
-  # assigned 10.130.0.0/16 while you're using just a subnet of it
-  # (e.g. 10.130.0.0/20) you must include 10.130.0.0/16 here. The details
+  # assigned 10.130.0.0/20 while you're using just a subnet of it
+  # (e.g. 10.130.0.0/21) you must include 10.130.0.0/20 here. The details
   # will be taken care of by the routing daemons.
   networks:
     ipv4:
-      - 10.130.0.0/16
+      - 10.130.0.0/20
     ipv6:
       - fdef:ffc0:3dd7::/48
       - 2001:bf7:110::/44
