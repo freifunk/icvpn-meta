@@ -1,0 +1,17 @@
+tech-c:
+  - kevin@freifunk-euskirchen.de
+asn: 64869
+networks:
+  ipv4:
+    - 10.47.0.0/16
+  ipv6:
+    - fda0:747e:ab29:e054::/64
+bgp:
+  euskirchen1:
+    ipv4: 10.207.0.39
+    ipv6: fec0::a:cf:0:27
+domains:
+  - ffeu
+nameservers:
+  - 10.47.0.2
+  
