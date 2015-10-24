@@ -13,6 +13,9 @@ bgp:
   gera_greiz2:
     ipv4: 10.207.0.182
     ipv6: fec0::a:cf:0:b6
+  gera_greiz3:
+    ipv4: 10.207.0.183
+    ipv6: fec0::a:cf:0:b7
 domains:
   - ffggrz
   - 181.10.in-addr.arpa
@@ -20,5 +23,7 @@ domains:
 nameservers:
   - 10.181.0.11
   - 10.181.0.12
+  - 10.181.0.13
   - fdb5:78b:64cc::11
   - fdb5:78b:64cc::12
+  - fdb5:78b:64cc::13
