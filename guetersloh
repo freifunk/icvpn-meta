@@ -40,8 +40,8 @@ domains:
   - 2.1.f.f.e.e.f.f.2.4.d.f.ip6.arpa
   - 3.1.f.f.e.e.f.f.2.4.d.f.ip6.arpa
   - 4.1.f.f.e.e.f.f.2.4.d.f.ip6.arpa
-nameserver:
+nameservers:
   - 10.255.128.53
   - 2001:bf7:1310:200::53
-  - 10.255.1.1
-  - 2001:bf7:1310::1
+  - 192.251.226.254
+  - 2a01:198:200:b6d::2

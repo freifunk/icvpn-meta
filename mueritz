@@ -14,5 +14,5 @@ domains:
   - mueritz
   - 169.10.in-addr.arpa
   - 1.e.e.e.3.e.4.e.9.3.d.f.ip6.arpa
-nameserver:
+nameservers:
   - 10.169.1.1
