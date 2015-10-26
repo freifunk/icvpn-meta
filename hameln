@@ -1,6 +1,6 @@
 asn: 64873
 tech-c:
-  - info@freifunk-altdorf.de
+  - info@freifunk-hameln.de
 networks:
   ipv4:
     - 10.11.96.0/20
