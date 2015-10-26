@@ -13,6 +13,22 @@ everything but `domains` and `nameservers`.
 Scripts for the automatic configuration generation and provisioning of various services (bird, bind, dnsmasq,
 ...) are kept in a separate repository: [icvpn-scripts](https://github.com/freifunk/icvpn-scripts)
 
+Notes on IPv4 allocations
+-------------------------
+
+* There is only a limited amount of usuable IPv4 space available.
+* 10/8 is used for connections between community networks across the ICVPN.
+* Previously, people just took a /16, which means space is exhausted after 255 communites picked a network.
+* Thus: think before you allocate a v4 network here: do you really *need* IPv4 connectivity between your and other Freifunk networks? If not, consider to use IPs from 172.16.0.0/12 or 198.18.0.0/15 internally and do NOT announce them to ICVPN.
+* If you think you do, please be conservative; rule of thumb: Meshes might not size well beyond 2000 concurrent users, double that for decent DHCP timings => a /20 (4k IPs) per Mesh sounds reasonable. For additional systems outside the Mesh, an additional /22 (1024 IPv4 addresses) might be sufficient.
+* If you use mostly routing (OLSR), things might look different, you might look into e. g. an /21 to distribute to clients and another /22 for p2p-links if needed.
+* Again, please plan ahead, than take your pick. Be prepared to be questioned on why, if you took e. g. more than /18 directly. But remember as well, that renumbering IS a pain.
+* If you need more than a /18 in one community or city you need a _very_ good explaination, why you do need it.
+* Minimum net size is /22, round up if you need less.
+
+Example
+-------
+
 ```
   # This is your ASN.
   asn: 65052
