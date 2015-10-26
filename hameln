@@ -1,0 +1,11 @@
+asn: 64873
+tech-c:
+  - info@freifunk-hameln.de
+networks:
+  ipv4:
+    - 10.11.96.0/20
+  ipv6:
+    - fdc7:4c8d:b889:a272::/64
+domains:
+  - freifunk-hameln.de
+  - ffhm
