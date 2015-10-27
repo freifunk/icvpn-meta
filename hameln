@@ -7,5 +7,26 @@ networks:
   ipv6:
     - fdc7:4c8d:b889:a272::/64
 domains:
-  - freifunk-hameln.de
   - ffhm
+  - 96.11.10.in-addr.arpa
+  - 97.11.10.in-addr.arpa
+  - 98.11.10.in-addr.arpa
+  - 99.11.10.in-addr.arpa
+  - 100.11.10.in-addr.arpa
+  - 101.11.10.in-addr.arpa
+  - 102.11.10.in-addr.arpa
+  - 103.11.10.in-addr.arpa
+  - 104.11.10.in-addr.arpa
+  - 105.11.10.in-addr.arpa
+  - 106.11.10.in-addr.arpa
+  - 107.11.10.in-addr.arpa
+  - 108.11.10.in-addr.arpa
+  - 109.11.10.in-addr.arpa
+  - 110.11.10.in-addr.arpa
+  - 111.11.10.in-addr.arpa
+bgp:
+  ffhmgw01:
+    ipv4: 10.207.0.31
+    ipv6: fec0::a:cf:0:1f
+nameservers:
+  - 10.11.96.1
