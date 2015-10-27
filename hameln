@@ -7,5 +7,10 @@ networks:
   ipv6:
     - fdc7:4c8d:b889:a272::/64
 domains:
-  - freifunk-hameln.de
   - ffhm
+bgp:
+  ffhm-gw01:
+    ipv4: 10.207.0.96
+    ipv6: fec0::a:cf:0:1f
+nameservers:
+  - 10.11.96.1
