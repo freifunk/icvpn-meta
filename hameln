@@ -8,6 +8,8 @@ networks:
     - fdc7:4c8d:b889:a272::/64
 domains:
   - ffhm
+  - 96.10.in-addr.arpa
+  - 2.7.2.a.9.8.8.b.d.8.c.4.7.c.d.f.ip6.arpa
 bgp:
   ffhm-gw01:
     ipv4: 10.207.0.96
