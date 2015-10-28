@@ -2,6 +2,10 @@ tech-c:
   - birger@brunswiek.org
   - mar@cccfr.de
 asn: 65060
+bgp:
+  freiburg1:
+    ipv4: 10.207.0.21
+    ipv6: fec0::a:cf:0:21
 networks:
   ipv4:
     - 10.60.0.0/16
