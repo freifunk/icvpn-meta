@@ -14,7 +14,6 @@ networks:
 domains:
   - fffr
   - 4.1.8.7.b.b.9.0.0.f.d.f.ip6.arpa
-  - 60.104.in-addr.arpa
   - 60.10.in-addr.arpa
 nameservers:
   - 10.60.0.100
@@ -23,5 +22,4 @@ nameservers:
 delegate:
   65060: # Freiburg
     - 10.60.0.0/16
-    - 104.60.0.0/16
     - fdf0:09bb:7814::/48
