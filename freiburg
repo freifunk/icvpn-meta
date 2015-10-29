@@ -9,7 +9,6 @@ bgp:
 networks:
   ipv4:
     - 10.60.0.0/16
-    - 104.60.0.0/16
   ipv6:
     - fdf0:09bb:7814::/48
 domains:
