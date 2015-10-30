@@ -11,7 +11,7 @@ domains:
   - icvpn
   - 207.10.in-addr.arpa
   - f.c.0.0.a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.c.e.f.ip6.arpa.
-nameserver:
+nameservers:
   - 10.207.0.138
   - 10.207.0.134
   - fec0::a:cf:0:86
