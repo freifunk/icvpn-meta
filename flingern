@@ -5,10 +5,10 @@ tech-c:
 asn: 65125
 networks:
   ipv4:
-    - 10.155.0.0/16
+    - 10.155.0.0/20
   ipv6:
     - fda0:747e:ab29:9375::/64
 domains:
   - ffdus
 nameservers:
-  - 10.155.3.1
+  - 10.155.0.10
