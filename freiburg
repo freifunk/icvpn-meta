@@ -11,9 +11,13 @@ networks:
     - 10.60.0.0/16
   ipv6:
     - fdf0:09bb:7814::/48
+    - 2001:bf7:2810::/44
 domains:
   - fffr
   - 4.1.8.7.b.b.9.0.0.f.d.f.ip6.arpa
   - 60.10.in-addr.arpa
+  - 1.8.2.7.f.b.0.1.0.0.2.ip6.arpa
 nameservers:
   - 10.60.0.103
+  - fdf0:9bb:7814:a630::1113
+  - 2001:bf7:2810::1113
