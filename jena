@@ -8,6 +8,6 @@ networks:
     - fd59:b1b7:1d1f::/48
 domains:
   - ffj
-  - 117.10.in-addr.arpa
+  - 17.10.in-addr.arpa
 nameservers:
-  - 10.117.0.1
+  - 10.17.250.1
