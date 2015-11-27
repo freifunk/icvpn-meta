@@ -10,7 +10,8 @@ asn:
     65406	Freifunk Essen
     65407	Freifunk Rheinland Sandbox
     65408	Freifunk Bochum
-    65409	Freifunk Oberhausen
+    65409	Freifunk RG-West
+    65410	Freifunk Fichtenfunk
 networks:
   ipv4:
     - 10.0.0.0/16
