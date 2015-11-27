@@ -1,28 +1,28 @@
 asn: 65401
 
 tech-c:
-- kontakt@freifunk-niersufer.de
+  - kontakt@freifunk-niersufer.de
 
 networks:
 ipv4:
-- 10.41.0.0/16
+  - 10.41.0.0/16
 ipv6:
-- 2a03:2260:50:3f00::/56
-- 2a03:2260:50:0::1/64
+  - 2a03:2260:50:3f00::/56
+  - 2a03:2260:50:0::1/64
 
 bgp:
   ruhrgebiet1:
-    5.39.121.119
-    2001:41d0:c:95c::119
+    - 5.39.121.119
+    - 2001:41d0:c:95c::119
 
 domains:
-- ffniers
-- ffniers
-- ffwilli
-- ffmo
+  - ffniers
+  - ffniers
+  - ffwilli
+  - ffmo
 
 nameservers:
-- 151.80.64.190
-- 85.14.255.33
-- 2001:41d0:c:95c::190
-- 2001:4ba0:ffff:1e9::33
+  - 151.80.64.190
+  - 85.14.255.33
+  - 2001:41d0:c:95c::190
+  - 2001:4ba0:ffff:1e9::33
