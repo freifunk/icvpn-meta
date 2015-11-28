@@ -7,6 +7,9 @@ networks:
   ipv6:
     - fd00:65a8:93a4::/48
 bgp:
+  fulda1:
+    ipv4: 10.207.0.32
+    ipv6: fec0::a:cf:0:20
   fulda2:
     ipv4: 10.207.0.29
     ipv6: fec0::a:cf:0:1d
@@ -18,7 +21,9 @@ domains:
   - 185.10.in-addr.arpa
   - 4.a.3.9.8.a.5.6.0.0.d.f.ip6.arpa
 nameservers:
+  - 10.185.0.1
   - 10.185.0.2
   - 10.185.0.3
+  - fd00:65a8:93a4::1
   - fd00:65a8:93a4::2
   - fd00:65a8:93a4::3
