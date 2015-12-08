@@ -5,10 +5,7 @@ networks:
   ipv4:
     - 10.147.0.0/16
   ipv6:
-    - 2001:bf7:147::/44
-bgp:
-  brandenburg01:
-    ipv4: 10.147.0.1
+    - 2001:bf7:140::/44
 domains:
   - ffbrb
   - 147.10.in-addr.arpa
