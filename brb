@@ -1,0 +1,14 @@
+tech-c:
+  - kontakt@freifunk-brandenburg.de
+asn: 65147
+networks:
+  ipv4:
+    - 10.147.0.0/16
+  ipv6:
+    - 2001:bf7:147::/44
+bgp:
+  brandenburg01:
+    ipv4: 10.147.0.1
+domains:
+  - ffbrb
+  - 147.10.in-addr.arpa
