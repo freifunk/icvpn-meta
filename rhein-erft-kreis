@@ -1,0 +1,17 @@
+asn: 64888
+tech-c:
+  - ff@schmitz.pro
+  - dustin@schmidtberg.de
+  - philipp.psurek@gmail.com
+networks:
+  ipv4:
+    - 10.219.0.0/18
+  ipv6:
+    - fda0:747e:ab29:5016::/64
+domains:
+  - ffrek
+  - 0.219.10.in-addr.arpa
+  - 6.1.0.5.9.2.b.a.e.7.4.7.0.a.d.f.ip6.arpa
+nameservers:
+  - 10.219.0.1
+  - fda0:747e:ab29:5016::1
