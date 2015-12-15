@@ -35,8 +35,6 @@ domains:
   - ffe
   - ffel
   - ffff
-  - ffmo
-  - ffniers
   - ffrgw
   - 53.10.in-addr.arpa
 nameservers:
