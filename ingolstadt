@@ -1,5 +1,6 @@
 tech-c:
-  - neal.oakey@bingo-ev.de
+  - noc@freifunk-ingolstadt.de
+asn: 65252
 networks:
   ipv4:
     - 10.10.0.0/16
@@ -9,4 +10,4 @@ domains:
   - ffin
 nameservers:
   - 10.10.0.2
-  - 10.10.0.3
+  - 10.10.0.4
