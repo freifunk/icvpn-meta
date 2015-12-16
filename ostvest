@@ -1,0 +1,11 @@
+asn: 64862
+tech-c:
+  - m.schaller@ping.de
+  - s.kozma@ping.de
+  - daniel@toschke.de
+networks:
+  ipv4:
+    - 10.19.0.0/16
+domains:
+  - ostvest
+  - ffov
