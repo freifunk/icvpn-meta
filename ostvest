@@ -6,6 +6,8 @@ tech-c:
 networks:
   ipv4:
     - 10.19.0.0/16
+  ipv6:
+    - 2a03:2260:50:2400::/56
 domains:
   - ostvest
   - ffov
