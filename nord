@@ -10,3 +10,10 @@ domains:
 nameservers:
   - 10.112.1.1
   - 2a03:2267::101
+bgp:
+  nord0:
+    ipv4: 10.207.11.10
+    ipv6: fec0::a:cf:11.10
+  nord2:
+    ipv4: 10.207.11.12
+    ipv6: fec0::a:cf:11.12
