@@ -1,0 +1,11 @@
+# This is your ASN.
+asn: 64863
+tech-c:
+  - freifunk@benedikt-wildenhain.de
+  - mail@stephan-plarre.de
+  - nic@neanderfunk.de
+networks:
+  ipv4:
+    - 10.1.192.0/18
+  ipv6:
+    - fdd9:a0b1:5bd0::/48
