@@ -8,14 +8,14 @@ networks:
   ipv4:
     - 10.210.0.0/16
   ipv6:
-    - fd00:ffba:ffba::/64
+    - fd00:ffba:ffba:0::/64
 
 domains:
   - ffws
   - ffweyher
   - ffvp
   - ffaw
-  - a.b.f.f.a.b.f.f.0.0.d.f.ip6.arpa
+  - 0.0.0.0.a.b.f.f.a.b.f.f.0.0.d.f.ip6.arpa
   - 210.10.in-addr.arpa
 
 nameservers:
@@ -26,10 +26,10 @@ nameservers:
   - 10.210.0.105
   - 10.210.0.106
   - 10.210.0.199
-  - fd00:ffba:ffba::101
-  - fd00:ffba:ffba::102
-  - fd00:ffba:ffba::103
-  - fd00:ffba:ffba::104
-  - fd00:ffba:ffba::105
-  - fd00:ffba:ffba::106
-  - fd00:ffba:ffba::199
+  - fd00:ffba:ffba:0::101
+  - fd00:ffba:ffba:0::102
+  - fd00:ffba:ffba:0::103
+  - fd00:ffba:ffba:0::104
+  - fd00:ffba:ffba:0::105
+  - fd00:ffba:ffba:0::106
+  - fd00:ffba:ffba:0::199
