@@ -10,3 +10,11 @@ bgp:
     ipv4: 10.207.0.23
   franken_fff_gw_m1:
     ipv4: 10.207.0.26
+
+domains:
+  - fff.community
+  - 50.10.in-addr.arpa
+nameservers:
+  - 10.50.40.10
+  - 10.50.48.3
+  - 10.50.252.8
