@@ -1,0 +1,10 @@
+asn: 64872
+tech-c:
+  - freifunk@benedikt-wildenhain.de
+  - mail@stephan-plarre.de
+  - nic@neanderfunk.de
+networks:
+  ipv4:
+    - 10.11.128.0/20
+  ipv6:
+    - fd06:b047:f7de::/48
