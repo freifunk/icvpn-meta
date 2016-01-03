@@ -1,3 +1,8 @@
 tech-c:
-  - kontakt@freifunk-ruhrgebiet.de
+  - info@freifunk-bochum.de
 asn: 65408
+networks:
+  ipv4:
+    - 10.110.0.0/18
+  ipv6:
+    - 2a03:2260:300b::/48
