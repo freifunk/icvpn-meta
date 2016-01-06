@@ -5,14 +5,16 @@ networks:
   ipv4: 
     - 10.144.0.0/16
   ipv6:
-    - 2001:bf7:80::/48
+    - fddf:bf7:80::/48
 nameservers:
-  - 10.144.0.2
   - 10.144.0.3
-  - fddf:0bf7:80::a38:2
   - fddf:0bf7:80::a38:3
+domains:
+  - mein.stormarn.freifunk.net
+  
 bgp:
   badoldesloe3:
     ipv4: 10.207.0.90
+    ipv6: fec0::a:cf:0:90
     
 asn: 64859
