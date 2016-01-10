@@ -5,7 +5,7 @@ tech-c:
   - daniel@toschke.de
 networks:
   ipv4:
-    - 10.19.0.0/16
+    - 10.47.0.0/16
 domains:
   - ostvest
   - ffov
