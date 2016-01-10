@@ -1,0 +1,9 @@
+tech-c:
+  - technik@freifunk-winterberg.net
+  - jan@freifunk-winterberg.net
+asn: 64881
+networks:
+  ipv4:
+    - 10.16.128.0/18
+  ipv6:
+    - 2a03:2260:300d::/48
