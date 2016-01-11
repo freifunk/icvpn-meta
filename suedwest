@@ -1,0 +1,8 @@
+tech-c:
+  - it@freifunk-suedwest.de
+asn: 65502
+networks:
+  ipv4:
+    - 10.210.0.0/18
+  ipv6:
+    - fd00:ffba:ffba:0000::/64
