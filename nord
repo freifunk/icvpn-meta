@@ -1,15 +1,22 @@
 tech-c:
-  - backend@hamburg.freifunk.net
+  - admin@ffnord.net
 asn: 65187
 networks:
   ipv4:
     - 10.187.0.0/16
+  ipv6:
+    - 2a03:2267:4e6f:7264::/64 
 domains:
   - ffnord
   - 187.10.in-addr.arpa
+  - 4.6.2.7.f.6.e.4.7.6.2.2.3.0.a.2.ip6.arpa
 nameservers:
-  - 10.112.1.1
-  - 2a03:2267::101
+  - 10.187.136.1
+  - 10.187.160.1
+  - 10.187.170.1
+  - 2a03:2267:4e6f:7264::fd00
+  - 2a03:2267:4e6f:7264::fd02
+  - 2a03:2267:4e6f:7264::fd03
 bgp:
   nord0:
     ipv4: 10.207.11.10
@@ -17,3 +24,6 @@ bgp:
   nord2:
     ipv4: 10.207.11.12
     ipv6: fec0::a:cf:b:c
+  nord3:
+    ipv4: 10.207.11.13
+    ipv6: fec0::a:cf:b:d
