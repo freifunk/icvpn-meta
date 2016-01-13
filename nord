@@ -18,12 +18,12 @@ nameservers:
   - 2a03:2267:4e6f:7264::fd02
   - 2a03:2267:4e6f:7264::fd03
 bgp:
-  nord0:
+  nordgw0:
     ipv4: 10.207.11.10
     ipv6: fec0::a:cf:b:a
-  nord2:
+  nordgw2:
     ipv4: 10.207.11.12
     ipv6: fec0::a:cf:b:c
-  nord3:
+  nordgw3:
     ipv4: 10.207.11.13
     ipv6: fec0::a:cf:b:d
