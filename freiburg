@@ -8,10 +8,10 @@ bgp:
     ipv6: fec0::a:cf:0:21
   freiburg2:
     ipv4: 10.207.0.48
-    ipv6: fec0::a:cf:0:22
+    ipv6: fec0::a:cf:0:30
   freiburg3:
     ipv4: 10.207.0.49
-    ipv6: fec0::a:cf:0:23
+    ipv6: fec0::a:cf:0:31
 networks:
   ipv4:
     - 10.60.0.0/16
