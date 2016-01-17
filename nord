@@ -4,8 +4,6 @@ asn: 65187
 networks:
   ipv4:
     - 10.187.0.0/16
-  ipv6:
-    - 2a03:2267:4e6f:7264::/64 
 domains:
   - ffnord
   - 187.10.in-addr.arpa
