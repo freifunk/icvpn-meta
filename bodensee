@@ -15,5 +15,5 @@ domains:
   - 160.11.10.in-addr.arpa
   - e.e.5.b.1.0.7.1.f.e.d.f.ip6.arpa
 nameservers:
-  - 10.11.160.42.1
+  - 10.11.160.42
   - fdef:1701:b5ee:42::1
