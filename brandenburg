@@ -9,3 +9,13 @@ networks:
 domains:
   - ffbrb
   - 147.10.in-addr.arpa
+bgp:
+  brandenburg1:
+    ipv4: 10.207.0.100
+    ipv6: fec0::a:cf:0:64
+  brandenburg2:
+    ipv4: 10.207.0.101
+    ipv6: fec0::a:cf:0:65
+  brandenburg3:
+    ipv4: 10.207.0.102
+    ipv6: fec0::a:cf:0:66
