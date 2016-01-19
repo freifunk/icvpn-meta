@@ -1,0 +1,5 @@
+domains:
+  - herbrich
+nameservers:
+  - 10.112.0.14
+  - 2a03:2267::b4ad:267b:ca48:cef9
