@@ -8,6 +8,9 @@ networks:
   ipv6:
     - fdd3:5d16:b5dd::/48
 bgp:
+  #Testsetup: IPv6-only-Peer mit Link Local Adresse
+  kbu1:
+    ipv6: fe80::57
   koeln1:
     ipv4: 10.207.0.57
     ipv6: fec0::a:cf:0:57
