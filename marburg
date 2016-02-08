@@ -1,8 +1,8 @@
-# This is your ASN.
 asn: 64877
 
 tech-c:
-- oleander@reis.cc
+- oleander@oleander.cc
+- post@0x21.biz
 - manu@dreivierteleins.de
 
 networks:
@@ -10,3 +10,17 @@ networks:
     - 10.128.0.0/18
   ipv6:
     - 2a06:4b00:1000::/56
+    - fd42:100c:7121::/48
+
+# Remarks:
+# fd42:100c:7121::/56 is translated to 2a06:4b00:1000::/56 via the experimental NPTv6 (RFC 6296).
+# We do NOT announce 2a06:4b00:1000::/56 via ICVPN.
+# Neither do we encourage the use of fd42:100c:7121::/48 to reach our community's networks.
+# We opted for the described behaviour because of the following reasons:
+#  - We do not know how prevalently implementations of IPv6 source address selection are in accordance with RFC 6724.
+#  - Sending more RAs means more noise.
+#  - Freifunk should be a part of the Internet and not our secret Darknet.
+#  - Routing Internet traffic through VPNs on top of it often comes with many quirks.
+#  - We still want interconnection with communites who do not have global unicast addresses in place.
+#    But we encourage them to opt for global IPv6 connectivity in the long run.
+# We may change this behaviour at any time. Do not rely on fd42:100c:7121::/48!
