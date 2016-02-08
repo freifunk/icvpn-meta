@@ -1,0 +1,13 @@
+tech-c:
+  - info@freifunk-altmuehltal.de
+asn: 65522
+networks:
+  ipv4:
+    - 10.15.16.0/20
+  ipv6:
+    - fdca:ffee:ffa1::/48
+domains:
+  - ffamt
+nameservers:
+  - 10.15.16.2
+  - 10.15.16.4
