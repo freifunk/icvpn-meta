@@ -9,15 +9,20 @@ domains:
   - 187.10.in-addr.arpa
 nameservers:
   - 10.187.136.1
+  - 10.187.150.1
   - 10.187.160.1
   - 10.187.170.1
   - 2a03:2267:4e6f:7264::fd00
+  - 2a03:2267:4e6f:7264::fd01
   - 2a03:2267:4e6f:7264::fd02
   - 2a03:2267:4e6f:7264::fd03
 bgp:
   nordgw0:
     ipv4: 10.207.11.10
     ipv6: fec0::a:cf:b:a
+  nordgw1:
+    ipv4: 10.207.11.11
+    ipv6: fec0::a:cf:b:b
   nordgw2:
     ipv4: 10.207.11.12
     ipv6: fec0::a:cf:b:c
