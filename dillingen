@@ -1,0 +1,17 @@
+asn: 65000
+
+tech-c:
+    - mitmachen@freifunk-saar.net
+
+networks:
+  ipv4:
+    - 10.55.0.0/18
+
+domains:
+    - ffsl
+    - 0-63.55.10.in-addr.arpa
+
+nameservers:
+    - 10.55.55.55
+    - 10.55.0.3
+    
