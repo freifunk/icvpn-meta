@@ -13,7 +13,7 @@ domains:
   - fflz 
 
 bgp:
-  fflz-gw1:
+  fflzgw1:
     ipv4: 10.207.0.29
     ipv6: fec0::a:cf:0:1d
 
