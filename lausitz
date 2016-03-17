@@ -1,0 +1,19 @@
+asn: 64876
+
+tech-c:
+  - noc@freifunk-lausitz.de
+
+networks:
+  ipv4:
+    - 10.39.0.0/16
+  ipv6:
+    - fd25:1952:c72e::/48
+
+domains:
+  - fflz 
+
+bgp:
+  fflz-gw1:
+    ipv4: 10.207.0.29
+    ipv6: fec0::a:cf:0:1d
+
