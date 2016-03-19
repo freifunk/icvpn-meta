@@ -43,4 +43,4 @@ bgp:
     ipv6: fec0::a:cf:b:f
   nordgw6:
     ipv4: 10.207.11.16
-    ipv6: fec0::a:cf:b:g    
+    ipv6: fec0::a:cf:b:10    
