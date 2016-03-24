@@ -6,5 +6,3 @@
   networks:
     ipv4:
       - 10.46.0.0/18
-  domains:
-    - ffnr
