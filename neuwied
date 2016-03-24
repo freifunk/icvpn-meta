@@ -1,0 +1,10 @@
+  # This is your ASN.
+  asn: 64883
+
+  tech-c:
+    - noc@freifunk-westerwald.de
+  networks:
+    ipv4:
+      - 10.46.0.0/18
+  domains:
+    - ffnr
