@@ -8,6 +8,9 @@ networks:
     - fdca:ffee:ffa::/48
     - 2001:bf7:2520::/44
 bgp:
+  augsburg1:
+    ipv4: 10.207.0.17
+    ipv6: fec0::a:cf:0:a
   augsburg2:
     ipv4: 10.207.0.68
 domains:
