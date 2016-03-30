@@ -1,0 +1,17 @@
+asn: 65001
+
+tech-c:
+    - mitmachen@freifunk-saarlouis.de
+
+networks:
+  ipv4:
+    - 10.55.64.0/18
+
+domains:
+    - ffsl_sls
+    - 64-127.55.10.in-addr.arpa
+
+nameservers:
+    - 10.55.66.55
+    - 10.55.64.3
+    
