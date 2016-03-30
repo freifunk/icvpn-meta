@@ -6,7 +6,7 @@ domains:
  - 102.10.in-addr.arpa
  - 103.10.in-addr.arpa
 nameservers:
- - 172.31.0.5
+ - 172.31.255.53
 networks:
   # https://wiki.hamburg.ccc.de/ChaosVPN:IPRanges
   ipv4:
