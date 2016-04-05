@@ -11,5 +11,4 @@ networks:
   # https://dn42.net/services/Whois#names-and-numbers_address-space
   ipv4:
     - 172.16.0.0/14 # reserved
-    - 172.20.0.0/16 # in use
-    - 172.22.0.0/15 # in use
+    - 172.20.0.0/14 # in use
