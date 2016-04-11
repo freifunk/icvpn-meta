@@ -22,7 +22,7 @@ networks:
 # Don't forget reverse zones!
 domains:
   - ffec
-  - f.4.3.4.2.6.5.4.c.e.d.f.ip6.arpa
+  - 0.0.0.0.f.4.3.4.2.6.5.4.c.e.d.f.ip6.arpa
 
 # A list of nameservers capable of resolving your domains. 
 # All nameservers must be able to handle all domains listed above!
