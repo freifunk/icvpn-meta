@@ -29,7 +29,6 @@ bgp:
 domains:
   - ffrg
   - ffen
-  - ffbo
   - ffdo
   - ffel
   - ffff
