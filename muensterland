@@ -6,7 +6,7 @@ asn: 65251
 # A list of people to contact in case of technical emergency.
 # Automated monitoring systems might use this.
 tech-c:
-  - info@freifunk-muenster.de
+  - info@freifunk-muensterland.de
 
   
 # Prefixes announced by your AS. This may be used for filtering
@@ -20,26 +20,19 @@ networks:
   ipv6:
     - 2a03:2260:115::/48
 
-# A list of BGP peers in IC-VPN announcing your AS.
-bgp:
-  muensterlandFusselkater:
-    ipv4: 10.207.0.44
-    ipv6: fec0::a:cf:0:44
-
 # If you're using custom TLDs, include them here.
 # Don't forget reverse zones!
 domains:
   - ffms
 
-  
 # A list of nameservers capable of resolving your domains.
 # All nameservers must be able to handle all domains listed above!  
 nameserver:
-  - 10.43.0.2
-  - 2a03:2260:115::2
-  - 10.43.0.4
-  - 2a03:2260:115::4
-  - 10.43.0.5
-  - 2a03:2260:115::5
-  - 10.43.0.6
-  - 2a03:2260:115::6
+  - 10.43.8.2
+  - 2a03:2260:115:100:2
+  - 10.43.8.3
+  - 2a03:2260:115:100:3
+  - 10.43.16.2
+  - 2a03:2260:115:200:2
+  - 10.43.16.3
+  - 2a03:2260:115:200:3
