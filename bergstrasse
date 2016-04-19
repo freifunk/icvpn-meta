@@ -4,4 +4,3 @@ asn: 64646
 networks:
   ipv4:
     - 10.1.160.0/19
-  ipv6:
