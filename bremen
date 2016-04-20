@@ -26,10 +26,3 @@ bgp:
   bremen6:
     ipv4: 10.207.6.196
     ipv6: fec0::a:cf:6:c4
-domains:
-  - ffhb
-  - c.2.f.0.9.1.1.5.f.2.d.f.ip6.arpa
-  - 196.10.in-addr.arpa
-nameservers:
-  - 10.196.0.1
-  - fd2f:5119:f2c::1
