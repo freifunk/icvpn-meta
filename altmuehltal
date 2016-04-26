@@ -3,11 +3,11 @@ tech-c:
 asn: 65522
 networks:
   ipv4:
-    - 10.15.16.0/20
+    - 10.202.0.0/18
   ipv6:
     - fdca:ffee:ffa1::/48
 domains:
   - ffamt
 nameservers:
-  - 10.15.16.2
-  - 10.15.16.4
+  - 10.202.2.2
+  - 10.202.2.4
