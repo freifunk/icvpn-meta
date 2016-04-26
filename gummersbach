@@ -1,5 +1,14 @@
 tech-c:
-  - info@freifunk-gummersbach.de
-asn: 65412
-domains:
-  - ffgm
+  - felix@vfn-nrw.de
+  - ruben@vfn-nrw.de
+networks:
+  ipv4:
+    - 10.253.128.0/17 #Gummersbach
+  ipv6:
+    - 2001:bf7:100:2261::/64
+    - fddf:ebfd:a801:2261::/64
+delegate:
+  65530:  
+    - 10.253.128.0/17 #Gummersbach
+    - 2001:bf7:100:2261::/64
+    - fddf:ebfd:a801:2261::/64
