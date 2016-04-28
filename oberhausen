@@ -8,4 +8,4 @@ networks:
     - fddf:ebfd:a801:ff00::/56
 
 domains:
-  - ffoh
+  - ffobh
