@@ -6,6 +6,7 @@ networks:
     - 10.198.0.0/16
   ipv6:
     - fdc6:c4fe:1de4::/48
+    - 2a03:2260:100d::/48
 bgp:
   westpfalz1:
     ipv4: 10.207.0.85
@@ -23,10 +24,10 @@ domains:
   - 198.10.in-addr.arpa
   - 4.e.d.1.e.f.4.c.6.c.d.f.ip6.arpa
 nameservers:
-  - 10.198.2.1
-  - 10.198.4.1
-  - 10.198.6.1
   - 10.198.8.1
+  - 10.198.16.1
+  - 10.198.24.1
+  - 10.198.32.1
   - fdc6:c4fe:1de4::c1
   - fdc6:c4fe:1de4::d1
   - fdc6:c4fe:1de4::e1
