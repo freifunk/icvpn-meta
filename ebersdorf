@@ -13,7 +13,7 @@ tech-c:
 # will be taken care of by the routing daemons.
 networks:
   ipv4:
-  - 10.11.204.0/22
+  - 10.11.184.0/22
   ipv6:
   - fdec:4562:434f::/64
 
@@ -25,7 +25,7 @@ networks:
 domains:
   - ffec
   - 0.0.0.0.f.4.3.4.2.6.5.4.c.e.d.f.ip6.arpa
-  - 204.11.10.in-addr.arpa
+  - 184.11.10.in-addr.arpa
 
 # A list of nameservers capable of resolving your domains. 
 # All nameservers must be able to handle all domains listed above!
