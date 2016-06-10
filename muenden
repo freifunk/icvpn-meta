@@ -1,0 +1,8 @@
+# Freifunk Münden Meta
+asn: 64856
+tech-c:
+  - hallo@ffhmue.de
+  - hallo@freifunk-hannmuenden.de
+networks:
+  ipv4:
+    - 10.13.64.0/20
