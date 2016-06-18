@@ -1,5 +1,5 @@
 tech-c:
-  - admin-ic1@freifunk-mainz.de
+  - icvpn@freifunk-mwu.de
 asn: 65036
 networks:
   ipv4:
@@ -7,10 +7,10 @@ networks:
   ipv6:
     - fd56:b4dc:4b1e::/48
 bgp:
-  wiesbaden1:
+  mwu23:
     ipv4: 10.207.0.56
     ipv6: fec0::a:cf:0:38
-  wiesbaden2:
+  mwu208:
     ipv4: 10.207.1.56
     ipv6: fec0::a:cf:1:38
 domains:
@@ -20,9 +20,11 @@ domains:
 nameservers:
   - 10.56.0.7
   - 10.56.0.23
+  - 10.56.0.161
   - 10.56.0.208
   - 10.56.0.231
   - fd56:b4dc:4b1e::a38:7
+  - fd56:b4dc:4b1e::a38:a1
   - fd56:b4dc:4b1e::a38:17
   - fd56:b4dc:4b1e::a38:d0
   - fd56:b4dc:4b1e::a38:e7
