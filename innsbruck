@@ -14,12 +14,3 @@ asn: 65052
     ffibk2:
       ipv4: 10.207.0.69
       ipv6: fec0::a:cf:0:45
-  domains:
-    - ffibk
-    - freifunk-innsbruck.at
-    - 13.10.in-addr.arpa
-  nameservers:
-    - 10.13.144.2
-    - 10.13.146.2
-    - fd13:b4dc:4b1e::11
-    - fd14:b4dc:4b1e::11
