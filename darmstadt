@@ -7,6 +7,8 @@ networks:
   ipv6:
     - fdca:ffee:ffda::/48
     - 2a03:2260:118::/48
+    - fd01:67c:2ed8::/48
+    - 2001:67c:2ed8::/48
 bgp:
   darmstadt1:
     ipv4: 10.207.0.216
