@@ -17,6 +17,8 @@ bgp:
   dreilaendereck3:
     ipv4: 10.207.0.71
     ipv6: fec0::a:cf:0:47
+delegate: 
+  64930:
 domains:
   - ff3l
   - 119.10.in-addr.arpa
