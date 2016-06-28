@@ -8,6 +8,11 @@ networks:
   ipv6:
     - fdc7:5384:30::/48
 
+delegate:
+  65043: # dreilaendereck
+    - 10.30.128.0/18
+    - fdc7:5384:30::/48
+
 domains:
   - fftut
   - 128.30.10.in-addr.arpa
