@@ -3,9 +3,9 @@ tech-c:
   - kpanic@ff3l.net
 
 networks:
-  ipv4
+  ipv4:
     - 10.30.128.0/18
-  ipv6
+  ipv6:
     - fdc7:5384:30::/48
 
 domains:
