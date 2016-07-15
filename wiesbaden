@@ -10,9 +10,6 @@ bgp:
   mwu23:
     ipv4: 10.207.0.56
     ipv6: fec0::a:cf:0:38
-  mwu208:
-    ipv4: 10.207.1.56
-    ipv6: fec0::a:cf:1:38
 domains:
   - ffwi.org
   - 56.10.in-addr.arpa
@@ -21,10 +18,8 @@ nameservers:
   - 10.56.0.7
   - 10.56.0.23
   - 10.56.0.161
-  - 10.56.0.208
   - 10.56.0.231
   - fd56:b4dc:4b1e::a38:7
   - fd56:b4dc:4b1e::a38:a1
   - fd56:b4dc:4b1e::a38:17
-  - fd56:b4dc:4b1e::a38:d0
   - fd56:b4dc:4b1e::a38:e7
