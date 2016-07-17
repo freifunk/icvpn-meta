@@ -1,0 +1,33 @@
+asn: 65065
+tech-c:
+  - j.lebherz@systemhaus-lebherz.de
+  
+networks:
+  ipv4:
+    - 10.70.0.0/16
+  ipv6:
+    - 2001:470:7237::/48
+  
+gbp:
+  zollernalb1:
+    ipv4: 10.207.1.70
+    ipv6: fec0::a:cf:1:45
+  zollernalb2:
+    ipv4: 10.207.1.71
+    ipv6: fec0::a:cf:1:46
+  zollernalb3:
+    ipv4: 10.207.1.72
+    ipv6: fec0::a:cf:1:47
+  zollernalb4:
+    ipv4: 10.207.1.73
+    ipv6: fec0::a:cf:1:48
+
+domains:
+  - ffza
+  - 70.10.in-addr.arpa
+
+nameservers:
+  - 10.70.10.1
+  - 10.70.15.1
+  - 2001:470:7237:0:1::1
+  - 2001:470:7237:0:2::1
