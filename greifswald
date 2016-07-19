@@ -1,0 +1,15 @@
+tech-c:
+  - technik@greifswald.freifunk.net
+asn: 65489
+networks:
+  ipv4:
+    - 10.143.0.0/16
+  ipv6:
+    - fdef:affe:edda::/48
+domains:
+  - ffhgw
+  - 143.10.in-addr.arpa
+  - a.d.d.e.e.f.f.a.f.e.d.f.ip6.arpa
+nameservers:
+  - 10.143.0.2
+  - fdef:affe:edda::2
