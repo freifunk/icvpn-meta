@@ -1,0 +1,11 @@
+tech-c:
+  - mail@ffbit.de
+asn: 65408
+networks:
+  ipv6:
+    - fda0:cab1:e1e5:5b11::/64
+domains:
+  - ffbit
+nameserver:
+  - fda0:cab1:e1e5:5b11:c0ff:ee::
+
