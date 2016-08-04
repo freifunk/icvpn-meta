@@ -7,7 +7,7 @@ networks:
     - 10.29.0.0/16
     - 10.26.0.0/16
   ipv6:
-    - fdaf:17a0:ffb1::/48
+    - fdef:17a0:ffb1::/48
     - 2001:bf7:1320::/44
 bgp:
   bielefeld1:
