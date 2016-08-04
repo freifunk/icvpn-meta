@@ -10,12 +10,9 @@ networks:
     - fdef:17a0:ffb1::/48
     - 2001:bf7:1320::/44
 bgp:
-  bielefeld1:
-    ipv4: 10.207.0.59
-    ipv6: fec0::a:cf:0:59
-  bielefeld6:
-    ipv4: 10.207.0.58
-    ipv6: fec0::a:cf:0:3a
   bielefeldbgp1:
     ipv4: 10.207.0.54
     ipv6: fec0::a:cf:0:36
+  bielefeldbgp2:
+    ipv4: 10.207.0.59
+    ipv6: fec0::a:cf:0:3b
