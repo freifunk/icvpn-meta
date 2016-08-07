@@ -5,34 +5,18 @@ networks:
   ipv4:
     - 10.223.0.0/16
   ipv6:
-    - fdca:ffee:ffda::/48
-    - 2a03:2260:118::/48
     - fd01:67c:2ed8::/48
     - 2001:67c:2ed8::/48
 bgp:
   darmstadt1:
     ipv4: 10.207.0.216
     ipv6: fec0::a:cf:0:d8
-  darmstadt2:
-    ipv4: 10.207.0.217
-    ipv6: fec0::a:cf:0:d9
-  darmstadt3:
-    ipv4: 10.207.0.218
-    ipv6: fec0::a:cf:0:da
-  darmstadt4:
-    ipv4: 10.207.0.219
-    ipv6: fec0::a:cf:0:db
 domains:
-  - ffda
   - ffda.io
-  - a.d.f.f.e.e.f.f.a.c.d.f.ip6.arpa
+  - 8.d.e.2.c.7.6.0.1.0.d.f.ip6.arpa
   - 223.10.in-addr.arpa
 nameservers:
-  - 10.223.0.1
-  - 10.223.0.2
-  - 10.223.0.3
-  - 10.223.0.4
-  - fdca:ffee:ffda::1
-  - fdca:ffee:ffda::2
-  - fdca:ffee:ffda::3
-  - fdca:ffee:ffda::4
+  - 10.223.254.55
+  - 10.223.254.56
+  - fd01:67c:2ed8:a::55:1
+  - fd01:67c:2ed8:a::56:1
