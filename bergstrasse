@@ -1,6 +1,7 @@
 tech-c:
-  - mail@marcus-bickel.de
+  - vorstand@freie-infrastruktur.de
 asn: 64646
 networks:
   ipv4:
     - 10.1.160.0/19
+    - 10.58.0.0/17
