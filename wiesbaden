@@ -7,7 +7,7 @@ networks:
   ipv6:
     - fd56:b4dc:4b1e::/48
 bgp:
-  mwu23:
+  wiesbaden_mwu23:
     ipv4: 10.207.0.56
     ipv6: fec0::a:cf:0:38
 domains:

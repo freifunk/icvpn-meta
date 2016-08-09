@@ -7,13 +7,13 @@ networks:
   ipv6:
     - fd37:b4dc:4b1e::/48
 bgp:
-  mwu7:
+  mainz_mwu7:
     ipv4: 10.207.1.37
     ipv6: fec0::a:cf:1:25
-  mwu231:
+  mainz_mwu231:
     ipv4: 10.207.0.37
     ipv6: fec0::a:cf:0:25
-  mwu161:
+  mainz_mwu161:
     ipv4: 10.207.37.161
     ipv6: fec0::a:cf:25:a1
 domains:

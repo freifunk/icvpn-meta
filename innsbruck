@@ -8,9 +8,9 @@ networks:
     - fd13:b4dc:4b1e::/64
     - fd14:b4dc:4b1e::/64
 bgp:
-  ffibk1:
+  innsbruck_ffibk1:
     ipv4: 10.207.0.67
     ipv6: fec0::a:cf:0:43
-  ffibk2:
+  innsbruck_ffibk2:
     ipv4: 10.207.0.69
     ipv6: fec0::a:cf:0:45
