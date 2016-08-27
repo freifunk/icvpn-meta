@@ -1,0 +1,10 @@
+tech-c:
+  - freemesh@varum.dk
+networks:
+  ipv4:
+    - 10.212.0.0/20
+#  ipv6:
+#    - what can we take here?
+domains:
+  - freemesh.dk
+  - fmdk
