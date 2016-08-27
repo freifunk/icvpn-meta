@@ -1,0 +1,90 @@
+asn: 64930
+tech-c:
+  - kpanic@ff3l.net
+
+networks:
+  ipv4:
+    - 10.30.128.0/18
+  ipv6:
+    - fdc7:5384:30::/48
+
+delegate:
+  65043: # dreilaendereck
+    - 10.30.128.0/18
+    - fdc7:5384:30::/48
+
+domains:
+  - fftut
+  - 128.30.10.in-addr.arpa
+  - 129.30.10.in-addr.arpa
+  - 130.30.10.in-addr.arpa
+  - 131.30.10.in-addr.arpa
+  - 132.30.10.in-addr.arpa
+  - 133.30.10.in-addr.arpa
+  - 134.30.10.in-addr.arpa
+  - 135.30.10.in-addr.arpa
+  - 136.30.10.in-addr.arpa
+  - 137.30.10.in-addr.arpa
+  - 138.30.10.in-addr.arpa
+  - 139.30.10.in-addr.arpa
+  - 140.30.10.in-addr.arpa
+  - 141.30.10.in-addr.arpa
+  - 142.30.10.in-addr.arpa
+  - 143.30.10.in-addr.arpa
+  - 144.30.10.in-addr.arpa
+  - 145.30.10.in-addr.arpa
+  - 146.30.10.in-addr.arpa
+  - 147.30.10.in-addr.arpa
+  - 148.30.10.in-addr.arpa
+  - 149.30.10.in-addr.arpa
+  - 150.30.10.in-addr.arpa
+  - 151.30.10.in-addr.arpa
+  - 152.30.10.in-addr.arpa
+  - 153.30.10.in-addr.arpa
+  - 154.30.10.in-addr.arpa
+  - 155.30.10.in-addr.arpa
+  - 156.30.10.in-addr.arpa
+  - 157.30.10.in-addr.arpa
+  - 158.30.10.in-addr.arpa
+  - 159.30.10.in-addr.arpa
+  - 160.30.10.in-addr.arpa
+  - 161.30.10.in-addr.arpa
+  - 162.30.10.in-addr.arpa
+  - 163.30.10.in-addr.arpa
+  - 164.30.10.in-addr.arpa
+  - 165.30.10.in-addr.arpa
+  - 166.30.10.in-addr.arpa
+  - 167.30.10.in-addr.arpa
+  - 168.30.10.in-addr.arpa
+  - 169.30.10.in-addr.arpa
+  - 170.30.10.in-addr.arpa
+  - 171.30.10.in-addr.arpa
+  - 172.30.10.in-addr.arpa
+  - 173.30.10.in-addr.arpa
+  - 174.30.10.in-addr.arpa
+  - 175.30.10.in-addr.arpa
+  - 176.30.10.in-addr.arpa
+  - 177.30.10.in-addr.arpa
+  - 178.30.10.in-addr.arpa
+  - 179.30.10.in-addr.arpa
+  - 180.30.10.in-addr.arpa
+  - 181.30.10.in-addr.arpa
+  - 182.30.10.in-addr.arpa
+  - 183.30.10.in-addr.arpa
+  - 184.30.10.in-addr.arpa
+  - 185.30.10.in-addr.arpa
+  - 186.30.10.in-addr.arpa
+  - 187.30.10.in-addr.arpa
+  - 188.30.10.in-addr.arpa
+  - 189.30.10.in-addr.arpa
+  - 190.30.10.in-addr.arpa
+  - 191.30.10.in-addr.arpa
+  - 0.3.0.0.4.8.3.5.7.c.d.f.ip6.arpa.
+
+nameservers:
+  - 10.119.0.5
+  - 10.119.0.8
+  - 10.119.0.10
+  - fdc7:3c9d:b889:a272::5
+  - fdc7:3c9d:b889:a272::8
+  - fdc7:3c9d:b889:a272::a

@@ -1,5 +1,5 @@
 tech-c:
-  - admin-ic1@freifunk-mainz.de
+  - icvpn@freifunk-mwu.de
 asn: 65037
 networks:
   ipv4:
@@ -7,12 +7,15 @@ networks:
   ipv6:
     - fd37:b4dc:4b1e::/48
 bgp:
-  mainz1:
-    ipv4: 10.207.0.37
-    ipv6: fec0::a:cf:0:25
-  mainz2:
+  mainz_mwu7:
     ipv4: 10.207.1.37
     ipv6: fec0::a:cf:1:25
+  mainz_mwu231:
+    ipv4: 10.207.0.37
+    ipv6: fec0::a:cf:0:25
+  mainz_mwu161:
+    ipv4: 10.207.37.161
+    ipv6: fec0::a:cf:25:a1
 domains:
   - ffmz.org
   - 37.10.in-addr.arpa
@@ -20,9 +23,9 @@ domains:
 nameservers:
   - 10.37.0.7
   - 10.37.0.23
-  - 10.37.0.208
+  - 10.37.0.161
   - 10.37.0.231
   - fd37:b4dc:4b1e::a25:7
   - fd37:b4dc:4b1e::a25:17
-  - fd37:b4dc:4b1e::a25:d0
+  - fd37:b4dc:4b1e::a25:a1
   - fd37:b4dc:4b1e::a25:e7

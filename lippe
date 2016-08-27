@@ -1,0 +1,10 @@
+# Freifunk Lippe Meta
+asn: 64884
+tech-c:
+  - mb@freifunk-lippe.de
+  - hd@freifunk-lippe.de
+networks:
+  ipv4:
+    - 10.15.0.0/18
+  ipv6:
+    - 2a03:2260:2004::/48

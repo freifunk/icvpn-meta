@@ -7,6 +7,6 @@ networks:
   ipv6:
     - fda0:747e:ab29:2241::/64
 bgp:
-  rsk1:
+  rheinsiegkreis_rsk1:
     ipv4: 10.207.0.111
     ipv6: fec0::a:cf:0:6f

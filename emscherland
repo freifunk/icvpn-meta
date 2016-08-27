@@ -1,3 +1,6 @@
 tech-c:
-  - kontakt@freifunk-ruhrgebiet.de
+  - kontakt@freifunk-emscherland.de
 asn: 65402
+networks:
+  ipv4:
+    - 10.13.192.0/18

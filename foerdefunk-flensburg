@@ -8,9 +8,9 @@ networks:
   ipv6:
     - fdff:49:461::/48
 bgp:
-  schleuse01:
+  flensburg_foer_schleuse01:
     ipv4: 10.207.0.65
     ipv6: fec0::a:cf:0:41
-  schleuse02:
+  flensburg_foer_schleuse02:
     ipv4: 10.207.0.66
     ipv6: fec0::a:cf:0:42
