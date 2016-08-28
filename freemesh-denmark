@@ -6,5 +6,4 @@ networks:
   ipv6:
     - fdf4:a50a:5c1f::/64
 domains:
-  - freemesh.dk
   - fmdk
