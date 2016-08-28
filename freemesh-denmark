@@ -5,5 +5,6 @@ networks:
     - 10.212.0.0/20
   ipv6:
     - fdf4:a50a:5c1f::/64
+asn: 64879
 domains:
   - fmdk
