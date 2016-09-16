@@ -9,6 +9,6 @@ domains:
 nameserver:
   - fda0:cab1:e1e5:5b11:c0ff:ee::
 bgp:
-	bitburg1:
-		ipv4: 10.207.0.50
-		ipv6: fec0::a:cf:0:32
+  bitburg1:
+    ipv4: 10.207.0.50
+    ipv6: fec0::a:cf:0:32
