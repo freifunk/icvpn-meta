@@ -1,0 +1,17 @@
+tech-c:
+ - florian@schaffenburg.org
+asn:64891
+domains:
+ - ads.schaffenburg.org
+ - schaffenburg.nato
+ - bitnet
+ - 18.198.in-addr.arpa
+nameservers:
+ - 198.18.0.6
+ - 77.109.146.132
+networks:
+  ipv4:
+    - 198.18.0.0/16
+bgp:
+  ic-vpn1:
+    ipv4: 10.207.0.29
