@@ -38,8 +38,6 @@ domains:
   - 235.10.in-addr.arpa
   - 234.10.in-addr.arpa 
   - 2.1.f.f.e.e.f.f.2.4.d.f.ip6.arpa
-  - 3.1.f.f.e.e.f.f.2.4.d.f.ip6.arpa
-  - 4.1.f.f.e.e.f.f.2.4.d.f.ip6.arpa
 
 nameservers:
   - 10.255.128.53
