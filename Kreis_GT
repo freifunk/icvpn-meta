@@ -1,45 +1,44 @@
 tech-c:
-  - technik@guetersloh.freifunk.net
+  - technik@freifunk-kreisgt.de
+
 asn: 65533
+
 networks:
   ipv4:
     - 10.255.0.0/16
-    - 10.234.0.0/16
-    - 10.235.0.0/16
+    - 10.234.0.0/15
   ipv6:
     - 2001:bf7:1310::/44
+    - 2a03:2260:117::/48
     - fd42:ffee:ff12::/48
-    - fd42:ffee:ff13::/48
-    - fd42:ffee:ff14::/48
+
 bgp:
-  gueterslohbgp3:
-    ipv4: 10.207.0.132
-    ipv6: fec0::a:cf:0:84
-  gueterslohbgp2:
-    ipv4: 10.207.0.133
-    ipv6: fec0::a:cf:0:85
-  guetersloh4:
-    ipv4: 10.207.0.134
-    ipv6: fec0::a:cf:0:86
-  gueterslohbgp1:
+  kreisgt_bgp1:
     ipv4: 10.207.0.136
     ipv6: fec0::a:cf:0:88
-  rhwdbgp1:
-    ipv4: 10.207.0.137
-    ipv6: fec0::a:cf:0:89
-  gueterslohbgp4:
+  kreisgt_bgp2:
+    ipv4: 10.207.0.133
+    ipv6: fec0::a:cf:0:85
+  kreisgt_bgp3:
+    ipv4: 10.207.0.132
+    ipv6: fec0::a:cf:0:84
+  kreisgt_bgp4:
     ipv4: 10.207.0.1
     ipv6: fec0::a:cf:0:1
+  kreisgt_tst1:
+    ipv4: 10.207.0.134
+    ipv6: fec0::a:cf:0:86
+  kreisgt_tst2:
+    ipv4: 10.207.0.137
+    ipv6: fec0::a:cf:0:89
 
 domains:
   - ffgt
   - 255.10.in-addr.arpa
   - 235.10.in-addr.arpa
   - 234.10.in-addr.arpa 
-  - 1.3.1.7.f.b.0.1.0.0.2.ip6.arpa
   - 2.1.f.f.e.e.f.f.2.4.d.f.ip6.arpa
-  - 3.1.f.f.e.e.f.f.2.4.d.f.ip6.arpa
-  - 4.1.f.f.e.e.f.f.2.4.d.f.ip6.arpa
+
 nameservers:
   - 10.255.128.53
   - 2001:bf7:1310:200::53
