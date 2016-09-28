@@ -1,0 +1,15 @@
+asn: 64857
+tech-c:
+    - sw@simonwunderlich.de
+    - sven@narfation.org
+networks:
+  ipv4:
+    - 10.204.0.0/16
+bgp:
+  ffv01:
+    ipv4: 10.207.0.29
+    ipv6: fec0::a:cf:0:1d
+  ffv03:
+    ipv4: 10.207.0.37
+    ipv6: fec0::a:cf:0:25
+
