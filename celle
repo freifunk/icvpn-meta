@@ -1,12 +1,16 @@
 asn: 64861
+
 tech-c:
   - info@freifunk-celle.de
+  - hostmaster@freifunk-celle.de
+
 networks:
   ipv4:
     - 10.252.0.0/18
   ipv6:
     - fd92:2dff:d232::/48
     - 2001:470:743f::/48
+
 domains:
   - freifunk-celle.de
   - 0.252.10.in-addr.arpa
@@ -75,7 +79,17 @@ domains:
   - 63.252.10.in-addr.arpa
   - 2.3.2.d.f.f.d.2.2.9.d.f.ip6.arpa
   - f.3.4.7.0.7.4.0.1.0.0.2.ip6.arpa
+
 nameservers:
   - 10.252.0.1
+  - 10.252.0.2
   - fd92:2dff:d232::1
-  - 2001:470:743f::1
+  - fd92:2dff:d232::2
+
+bgp:
+  celle1:
+    ipv4: 10.207.0.44
+    ipv6: fec0::a:cf:0:2c
+  celle2:
+    ipv4: 10.207.0.56
+    ipv6: fec0::a:cf:0:38
