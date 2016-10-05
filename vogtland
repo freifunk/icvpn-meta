@@ -8,10 +8,10 @@ networks:
   ipv6:
     - 2a03:2260:200f::/48
 bgp:
-  ffv01:
+  vogtland1:
     ipv4: 10.207.0.29
     ipv6: fec0::a:cf:0:1d
-  ffv03:
+  vogtland3:
     ipv4: 10.207.0.37
     ipv6: fec0::a:cf:0:25
 
