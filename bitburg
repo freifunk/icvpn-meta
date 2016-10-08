@@ -6,8 +6,8 @@ networks:
     - fda0:cab1:e1e5:5b11::/64
 domains:
   - ffbit
-nameserver:
-  - fda0:cab1:e1e5:5b11:c0ff:ee::
+nameservers:
+  - fda0:cab1:e1e5:5b11:c0ff:ee::0
 bgp:
   bitburg1:
     ipv4: 10.207.0.50
