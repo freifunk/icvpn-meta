@@ -6,7 +6,7 @@ networks:
     - fda0:cab1:e1e5:5b11::/64
 domains:
   - ffbit
-nameserver:
+nameservers:
   - fda0:cab1:e1e5:5b11:c0ff:ee::
 bgp:
   bitburg1:

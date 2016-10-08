@@ -28,7 +28,7 @@ domains:
 
 # A list of nameservers capable of resolving your domains.
 # All nameservers must be able to handle all domains listed above!  
-nameserver:
+nameservers:
   - 10.43.8.2
   - 2a03:2260:115:100::2
   - 10.43.8.3
