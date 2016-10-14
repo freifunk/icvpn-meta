@@ -1,19 +1,21 @@
 tech-c:
-  - kaj@stormarn.freifunk.net
-  - marc@stormarn.freifunk.net
+  - kaj@freifunk-stormarn.de
+  - marc@freifunk-stormarn.de
 networks:
   ipv4: 
     - 10.144.0.0/16
   ipv6:
     - fddf:bf7:80::/48
 nameservers:
-  - 10.144.0.3
-  - fddf:0bf7:80::a38:3
+  - 10.144.0.8
+  - fddf:0bf7:80::a38:8
+  - 10.144.0.13
+  - fddf:0bf7:80::a38:13
 domains:
-  - mein.stormarn.freifunk.net
+  - m.freifunk-stormarn.de
   
 bgp:
-  badoldesloe3:
+  badoldesloe:
     ipv4: 10.207.0.90
     ipv6: fec0::a:cf:0:90
     
