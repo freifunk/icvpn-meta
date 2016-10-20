@@ -20,7 +20,7 @@ bgp:
   trier3:
     ipv4: 10.207.0.222
     ipv6: fec0::a:cf:0:de
-  trier_refugee:
+  trier4:
     ipv4: 10.207.0.223
     ipv6: fec0::a:cf:0:df
 
