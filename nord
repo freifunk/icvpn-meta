@@ -81,6 +81,6 @@ bgp:
   nordgw13:
     ipv4: 10.207.11.23
     ipv6: fec0::a:cf:b:17
-   nordgw14:
+  nordgw14:
     ipv4: 10.207.11.24
     ipv6: fec0::a:cf:b:18
