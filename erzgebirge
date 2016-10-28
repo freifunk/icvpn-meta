@@ -1,0 +1,6 @@
+asn: 64886
+tech-c:
+  - sebastian.petters@gmail.com
+networks:
+  ipv4:
+    - 10.13.80.0/20
