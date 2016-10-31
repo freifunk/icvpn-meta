@@ -1,6 +1,20 @@
 asn: 64886
 tech-c:
   - sebastian.petters@gmail.com
+  - root@wotan.cc
 networks:
   ipv4:
     - 10.13.80.0/20
+  ipv6:
+    - 2001:bf8:100:100::/64
+bgp:
+  erz1:
+    ipv4: 10.207.0.58
+    ipv6: fec0::a:cf:0:3a
+domains:
+  - fferz
+  - 13.10.in-addr.arpa.
+  
+nameservers:
+  - 10.13.80.241
+  - 10.13.80.242
