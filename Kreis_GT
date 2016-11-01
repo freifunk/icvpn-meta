@@ -1,13 +1,14 @@
 tech-c:
   - technik@freifunk-kreisgt.de
 
-asn: 65533
+asn: 206813
 
 networks:
   ipv4:
     - 10.255.0.0/16
     - 10.234.0.0/15
   ipv6:
+    - 2a06:e881:1700::/44
     - 2001:bf7:1310::/44
     - 2a03:2260:117::/48
     - fd42:ffee:ff12::/48
