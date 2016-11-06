@@ -9,9 +9,6 @@ networks:
   ipv6:
     - fd4e:f2d7:88d2:fffe::/64
 
-bgp:
-# currently participating in the IC-VPN
-
 domains:
   - fflux
   - e.f.f.f.2.d.8.8.7.d.2.f.e.4.d.f.ip6.arpa
