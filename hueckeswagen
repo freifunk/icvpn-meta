@@ -1,20 +1,24 @@
+asn: 64887
 tech-c:
   - kevin@vfn-nrw.de
 networks:
   ipv4:
     - 10.146.0.0/16
   ipv6:
-    - 2001:bf7:100:2192::/64
     - fddf:ebfd:a801:2192::/64
+bgp:
+  homer:
+    ipv4: 10.207.0.70
+    ipv6: fec0::a:cf:0:46
+  zoidberg:
+    ipv4: 10.207.0.72
+    ipv6: fec0::a:cf:0:48
+  bender:
+    ipv4: 10.207.0.76
+    ipv6: fec0::a:cf:0:4c
 domains:
-  - ffhw
-  - 146.10.in-addr.arpa
-  - 2.9.1.2.0.0.1.0.7.f.b.0.1.0.0.2.ip6.arpa
   - 2.9.1.2.1.0.8.a.d.f.b.e.f.d.d.f.ip6.arpa
+  - 146.10.in-addr.arpa
 nameservers:
-  - 10.45.128.100 # ff-dns01.nic.ffhw
-delegate:
-  65530:  
-    - 10.146.0.0/16
-    - 2001:bf7:100:2192::/64
-    - fddf:ebfd:a801:2192::/64
+  - 10.146.1.0
+  
