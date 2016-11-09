@@ -7,13 +7,16 @@ networks:
   ipv6:
     - fddf:ebfd:a801:2192::/64
 bgp:
-  homer:
+  # homer
+  hueckeswagen01:
     ipv4: 10.207.0.70
     ipv6: fec0::a:cf:0:46
-  zoidberg:
+  # zoidberg
+  hueckeswagen02:
     ipv4: 10.207.0.72
     ipv6: fec0::a:cf:0:48
-  bender:
+  # bender
+  hueckeswagen03:
     ipv4: 10.207.0.76
     ipv6: fec0::a:cf:0:4c
 domains:
