@@ -1,5 +1,5 @@
 tech-c:
-  - ffki-noc@in-kiel.de
+  - ffki-noc@lists.in-kiel.de
   - sargon@toppoint.de
   - wklaebe@toppoint.de
 asn: 65525
@@ -21,5 +21,9 @@ domains:
   - 116.10.in-addr.arpa
 nameservers:
   - fda1:384a:74de:4242::ff00
+  - fda1:384a:74de:4242::ff01
   - fda1:384a:74de:4242::ff02
-  - fda1:384a:74de:4242::ff04
+  - fda1:384a:74de:4242::ff03
+  - fda1:384a:74de:4242::ff05
+  - fda1:384a:74de:4242::ff06
+  - fda1:384a:74de:4242::ff07
