@@ -1,0 +1,38 @@
+  # This is your ASN.
+  asn: 64889
+
+  # A list of people to contact in case of technical emergency.
+  # Automated monitoring systems might use this.
+  tech-c:
+    - heini66@gmail.com
+    - freifunk-kontakt@outlook.com
+
+  # Prefixes announced by your AS. This may be used for filtering
+  # routes. Keep the prefixes a short as possible. If you're
+  # assigned 10.130.0.0/20 while you're using just a subnet of it
+  # (e.g. 10.130.0.0/21) you must include 10.130.0.0/20 here. The details
+  # will be taken care of by the routing daemons.
+  networks:
+    ipv4:
+      - 10.15.64.0/18
+    ipv6:
+      - fd8f:14c7:d318::/48
+      
+  # A list of BGP peers in IC-VPN announcing your AS.
+  bgp:
+    ffndh1:
+      ipv4: 10.207.0.89
+      ipv6: fec0::a:cf:0:59
+
+  # If you're using custom TLDs, include them here.
+  # Don't forget reverse zones!
+  domains:
+    - ffndh
+    - 8.1.3.d.7.c.4.1.f.8.d.f.ip6.arpa
+    - 64.15.10.in-addr.arpa
+
+  # A list of nameservers capable of resolving your domains. 
+  # All nameservers must be able to handle all domains listed above!
+  nameservers:
+    - 10.15.64.1
+    - fd8f:14c7:d318::1
