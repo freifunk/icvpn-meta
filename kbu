@@ -11,6 +11,8 @@ bgp:
   kbutest:
     ipv6: fec0::a:cf:0:2a
     ipv4: 10.207.0.42
+  test_ll: 
+    ipv6: fe80::4c77:56ff:fe45:2432
   koeln1:
     ipv4: 10.207.0.57
     ipv6: fec0::a:cf:0:57
