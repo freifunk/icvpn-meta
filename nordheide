@@ -20,7 +20,7 @@
       
   # A list of BGP peers in IC-VPN announcing your AS.
   bgp:
-    ffndh1:
+    nordheide1:
       ipv4: 10.207.0.89
       ipv6: fec0::a:cf:0:59
 
