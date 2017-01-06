@@ -1,0 +1,19 @@
+tech-c:
+  - info@freemesh.ie
+asn: 206514
+networks:
+  ipv6:
+    - 2001:678:358::/48
+bgp:
+  freemesh_galway:
+    ipv4: 10.207.0.91
+    ipv6: fec0::a:cf:0:5b
+  freemesh_dublin:
+    ipv4: 10.207.0.92
+    ipv6: fec0::a:cf:0:5c
+domains:
+  - fmie
+  - 8.5.3.0.8.7.6.0.1.0.0.2.ip6.arpa
+nameservers:
+  - 2001:678:358::ffff
+  - 2001:678:358::fffe
