@@ -8,4 +8,4 @@ networks:
     - fd73:111:e824::/48
 domains:
   - ffoh
-# not going to happen anyway…: Nameserver eintragen
+# not going to happen anyway...: Nameserver eintragen
