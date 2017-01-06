@@ -1,9 +1,9 @@
 asn: 64877
 
 tech-c:
-- oleander@oleander.cc
-- post@0x21.biz
-- manu@dreivierteleins.de
+  - oleander@oleander.cc
+  - post@0x21.biz
+  - manu@dreivierteleins.de
 
 networks:
   ipv4:
