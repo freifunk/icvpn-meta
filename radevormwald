@@ -9,4 +9,4 @@ networks:
 domains:
  - ffrade
 nameservers:
-- 10.27.0.247
+ - 10.27.0.247
