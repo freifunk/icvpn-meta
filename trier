@@ -23,6 +23,9 @@ bgp:
   trier4:
     ipv4: 10.207.0.223
     ipv6: fec0::a:cf:0:df
+  trier5:
+    ipv4: 10.207.0.93
+    ipv6: fec0::a:cf:0:5d
 
 domains:
   - fftr
