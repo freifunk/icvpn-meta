@@ -1,0 +1,21 @@
+tech-c:
+  - info@freifunk-prignitz.de
+asn: 64891
+networks:
+  ipv4:
+    - 10.15.192.0/20
+  ipv6:
+    - fde8:21c6:370b::/48
+bgp:
+  prignitz:
+    ipv4: 10.207.0.94
+    ipv6: fec0::a:cf:0:5e
+domains:
+  - ffpr
+  - 192.15.10.in-addr.arpa
+  - b.0.7.3.6.c.1.2.8.e.d.f.ip6.arpa
+nameservers:
+  - 10.15.192.1
+  - 10.15.192.2
+  - fde8:21c6:370b::0a01
+  - fde8:21c6:370b::0b01
