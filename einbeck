@@ -1,0 +1,12 @@
+tech-c:
+  - technik@freifunk-einbeck.de
+asn: 64900
+networks:
+  ipv4:
+    - 10.49.0.0/18
+  ipv6:
+    - 2001:bf7:360::/44
+bgp:
+  einbeck1:
+    ipv4: 10.207.0.95
+    ipv6: fec0::a:cf:0:5f
