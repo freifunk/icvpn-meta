@@ -1,6 +1,7 @@
 tech-c:
   - mail@nazco.de
-asn: 76118
+  - nurtic-vibe@grmml.net
+asn: 64946
 networks:
   ipv4:
     - 10.142.0.0/16
