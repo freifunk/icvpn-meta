@@ -11,8 +11,8 @@ networks:
     
 domains:
   - ffcux
-  - a.d.f.a.1.f.0.c.c.e.d.f.ip6.arpa
-  - 115.10.in-addr.arpa
+# - a.d.f.a.1.f.0.c.c.e.d.f.ip6.arpa
+# - 115.10.in-addr.arpa
   
 nameservers:
   - fdec:c0f1:afda:4242::ff00
