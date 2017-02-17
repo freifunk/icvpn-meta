@@ -8,19 +8,6 @@ networks:
     - 10.116.0.0/16
   ipv6:
     - fda1:384a:74de::/48
-bgp:
-  #kiel0:
-    #ipv4: 10.207.0.52
-    #ipv6: fec0::a:cf:0:34
-  #kiel4:
-    #ipv4: 10.207.0.53
-    #ipv6: fec0::a:cf:0:35
-  kiel5:
-    ipv6: fec0::a:cf:0:4e
-  kiel6:
-    ipv6: fec0::a:cf:0:53
-  #kiel7:
-    #ipv6: fec0::a:cf:0:54
 domains:
   - ffki
   - e.d.4.7.a.4.8.3.1.a.d.f.ip6.arpa
