@@ -1,0 +1,10 @@
+tech-c:
+  - swen@home-area.net
+networks:
+  ipv4:
+    - 10.68.0.0/20
+  ipv6:
+    - fdbe:12d0:03d2::/64
+asn: 64892
+domains:
+  - ffbe
