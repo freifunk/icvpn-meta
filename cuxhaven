@@ -1,6 +1,5 @@
 tech-c:
-  - moin@freifunk-cuxhaven.de
-  - admin@ffcux.net
+  - gateway@ffcux.net
   
 asn: 65115
 networks:
