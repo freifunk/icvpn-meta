@@ -1,6 +1,17 @@
 tech-c:
   - kontakt@freifunk-ruhrgebiet.de
-asn: 65079
+asn: 
+    65079	Freifunk Ruhrgebiet
+    65400	Freifunk Ennepe-Ruhr-Kreis
+    65401	Freifunk Niersufer
+    65402	Freifunk Emscherland
+    65403	Freifunk Dortmund
+    65405	Freifunk Straelen
+    65406	Freifunk Essen
+    65407	Freifunk Rheinland Sandbox
+    65408	Freifunk Bochum
+    65409	Freifunk RG-West
+    65410	Freifunk Fichtenfunk
 networks:
   ipv4:
     - 10.0.0.0/16
