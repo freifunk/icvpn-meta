@@ -1,0 +1,8 @@
+tech-c:
+  - freifunk@foertel.com
+asn: 64889
+networks:
+  ipv4:
+    - 10.15.64.0/20
+  ipv6:
+    - 2a03:2260:200b:2::/48
