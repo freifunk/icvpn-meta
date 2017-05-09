@@ -1,0 +1,12 @@
+tech-c:
+  - ads@freifunk-glienicke.de
+  - info@freifunk-glienicke.de
+asn: 64894
+networks:
+  ipv4:
+    - 10.16.192.0/18
+  ipv6:
+    - fd10:2ea2:4dae::/48
+domains:
+  - ffglienicke
+  - ffoberhavel
