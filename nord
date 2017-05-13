@@ -8,15 +8,9 @@ domains:
   - ffnord
   - 187.10.in-addr.arpa
 nameservers:
-  - 10.187.136.1
-  - 10.187.210.1
-  - 2a03:2267:4e6f:7264::fd02
-  - 2a03:2267:4e6f:7264::fd07
+  - 10.187.1.1
+  - fd42:eb49:c0b5:4242::fd00
 bgp:
-  nordgw2:
+  nordgw0:
     ipv4: 10.207.11.12
     ipv6: fec0::a:cf:b:c 
-  nordgw7:
-    ipv4: 10.207.11.17
-    ipv6: fec0::a:cf:b:11
-    
