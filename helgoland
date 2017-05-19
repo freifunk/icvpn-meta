@@ -9,5 +9,5 @@ domains:
   - helgo
   - 189.10.in-addr.arpa
 nameservers:
-  - 10.112.1.1
-  - 2a03:2267::101
+  - 10.112.1.2
+  - 2a03:2267::102
