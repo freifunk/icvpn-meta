@@ -4,6 +4,8 @@ asn: 65019
 networks:
   ipv4:
     - 10.190.0.0/15
+  ipv6:
+    - fd21:b4dc:4b00::/40
 bgp:
   stuttgart0401:
     ipv4: 10.207.0.84
