@@ -2,8 +2,3 @@ tech-c:
     - lukas@doppel-l.de
     - info@tovotec-de
 asn: 65128
-networks:
-  ipv4:
-    - 172.16.0.0/16
-domains:
-    - ffshs 
