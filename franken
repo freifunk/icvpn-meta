@@ -6,7 +6,7 @@ networks:
     - 10.50.0.0/16
     - 10.83.0.0/16
 bgp:
-  franken_ro1:
+  franken_fff_icvpn:
     ipv4: 10.207.0.23
   franken_fff_gw_m1:
     ipv4: 10.207.0.26
