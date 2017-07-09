@@ -11,6 +11,9 @@ bgp:
   darmstadt1:
     ipv4: 10.207.0.216
     ipv6: fec0::a:cf:0:d8
+  darmstadt2:
+    ipv4: 10.207.0.217
+    ipv6: fec0::a:cf:0:d9
 domains:
   - ffda.io
   - 8.d.e.2.c.7.6.0.1.0.d.f.ip6.arpa
