@@ -16,6 +16,7 @@ bgp:
 domains:
   - fff.community
   - 50.10.in-addr.arpa
+  - 83.10.in-addr.arpa
 nameservers:
   - 10.50.40.10
   - 10.50.48.3
