@@ -11,21 +11,9 @@ networks:
 
 bgp:
   trier1:
-    ipv4: 10.207.0.220
-    ipv6: fec0::a:cf:0:dc
-  trier2:
-    ipv4: 10.207.0.221
-    ipv6: fec0::a:cf:0:dd
-  trier3:
-    ipv4: 10.207.0.222
-    ipv6: fec0::a:cf:0:de
-  trier4:
     ipv4: 10.207.0.223
     ipv6: fec0::a:cf:0:df
-  trier5:
-    ipv4: 10.207.0.93
-    ipv6: fec0::a:cf:0:5d
-  trier6:
+  trier2:
     ipv4: 10.207.0.224
     ipv6: fec0::a:cf:0:e0
 
@@ -35,7 +23,7 @@ domains:
   - 172.10.in-addr.arpa
 
 nameservers:
-  - 10.172.0.11
-  - 10.172.0.13
-  - 2001:bf7:fc0f::11
-  - 2001:bf7:fc0f::13
+  - 10.172.0.14
+  - 10.172.0.16
+  - 2001:bf7:fc0f::14
+  - 2001:bf7:fc0f::16
