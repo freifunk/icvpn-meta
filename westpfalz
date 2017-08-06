@@ -7,19 +7,19 @@ networks:
   ipv6:
     - fdc6:c4fe:1de4::/48
     - 2a03:2260:100d::/48
-bgp:
-  westpfalz1:
-    ipv4: 10.207.0.85
-    ipv6: fec0::a:cf:0:55
-  westpfalz2:
-    ipv4: 10.207.0.86
-    ipv6: fec0::a:cf:0:56
-  westpfalz3:
-    ipv4: 10.207.0.87
-    ipv6: fec0::a:cf:0:58
-  westpfalz4:
-    ipv4: 10.207.0.88
-    ipv6: fec0::a:cf:0:5a
+#bgp:
+#  westpfalz1:
+#    ipv4: 10.207.0.85
+#    ipv6: fec0::a:cf:0:55
+#  westpfalz2:
+#    ipv4: 10.207.0.86
+#    ipv6: fec0::a:cf:0:56
+#  westpfalz3:
+#    ipv4: 10.207.0.87
+#    ipv6: fec0::a:cf:0:58
+#  westpfalz4:
+#    ipv4: 10.207.0.88
+#    ipv6: fec0::a:cf:0:5a
 domains:
   - 198.10.in-addr.arpa
   - 4.e.d.1.e.f.4.c.6.c.d.f.ip6.arpa

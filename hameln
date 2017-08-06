@@ -24,9 +24,9 @@ domains:
   - 109.11.10.in-addr.arpa
   - 110.11.10.in-addr.arpa
   - 111.11.10.in-addr.arpa
-bgp:
-  hameln_ffhmgw01:
-    ipv4: 10.207.0.31
-    ipv6: fec0::a:cf:0:1f
+#bgp:
+#  hameln_ffhmgw01:
+#    ipv4: 10.207.0.31
+#    ipv6: fec0::a:cf:0:1f
 nameservers:
   - 10.11.96.1

@@ -6,10 +6,10 @@ networks:
     - 10.15.192.0/20
   ipv6:
     - fde8:21c6:370b::/48
-bgp:
-  prignitz:
-    ipv4: 10.207.0.94
-    ipv6: fec0::a:cf:0:5e
+#bgp:
+#  prignitz:
+#    ipv4: 10.207.0.94
+#    ipv6: fec0::a:cf:0:5e
 domains:
   - ffpr
   - 192.15.10.in-addr.arpa

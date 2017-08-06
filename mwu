@@ -9,18 +9,18 @@ networks:
     - fd37:b4dc:4b1e::/48 # Mainz
     - fd56:b4dc:4b1e::/48 # Wiesbaden
 bgp:
-  mwu7:
-    ipv4: 10.207.37.7
-    ipv6: fec0::a:cf:25:7
+#  mwu7:
+#    ipv4: 10.207.37.7
+#    ipv6: fec0::a:cf:25:7
   mwu23:
     ipv4: 10.207.37.23
     ipv6: fec0::a:cf:25:17
   mwu161:
     ipv4: 10.207.37.161
     ipv6: fec0::a:cf:25:a1
-  mwu231:
-    ipv4: 10.207.37.231
-    ipv6: fec0::a:cf:25:e7
+#  mwu231:
+#    ipv4: 10.207.37.231
+#    ipv6: fec0::a:cf:25:e7
 domains:
   - ffmwu.org
   - ffmz.org

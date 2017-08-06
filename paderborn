@@ -7,13 +7,13 @@ networks:
   ipv6:
     - fdca:ffee:ff12::/48
     - 2001:470:6d:860::/64
-bgp:
-  paderborn01:
-    ipv4: 10.207.0.231
-    ipv6: fec0::a:cf:0:e7
-  paderborn02:
-    ipv4: 10.207.0.232
-    ipv6: fec0::a:cf:0:e8
+#bgp:
+#  paderborn01:
+#    ipv4: 10.207.0.231
+#    ipv6: fec0::a:cf:0:e7
+#  paderborn02:
+#    ipv4: 10.207.0.232
+#    ipv6: fec0::a:cf:0:e8
 domains:
   - ffpb
   - 132.10.in-addr.arpa

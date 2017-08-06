@@ -6,19 +6,19 @@ networks:
     - 10.146.0.0/16
   ipv6:
     - fddf:ebfd:a801:2192::/64
-bgp:
-  # homer
-  hueckeswagen01:
-    ipv4: 10.207.0.70
-    ipv6: fec0::a:cf:0:46
-  # zoidberg
-  hueckeswagen02:
-    ipv4: 10.207.0.72
-    ipv6: fec0::a:cf:0:48
-  # bender
-  hueckeswagen03:
-    ipv4: 10.207.0.76
-    ipv6: fec0::a:cf:0:4c
+#bgp:
+#  # homer
+#  hueckeswagen01:
+#    ipv4: 10.207.0.70
+#    ipv6: fec0::a:cf:0:46
+#  # zoidberg
+#  hueckeswagen02:
+#    ipv4: 10.207.0.72
+#    ipv6: fec0::a:cf:0:48
+#  # bender
+#  hueckeswagen03:
+#    ipv4: 10.207.0.76
+#    ipv6: fec0::a:cf:0:4c
 domains:
   - 2.9.1.2.1.0.8.a.d.f.b.e.f.d.d.f.ip6.arpa
   - 146.10.in-addr.arpa

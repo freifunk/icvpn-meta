@@ -6,10 +6,10 @@ networks:
     - 10.185.0.0/16
   ipv6:
     - fd00:65a8:93a4::/48
-bgp:
-  fulda1:
-    ipv4: 10.207.0.32
-    ipv6: fec0::a:cf:0:20
+#bgp:
+#  fulda1:
+#    ipv4: 10.207.0.32
+#    ipv6: fec0::a:cf:0:20
 domains:
   - fffd
   - fffd.eu

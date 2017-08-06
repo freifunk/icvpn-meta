@@ -6,10 +6,10 @@ networks:
     - 10.186.0.0/16
   ipv6:
     - fda0:747e:ab29:7406::/64
-bgp:
-  hennef1:
-    ipv4: 10.207.0.189
-    ipv6: fec0::a:cf:0:bd
+#bgp:
+#  hennef1:
+#    ipv4: 10.207.0.189
+#    ipv6: fec0::a:cf:0:bd
 domains:
   - ffhef
   

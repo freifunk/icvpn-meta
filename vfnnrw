@@ -19,20 +19,20 @@ networks:
     - fddf:ebfd:a801:a::/64 #VfN-Veranstaltungsnetzwerk 2
     - 2001:bf7:100:ff::/64 #VfN-Sammelnetzwerk
     - fddf:ebfd:a801:ff::/64 #VfN-Sammelnetzwerk
-bgp:
-  nrw1:
-    ipv4: 10.207.0.7
-    ipv6: fec0::a:cf:0:7
-  nrw2:
-    ipv4: 10.207.0.8
-    ipv6: fec0::a:cf:0:8
-  nrw3:
-    ipv4: 10.207.0.55
-    ipv6: fec0::a:cf:0:37
-  nrw4:
-    ipv4: 10.207.66.6
-    ipv6: fec0::a:cf:42:6
-  nrw5:
-    ipv4: 10.207.66.66
-    ipv6: fec0::a:cf:42:42
+#bgp:
+#  nrw1:
+#    ipv4: 10.207.0.7
+#    ipv6: fec0::a:cf:0:7
+#  nrw2:
+#    ipv4: 10.207.0.8
+#    ipv6: fec0::a:cf:0:8
+#  nrw3:
+#    ipv4: 10.207.0.55
+#    ipv6: fec0::a:cf:0:37
+#  nrw4:
+#    ipv4: 10.207.66.6
+#    ipv6: fec0::a:cf:42:6
+#  nrw5:
+#    ipv4: 10.207.66.66
+#    ipv6: fec0::a:cf:42:42
 # FIXME: Nameserver eintragen
