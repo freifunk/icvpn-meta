@@ -7,10 +7,10 @@ networks:
     - 172.26.0.0/15
   ipv6:
     - fdd3:5d16:b5dd::/48
-bgp:
-  kbutest:
-    ipv6: fec0::a:cf:0:2a
-    ipv4: 10.207.0.42
-  koeln1:
-    ipv4: 10.207.0.57
-    ipv6: fec0::a:cf:0:57
+#bgp:
+#  kbutest:
+#    ipv6: fec0::a:cf:0:2a
+#    ipv4: 10.207.0.42
+#  koeln1:
+#    ipv4: 10.207.0.57
+#    ipv6: fec0::a:cf:0:57

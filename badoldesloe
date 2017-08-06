@@ -14,9 +14,9 @@ nameservers:
 domains:
   - m.freifunk-stormarn.de
   
-bgp:
-  badoldesloe:
-    ipv4: 10.207.0.90
-    ipv6: fec0::a:cf:0:90
+#bgp:
+#  badoldesloe:
+#    ipv4: 10.207.0.90
+#    ipv6: fec0::a:cf:0:90
     
 asn: 64859

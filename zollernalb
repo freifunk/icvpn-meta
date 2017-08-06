@@ -13,12 +13,12 @@ bgp:
      zollernalb1:
           ipv4: 10.207.1.70
           ipv6: fec0::a:cf:1:46
-     zollernalb2:
-          ipv4: 10.207.1.71
-          ipv6: fec0::a:cf:1:47
-     zollernalb3:
-          ipv4: 10.207.1.72
-          ipv6: fec0::a:cf:1:48
+#     zollernalb2:
+#          ipv4: 10.207.1.71
+#          ipv6: fec0::a:cf:1:47
+#     zollernalb3:
+#          ipv4: 10.207.1.72
+#          ipv6: fec0::a:cf:1:48
      zollernalb3:
           ipv4: 10.207.1.73
           ipv6: fec0::a:cf:1:49

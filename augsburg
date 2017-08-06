@@ -11,8 +11,8 @@ bgp:
   augsburg1:
     ipv4: 10.207.0.17
     ipv6: fec0::a:cf:0:a
-  augsburg2:
-    ipv4: 10.207.0.68
+#  augsburg2:
+#    ipv4: 10.207.0.68
 domains:
   - ffa
   - a.f.f.0.e.e.f.f.a.c.d.f.ip6.arpa

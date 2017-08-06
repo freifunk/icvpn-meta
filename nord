@@ -10,7 +10,7 @@ domains:
 nameservers:
   - 10.187.1.1
   - fd42:eb49:c0b5:4242::fd00
-bgp:
-  nordgw0:
-    ipv4: 10.207.11.12
-    ipv6: fec0::a:cf:b:c 
+#bgp:
+#  nordgw0:
+#    ipv4: 10.207.11.12
+#    ipv6: fec0::a:cf:b:c 

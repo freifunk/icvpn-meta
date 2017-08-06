@@ -9,7 +9,7 @@ networks:
   ipv6:  
     - fd0c:9a97:47dc::/48
 
-bgp:
-  heiligkreuztal_hkt01:
-    ipv4: 10.207.0.4
-    ipv6: fec0::a:cf:0:4
+#bgp:
+#  heiligkreuztal_hkt01:
+#    ipv4: 10.207.0.4
+#    ipv6: fec0::a:cf:0:4

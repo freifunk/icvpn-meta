@@ -4,10 +4,10 @@ asn: 64868
 networks:
   ipv4:
     - 10.35.0.0/16
-bgp:
-  cottbus1:
-    ipv4: 10.207.0.27
-    ipv6: fec0::a:cf:0:1b
-  cottbus2:
-    ipv4: 10.207.0.28
-    ipv6: fec0::a:cf:0:1c
+#bgp:
+#  cottbus1:
+#    ipv4: 10.207.0.27
+#    ipv6: fec0::a:cf:0:1b
+#  cottbus2:
+#    ipv4: 10.207.0.28
+#    ipv6: fec0::a:cf:0:1c

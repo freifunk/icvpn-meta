@@ -10,7 +10,7 @@ domains:
   - fflln
 nameservers:
   - 10.21.3.1
-bgp:
-  leichlingen0:
-    ipv4: 10.207.0.15
-    ipv6: fec0::a:cf:0:f
+#bgp:
+#  leichlingen0:
+#    ipv4: 10.207.0.15
+#    ipv6: fec0::a:cf:0:f

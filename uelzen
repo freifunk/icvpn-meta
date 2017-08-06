@@ -6,10 +6,10 @@ networks:
     - 10.134.0.0/16
   ipv6:
     - fd83:e002:c8a1::/48
-bgp:
-  uelzen_uegw1: 
-    ipv4: 10.207.0.18
-    ipv6: fec0::a:cf:0:12
+#bgp:
+#  uelzen_uegw1: 
+#    ipv4: 10.207.0.18
+#    ipv6: fec0::a:cf:0:12
 domains:
   - ffue
   - 134.10.in-addr.arpa

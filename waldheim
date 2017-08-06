@@ -9,8 +9,8 @@ bgp:
     ipv4: 10.207.0.45
   waldheim2:
     ipv4: 10.207.0.46
-  waldheim3:
-    ipv4: 10.207.0.47
+#  waldheim3:
+#    ipv4: 10.207.0.47
 domains:
   - ffwdh
   - 23.10.in-addr.arpa

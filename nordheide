@@ -19,10 +19,10 @@
       - fd8f:14c7:d318::/48
       
   # A list of BGP peers in IC-VPN announcing your AS.
-  bgp:
-    nordheide1:
-      ipv4: 10.207.0.89
-      ipv6: fec0::a:cf:0:59
+#  bgp:
+#    nordheide1:
+#      ipv4: 10.207.0.89
+#      ipv6: fec0::a:cf:0:59
 
   # If you're using custom TLDs, include them here.
   # Don't forget reverse zones!

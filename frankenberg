@@ -7,10 +7,10 @@ networks:
     - 10.15.128.0/18 
   ipv6: 
     - fddb:2cb:9699::/48  
-bgp: 
-  frankenberg1: 
-    ipv4: 10.207.0.60 
-    ipv6: fec0::a:cf:0:3c 
-  frankenberg2: 
-    ipv4: 10.207.0.62 
-    ipv6: fec0::a:cf:0:3e
+#bgp: 
+#  frankenberg1: 
+#    ipv4: 10.207.0.60 
+#    ipv6: fec0::a:cf:0:3c 
+#  frankenberg2: 
+#    ipv4: 10.207.0.62 
+#    ipv6: fec0::a:cf:0:3e

@@ -8,18 +8,18 @@ networks:
     - 2a06:8782::/32
     - fd2f:5119:f2c::/48
 bgp:
-  bremen1:
-    ipv4: 10.207.1.196
-    ipv6: fec0::a:cf:1:c4
+#  bremen1:
+#    ipv4: 10.207.1.196
+#    ipv6: fec0::a:cf:1:c4
   bremen2:
     ipv4: 10.207.2.196
     ipv6: fec0::a:cf:2:c4
-  bremen3:
-    ipv4: 10.207.3.196
-    ipv6: fec0::a:cf:3:c4
-  bremen4:
-    ipv4: 10.207.4.196
-    ipv6: fec0::a:cf:4:c4
+#  bremen3:
+#    ipv4: 10.207.3.196
+#    ipv6: fec0::a:cf:3:c4
+#  bremen4:
+#    ipv4: 10.207.4.196
+#    ipv6: fec0::a:cf:4:c4
   bremen5:
     ipv4: 10.207.5.196
     ipv6: fec0::a:cf:5:c4

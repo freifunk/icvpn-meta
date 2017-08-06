@@ -2,16 +2,16 @@ tech-c:
   - birger@brunswiek.org
   - mar@cccfr.de
 asn: 65060
-bgp:
-  freiburg1:
-    ipv4: 10.207.0.33
-    ipv6: fec0::a:cf:0:21
-  freiburg2:
-    ipv4: 10.207.0.48
-    ipv6: fec0::a:cf:0:30
-  freiburg3:
-    ipv4: 10.207.0.49
-    ipv6: fec0::a:cf:0:31
+#bgp:
+#  freiburg1:
+#    ipv4: 10.207.0.33
+#    ipv6: fec0::a:cf:0:21
+#  freiburg2:
+#    ipv4: 10.207.0.48
+#    ipv6: fec0::a:cf:0:30
+#  freiburg3:
+#    ipv4: 10.207.0.49
+#    ipv6: fec0::a:cf:0:31
 networks:
   ipv4:
     - 10.60.0.0/16

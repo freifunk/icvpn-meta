@@ -6,10 +6,10 @@ networks:
     - 10.2.0.0/16
   ipv6:
     - fdca:ffee:8::/64
-bgp:
-  hannover1:
-    ipv4: 10.207.0.22
-    ipv6: fec0::a:cf:0:16
+#bgp:
+#  hannover1:
+#    ipv4: 10.207.0.22
+#    ipv6: fec0::a:cf:0:16
 domains:
   - ffh
   - ffi
