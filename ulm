@@ -10,9 +10,9 @@ bgp:
     ulm5:
         ipv4: 10.207.0.150
         ipv6: fec0::a:cf:0:96
-#    ulm10:
-#        ipv4: 10.207.0.151
-#        ipv6: fec0::a:cf:0:97
+    ulm10:
+        ipv4: 10.207.0.151
+        ipv6: fec0::a:cf:0:97
 domains:
   - ffulm
   - 33.10.in-addr.arpa
