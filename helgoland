@@ -5,6 +5,9 @@ asn: 65189
 networks:
   ipv4:
     - 10.189.0.0/18
+delegate:
+  49009:
+    - 10.189.0.0/18
 domains:
   - helgo
   - 189.10.in-addr.arpa
