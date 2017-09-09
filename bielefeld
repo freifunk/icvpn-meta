@@ -9,6 +9,11 @@ networks:
   ipv6:
     - fdef:17a0:ffb1::/48
     - 2001:bf7:1320::/44
+delagte:
+ 4242420022:
+    - fdef:17a0:ffb1:ffff::/64
+    - 10.26.64.0/28
+    - 10.26.48.0/20
 bgp:
   bielefeldbgp1:
     ipv4: 10.207.0.54
