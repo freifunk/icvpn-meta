@@ -8,6 +8,7 @@ networks:
 bgp:
   franken_fff_icvpn:
     ipv4: 10.207.0.23
+    ipv6: fec0::a:cf:0:17
   franken_fff_gw_m1:
     ipv4: 10.207.0.26
   franken_fff_gw_m4:
