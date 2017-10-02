@@ -10,7 +10,8 @@ networks:
 bgp:
   dreilaendereck7:
     ipv4: 10.207.0.75
-    ipv6: fec0::a:cf:0:be
+    # disabled for bgp spamminess
+    # ipv6: fec0::a:cf:0:be
   dreilaendereck9:
     ipv4: 10.207.0.74
     ipv6: fec0::a:cf:0:ba  
