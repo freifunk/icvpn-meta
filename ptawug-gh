@@ -1,0 +1,9 @@
+tech-c:
+  - jp@shock.li
+  - jean-pierre@specternetworks.com
+asn:
+  - 64895
+networks:
+  ipv4:
+    - 10.11.176.0/22
+    - 10.11.180.0/22
