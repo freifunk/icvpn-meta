@@ -16,7 +16,6 @@ bgp:
     ipv6: fec0::a:cf:0:1
 domains:
   - ffffm
-  - ffffm.net
   - b.f.7.8.1.8.6.0.d.f.ip6.arpa
   - 126.10.in-addr.arpa
 nameservers:
