@@ -1,0 +1,16 @@
+asn: 65064
+tech-c:
+  - technik@freifunk-langweid.de
+networks:
+  ipv4:
+    - 10.66.0.0/20
+  ipv6:
+    - fd83:4b11:4dd4::/64 
+domains:
+  - fflw
+  - 4.d.d.4.1.1.b.4.3.8.d.f.ip6.arpa
+  - 66.10.in-addr.arpa
+nameservers:
+  - 10.66.0.10
+  - fd83:4b11:4dd4::1066
+
