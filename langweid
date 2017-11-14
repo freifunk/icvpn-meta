@@ -5,12 +5,12 @@ networks:
   ipv4:
     - 10.66.0.0/20
   ipv6:
-    - fd83:4b11:4dd4::/48
+    - fddf::/48
 domains:
   - fflw
-  - 4.d.d.4.1.1.b.4.3.8.d.f.ip6.arpa
+  - 0.0.0.0.0.0.0.0.f.d.d.f.ip6.arpa
   - 66.10.in-addr.arpa
 nameservers:
   - 10.66.0.10
-  - fd83:4b11:4dd4::1066
+  - fddf::1066
 
