@@ -11,3 +11,7 @@ domains:
   - 17.10.in-addr.arpa
 nameservers:
   - 10.17.250.1
+bgp:
+  jena1:
+    ipv4: 10.207.0.33
+    ipv6: fec0::a:cf:0:33
