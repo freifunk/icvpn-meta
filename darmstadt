@@ -3,7 +3,8 @@ tech-c:
   - icvpn@darmstadt.freifunk.net
 networks:
   ipv4:
-    - 10.223.0.0/16
+    - 10.104.0.0/16 # new
+    - 10.223.0.0/16 # legacy
   ipv6:
     - fd01:67c:2ed8::/48
     - 2001:67c:2ed8::/48
