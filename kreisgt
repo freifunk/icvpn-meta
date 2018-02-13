@@ -12,9 +12,9 @@ networks:
     - 2001:bf7:1310::/44
 
 bgp:
-  kreisgt_fks:
-    ipv4: 10.207.0.134
-    ipv6: fec0::a:cf:0:86
+  # kreisgt_fks:
+    # ipv4: 10.207.0.134
+    # ipv6: fec0::a:cf:0:86
   kreisgt_gut:
     ipv4: 10.207.0.137
     ipv6: fec0::a:cf:0:89

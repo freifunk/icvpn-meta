@@ -86,10 +86,11 @@ nameservers:
   - fd92:2dff:d232::1
   - fd92:2dff:d232::2
 
-bgp:
-  celle1:
-    ipv4: 10.207.0.44
-    ipv6: fec0::a:cf:0:2c
-#  celle2:
-#    ipv4: 10.207.0.56
-#    ipv6: fec0::a:cf:0:38
+# bgp:
+  # celle1:
+    # Received: Bad peer AS
+    # ipv4: 10.207.0.44
+    # ipv6: fec0::a:cf:0:2c
+  # celle2:
+    # ipv4: 10.207.0.56
+    # ipv6: fec0::a:cf:0:38
