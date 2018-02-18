@@ -5,9 +5,9 @@ networks:
   ipv4:
     - 10.8.0.0/16
     - 10.149.0.0/16
-# bgp:
-  # chemnitz1:
-    # ipv4: 10.207.0.36
+bgp:
+  chemnitz1:
+    ipv4: 10.207.0.36
 domains:
   - ffc
   - 8.10.in-addr.arpa
