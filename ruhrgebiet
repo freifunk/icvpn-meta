@@ -21,10 +21,10 @@ networks:
     - 2a02:f98:0:26::/64
     - 2a02:f98:0:27::/64
     - 2a02:f98:0:28::/64
-# bgp:
-  # ruhrgebiet1:
-    # ipv4: 10.207.0.79
-    # ipv6: fec0::a:cf:0:9
+bgp:
+  ruhrgebiet1:
+    ipv4: 10.207.0.79
+    ipv6: fec0::a:cf:0:9
 domains:
   - ffrg
   - ffen
