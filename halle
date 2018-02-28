@@ -4,13 +4,20 @@ asn: 65046
 networks:
   ipv4:
     - 10.62.0.0/16
+  ipv6:
+    - fd0f:8db3:d50a::/64
 bgp:
 #  halle1:
 #    ipv4: 10.207.0.13
-  halle2:
-    ipv4: 10.207.0.14
+#  halle2:
+#    ipv4: 10.207.0.14
 domains:
   - ffhal
   - ffde
   - ffwb
   - 62.10.in-addr.arpa
+nameservers:
+  - 10.62.1.1
+  - 10.62.0.0
+  - fd0f:8db3:d50a::2
+  - fd0f:8db3:d50a::100
