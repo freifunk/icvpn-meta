@@ -8,7 +8,7 @@ networks:
     - 10.55.128.0/18
 
 domains:
-    - ffsl_mzg
+#   - ffsl_mzg
     - 128-191.55.10.in-addr.arpa
 
 nameservers:

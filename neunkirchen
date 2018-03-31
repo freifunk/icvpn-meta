@@ -8,7 +8,7 @@ networks:
     - 10.55.192.0/18
 
 domains:
-    - ffsl_nk
+#   - ffsl_nk
     - 192-255.55.10.in-addr.arpa
 
 nameservers:

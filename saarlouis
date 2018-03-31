@@ -8,7 +8,7 @@ networks:
     - 10.55.64.0/18
 
 domains:
-    - ffsl_sls
+#   - ffsl_sls
     - 64-127.55.10.in-addr.arpa
 
 nameservers:
