@@ -1,3 +1,6 @@
+# this network was split given this allocation so it can 
+# easily be split from ff3l into a separate community.
+
 asn: 65044
 tech-c:
   - kpanic@ff3l.net
