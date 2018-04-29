@@ -5,6 +5,8 @@ networks:
   ipv4:
     - 10.50.0.0/16
     - 10.83.0.0/16
+  ipv6:
+    - fd43:5602:29bd::/48
 bgp:
   franken_icvpn:
     ipv4: 10.207.0.23
