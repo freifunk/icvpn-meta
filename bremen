@@ -23,6 +23,6 @@ bgp:
   bremen5:
     ipv4: 10.207.5.196
     ipv6: fec0::a:cf:5:c4
-  # bremen6:
-    # ipv4: 10.207.6.196
-    # ipv6: fec0::a:cf:6:c4
+  bremen6:
+    ipv4: 10.207.6.196
+    ipv6: fec0::a:cf:6:c4
