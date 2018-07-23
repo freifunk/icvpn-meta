@@ -9,7 +9,7 @@ networks:
 bgp:
   stuttgart0401:
     ipv4: 10.207.0.84
-    ipv6: fec0::a:cf:0:54
+    # ipv6: fec0::a:cf:0:54
   stuttgart0503:
     ipv4: 10.207.0.78
     ipv6: fec0::a:cf:0:4e

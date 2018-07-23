@@ -10,12 +10,12 @@ networks:
      - 2a05:ff01:b::/48
 
 bgp:
-     zollernalb1:
-          ipv4: 10.207.1.70
-          ipv6: fec0::a:cf:1:46
-     zollernalb2:
-          ipv4: 10.207.1.71
-          ipv6: fec0::a:cf:1:47
+  zollernalb1:
+    ipv4: 10.207.1.70
+    ipv6: fec0::a:cf:1:46
+  # zollernalb2:
+    # ipv4: 10.207.1.71
+    # ipv6: fec0::a:cf:1:47
 
   
 domains:

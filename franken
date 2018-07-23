@@ -13,8 +13,8 @@ bgp:
     ipv6: fec0::a:cf:0:17
   franken_fff_gw_m1:
     ipv4: 10.207.0.26
-  franken_fff_gw_m4:
-    ipv4: 10.207.0.83
+  # franken_fff_gw_m4:
+    # ipv4: 10.207.0.83
 
 domains:
   - fff.community

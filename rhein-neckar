@@ -7,7 +7,7 @@ networks:
     - 10.142.0.0/16
   ipv6:
     - 2a01:4f8:100:57ff::/64
-bgp:
-  rhein_neckar:
-    ipv4: 10.207.0.142
-    ipv6: fec0::a:cf:0:142
+# bgp:
+  # rhein_neckar:
+    # ipv4: 10.207.0.142
+    # ipv6: fec0::a:cf:0:142

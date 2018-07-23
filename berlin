@@ -19,10 +19,10 @@ networks:
     - 2001:bf7:840::/44
     - 2001:bf7:850::/44
     - 2001:bf7:860::/44
-bgp:
-  berlin1:
-    ipv4: 10.207.0.5
-    ipv6: fec0::a:cf:0:5
-  berlin2:
-    ipv4: 10.207.0.6
-    ipv6: fec0::a:cf:0:6
+# bgp:
+  # berlin1:
+    # ipv4: 10.207.0.5
+    # ipv6: fec0::a:cf:0:5
+  # berlin2:
+    # ipv4: 10.207.0.6
+    # ipv6: fec0::a:cf:0:6

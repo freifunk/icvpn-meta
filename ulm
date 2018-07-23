@@ -7,9 +7,9 @@ networks:
   ipv6:
     - fdef:17a0:fff1::/48
 bgp:
-    ulm10:
-        ipv4: 10.207.0.151
-        ipv6: fec0::a:cf:0:97
+  ulm10:
+    ipv4: 10.207.0.151
+    ipv6: fec0::a:cf:0:97
 domains:
   - ffulm
   - 33.10.in-addr.arpa
