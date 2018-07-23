@@ -9,8 +9,6 @@ networks:
     - fd06:8187:fb00::/40
     - 2a06:8187:fb00::/40
 bgp:
-  frankfurt1:
-    ipv4: 10.207.0.35
   frankfurt2:
     ipv4: 10.207.0.1
     ipv6: fec0::a:cf:0:1
