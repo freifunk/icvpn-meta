@@ -10,9 +10,9 @@ bgp:
   gera_greiz1:
     ipv4: 10.207.0.181
     ipv6: fec0::a:cf:0:b5
-  # gera_greiz2:
-    # ipv4: 10.207.0.182
-    # ipv6: fec0::a:cf:0:b6
+  gera_greiz2:
+    ipv4: 10.207.0.182
+    ipv6: fec0::a:cf:0:b6
   gera_greiz3:
     ipv4: 10.207.0.183
     ipv6: fec0::a:cf:0:b7
