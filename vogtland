@@ -11,9 +11,6 @@ bgp:
   vogtland1:
     ipv4: 10.207.0.29
     ipv6: fec0::a:cf:0:1d
-  vogtland3:
-    ipv4: 10.207.0.37
-    ipv6: fec0::a:cf:0:25
   vogtland4:
     ipv4: 10.207.0.93
     ipv6: fec0::a:cf:0:5d
