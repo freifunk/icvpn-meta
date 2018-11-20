@@ -2,9 +2,10 @@
 asn: 64884
 tech-c:
   - mb@freifunk-lippe.de
-  - hd@freifunk-lippe.de
+  - au@freifunk-lippe.de
 networks:
   ipv4:
     - 10.15.0.0/18
+    - 10.13.128.0/20
   ipv6:
     - 2a03:2260:2004::/48
