@@ -34,12 +34,12 @@ domains:
   - e.1.b.4.c.d.4.b.6.5.d.f.ip6.arpa
 nameservers:
   - 10.37.0.7
-  - fd37:b4dc:4b1e::a25:7
+  - fd37:b4dc:4b1e::7
   - 10.37.0.23
-  - fd37:b4dc:4b1e::a25:17
+  - fd37:b4dc:4b1e::17
   - 10.37.0.101
   - fd37:b4dc:4b1e::65
   - 10.37.0.161
-  - fd37:b4dc:4b1e::a25:a1
+  - fd37:b4dc:4b1e::a1
   - 10.37.0.231
-  - fd37:b4dc:4b1e::a25:e7
+  - fd37:b4dc:4b1e::e7
