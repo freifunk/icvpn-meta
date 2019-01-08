@@ -3,7 +3,7 @@ tech-c:
 asn: <insert here>
 networks:
   ipv4:
-    - 10.152.64/18
+    - 10.152.64.0/18
   ipv6:
     - fda4:1721:8451::/48
 #bgp:
