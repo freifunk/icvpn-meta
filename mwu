@@ -3,11 +3,13 @@ tech-c:
 asn: 65037
 networks:
   ipv4:
-    - 10.37.0.0/16 # Mainz
-    - 10.56.0.0/16 # Wiesbaden
+    - 10.86.0.0/15 # Multidomain
+    - 10.37.0.0/16 # Mainz legacy
+    - 10.56.0.0/16 # Wiesbaden legacy
   ipv6:
-    - fd37:b4dc:4b1e::/48 # Mainz
-    - fd56:b4dc:4b1e::/48 # Wiesbaden
+    - fd86:b4dc:4b1e::/48 # Multidomain
+    - fd37:b4dc:4b1e::/48 # Mainz legacy
+    - fd56:b4dc:4b1e::/48 # Wiesbaden legacy
 bgp:
   mwu7:
     ipv4: 10.207.37.7
