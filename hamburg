@@ -1,5 +1,4 @@
 tech-c:
-  - leo@hamburg.freifunk.net
   - noc@hamburg.freifunk.net
 asn: 49009
 networks:
@@ -10,19 +9,8 @@ networks:
 delegate:
   65189:
     - 2a03:2267:4e16::/48
-bgp:
-  hamburg01:
-    ipv4: 10.207.0.61
-    ipv6: fec0::a:cf:0:3d
-  # hamburg02:
-    # ipv4: 10.207.0.64
-    # ipv6: fec0::a:cf:0:40
-  hamburg03:
-    ipv4: 10.207.0.63
-    ipv6: fec0::a:cf:0:3f
 domains:
   - ffhh
   - 112.10.in-addr.arpa
 nameservers:
-  - 10.112.1.2
-  - 2a03:2267::102
+  - 2a03:2267:ffff:b00::3
