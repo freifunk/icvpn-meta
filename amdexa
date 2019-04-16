@@ -1,0 +1,8 @@
+tech-c:
+  - melan@amdexa.com
+asn: 64902
+networks:
+  ipv4:
+    - 10.24.64.0/20
+  ipv6:
+    - fd92:a682:9c0d::/48
