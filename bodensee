@@ -15,7 +15,6 @@ bgp:
         ipv4: 10.207.0.12
         ipv6: fec0::a:cf:0:c
 domains:
-  - ffbsee.net
   - 160.11.10.in-addr.arpa
   - 224.15.10.in-addr.arpa
   - e.e.5.b.1.0.7.1.f.e.d.f.ip6.arpa
