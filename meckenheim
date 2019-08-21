@@ -11,7 +11,7 @@ networks:
 domains:
   - ffvor
   - 64.152.10.in-addr.arpa
-  - a.1.0.3.0.6.2.2.3.0.d.2.ip6.arpa
+  - a.1.0.3.0.6.2.2.3.0.a.2.ip6.arpa
 nameservers:
   - 10.152.64.2
   - 10.152.64.3
@@ -19,11 +19,11 @@ nameservers:
   - 10.152.80.3
   - 2a03:2260:301a::1
   - 2a03:2260:301a::2
-bgp:
-  voreifel1:
-    ipv4: 10.152.64.2
-    ipv6: 2a03:2260:301a::1
-  voreifel2:
-    ipv4: 
-      - 10.152.64.3
-    ipv6: 2a03:2260:301a::2
+#bgp:
+#  voreifel1:
+#    ipv4: 10.152.64.2
+#    ipv6: 2a03:2260:301a::1
+#  voreifel2:
+#    ipv4: 
+#      - 10.152.64.3
+#    ipv6: 2a03:2260:301a::2
