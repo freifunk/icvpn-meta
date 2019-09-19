@@ -26,6 +26,11 @@ Notes on IPv4 allocations
 * If you need more than a /18 in one community or city you need a _very_ good explaination, why you do need it.
 * Minimum net size is /22, round up if you need less.
 
+Further Reading
+---------------
+
+- [IP-Netze](https://wiki.freifunk.net/IP-Netze)
+
 Example
 -------
 
