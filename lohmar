@@ -1,0 +1,25 @@
+# w.i.p.
+tech-c:
+  - lohmar@freifunk-rhein-sieg.net
+asn: 64896
+networks:
+  ipv4:
+    - 10.6.0.0/18
+  ipv6:
+    - /48
+#bgp:
+#  lohmar1:
+#    ipv4: 10.207.0.5
+#    ipv6: fec0::a:cf:0:5
+#  lohmar2:
+#    ipv4: 10.207.0.6
+#    ipv6: fec0::a:cf:0:6 
+domains:
+  - fflo
+  - 0.10.in-addr.arpa
+  - .ip6.arpa
+nameservers:
+  - 10.6.0.10
+  - 10.6.16.10
+  - :100::1
+  - :200::1
