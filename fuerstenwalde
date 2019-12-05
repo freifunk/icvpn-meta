@@ -1,0 +1,10 @@
+tech-c:
+  - fuerstenwalde@freifunk.net
+  - huefamm@web.de
+asn: 64904
+networks:
+  ipv4:
+    - 10.30.96.0/19
+    
+domains:
+- fffw

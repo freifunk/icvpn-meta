@@ -4,8 +4,13 @@ asn: 65099
 networks:
   ipv4:
     - 10.99.0.0/16
+  ipv6:
+    - fd0a:d928:b30d::/48
 bgp:
   # erfurt1:
     # ipv4: 10.207.0.9
   erfurt2:
     ipv4: 10.207.0.10
+  erfurt3:
+    ipv4: 10.207.0.155
+    ipv6: fec0::a:cf:0:1b

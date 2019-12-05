@@ -4,16 +4,21 @@ asn: 64875
 networks:
   ipv4:
     - 10.11.160.0/20
+    - 10.15.224.0/20 
   ipv6:
     - fdef:1701:b5ee::/48
 bgp:
     bodensee1:
         ipv4: 10.207.0.43
         ipv6: fec0::a:cf:0:2b
+    bodensee2:
+        ipv4: 10.207.0.12
+        ipv6: fec0::a:cf:0:c
 domains:
-  - ffbsee
   - 160.11.10.in-addr.arpa
+  - 224.15.10.in-addr.arpa
   - e.e.5.b.1.0.7.1.f.e.d.f.ip6.arpa
 nameservers:
   - 10.11.160.42
+  - 10.15.224.42
   - fdef:1701:b5ee:42::1
