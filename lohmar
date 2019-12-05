@@ -16,7 +16,7 @@ networks:
 #    ipv6: fec0::a:cf:0:6 
 domains:
   - fflo
-  - 0.10.in-addr.arpa
+  - 6.10.in-addr.arpa
   - .ip6.arpa
 nameservers:
   - 10.6.0.10
