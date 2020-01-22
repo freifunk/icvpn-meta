@@ -1,7 +1,8 @@
 sudo: false
 language: python
 python:
-  - "3.4"
+  - "3.7"
+  - "3.8"
 install:
   - pip install PyYAML requests
   - git clone https://github.com/freifunk/icvpn-scripts.git
