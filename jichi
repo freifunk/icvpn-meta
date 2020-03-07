@@ -9,8 +9,8 @@ networks:
 domains:
   - rqz
   - rj
-  - 206.10.in-addr.arpa
-  - 28a.4.3.6.2.0.0.0dfip6.arpa
+  - 63.206.10.in-addr.arpa
+  - 2.8.a.4.3.6.2.0.0.0.d.f.ip6.arpa
 nameservers:
   - 10.206.0.102
   - 10.206.0.103
