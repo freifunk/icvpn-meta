@@ -13,9 +13,9 @@ bgp:
   luebeck1:
     ipv4: 10.207.0.130
     ipv6: fec0::a:cf:0:82
-#  luebeck2:
-#    ipv4: 10.207.0.131
-#    ipv6: fec0::a:cf:0:83
+  luebeck2:
+    ipv4: 10.207.0.131
+    ipv6: fec0::a:cf:0:83
 domains:
   - ffhl
   - 7.d.d.3.0.c.f.f.f.e.d.f.ip6.arpa
