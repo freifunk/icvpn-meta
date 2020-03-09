@@ -22,7 +22,11 @@ domains:
   - 64/18.252.10.in-addr.arpa
 
 nameservers:
-  - 10.24.192.2
-  - 10.24.192.3
-  - fd4e:f2d7:88d2:ffff::2
-  - fd4e:f2d7:88d2:ffff::3
+  - 10.24.193.1
+  - 10.24.193.2
+  - 10.24.193.3
+  - 10.24.193.4
+  - fd4e:f2d7:88d2:ffff::101
+  - fd4e:f2d7:88d2:ffff::102
+  - fd4e:f2d7:88d2:ffff::103
+  - fd4e:f2d7:88d2:ffff::104
