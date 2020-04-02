@@ -9,10 +9,10 @@ networks:
     - 2a03:2260:123::/48
 #bgp:
 #  lohmar1:
-#    ipv4: 10.207.0.5
+#    ipv4: 10.6.0.5
 #    ipv6: fec0::a:cf:0:5
 #  lohmar2:
-#    ipv4: 10.207.0.6
+#    ipv4: 10.6.0.6
 #    ipv6: fec0::a:cf:0:6 
 domains:
   - fflo
