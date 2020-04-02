@@ -17,7 +17,7 @@ networks:
 domains:
   - fflo
   - 6.10.in-addr.arpa
-  - .ip6.arpa
+  - 3.2.1.0.0.6.2.2.3.0.a.2.ip6.arpa
 nameservers:
   - 10.6.0.10
   - 10.6.16.10
