@@ -20,6 +20,9 @@ bgp:
   mwu101:
     ipv4: 10.207.37.101
     ipv6: fec0::a:cf:25:65
+  mwu111:
+    ipv4: 10.207.37.111
+    ipv6: fec0::a:cf:25:6f
   mwu161:
     ipv4: 10.207.37.161
     ipv6: fec0::a:cf:25:a1
@@ -32,16 +35,21 @@ domains:
   - ffwi.org
   - 37.10.in-addr.arpa
   - 56.10.in-addr.arpa
+  - 86.10.in-addr.arpa
+  - 87.10.in-addr.arpa
   - e.1.b.4.c.d.4.b.7.3.d.f.ip6.arpa
   - e.1.b.4.c.d.4.b.6.5.d.f.ip6.arpa
+  - e.1.b.4.c.d.4.b.6.8.d.f.ip6.arpa
 nameservers:
-  - 10.37.0.7
-  - fd37:b4dc:4b1e::7
-  - 10.37.0.23
-  - fd37:b4dc:4b1e::17
-  - 10.37.0.101
-  - fd37:b4dc:4b1e::65
-  - 10.37.0.161
-  - fd37:b4dc:4b1e::a1
-  - 10.37.0.231
-  - fd37:b4dc:4b1e::e7
+  - 10.87.255.7
+  - fd86:b4dc:4b1e:ff::7
+  - 10.87.255.23
+  - fd86:b4dc:4b1e:ff::17
+  - 10.87.255.101
+  - fd86:b4dc:4b1e:ff::65
+  - 10.87.255.111
+  - fd86:b4dc:4b1e:ff::6f
+  - 10.87.255.161
+  - fd86:b4dc:4b1e:ff::a1
+  - 10.87.255.231
+  - fd86:b4dc:4b1e:ff::e7
