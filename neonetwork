@@ -1,0 +1,8 @@
+domains:
+  - neonetwork.unix
+  - 127.10.in-addr.arpa
+nameservers:
+  - 10.127.1.1
+networks:
+  ipv4:
+    - 10.127.0.0/16 # in use
