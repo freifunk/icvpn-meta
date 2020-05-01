@@ -1,5 +1,5 @@
 domains:
-  - .neo
+  - neo
   - 127.10.in-addr.arpa
 nameservers:
   - 10.127.255.2
