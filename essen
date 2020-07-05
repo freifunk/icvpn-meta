@@ -1,0 +1,8 @@
+tech-c:
+  - noc@freifunk-essen.de
+asn: 65406
+networks:
+  ipv4:
+    - 10.228.0.0/16
+domains:
+  - ffe

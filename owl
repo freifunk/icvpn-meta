@@ -1,0 +1,10 @@
+# Freifunk OWL (Lippe) Meta
+asn: 64902
+tech-c:
+  - mb@freifunk-lippe.de
+  - hd@freifunk-lippe.de
+networks:
+  ipv4:
+    - 10.88.0.0/16
+  ipv6:
+    - 2001:bf7:1350::/44

@@ -1,0 +1,26 @@
+tech-c:
+  - technik@freifunk-rhein-sieg.net
+# siegurg asn from Oliver
+# change to asn for Hagen later
+asn: 65201
+networks:
+  ipv4:
+    - 10.152.64.0/18
+  ipv6:
+    - fda4:1721:8451::/48
+#bgp:
+#  meckenheim1:
+#    ipv4: 10.207.0.152
+#    ipv6: fec0::a:cf:0:98
+#  meckenheim2:
+#    ipv4: 10.207.1.152
+#    ipv6: fec0::a:cf:1:98  
+domains:
+  - ffmck
+  - 64.152.10.in-addr.arpa
+  - 1.5.4.8.1.2.7.1.4.a.d.f.ip6.arpa
+nameservers:
+  - 10.152.64.10
+  - 10.152.80.10
+  - fda4:1721:8451:100::1
+  - fda4:1721:8451:200::1

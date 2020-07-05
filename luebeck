@@ -1,7 +1,7 @@
 tech-c:
   - nils@nilsschneider.net
   - mschiffer@universe-factory.net
-asn: 65052
+asn: 201173
 networks:
   ipv4:
     - 10.130.0.0/16
@@ -21,9 +21,11 @@ domains:
   - 7.d.d.3.0.c.f.f.f.e.d.f.ip6.arpa
   - 130.10.in-addr.arpa
 nameservers:
-  - 10.130.10.1
-  - 10.130.12.1
-  - 10.130.14.1
+  - fdef:ffc0:3dd7::801
   - fdef:ffc0:3dd7::a01
   - fdef:ffc0:3dd7::c01
   - fdef:ffc0:3dd7::e01
+  - 10.130.0.252
+  - 10.130.0.253
+  - 10.130.0.254
+  - 10.130.0.255

@@ -1,0 +1,16 @@
+tech-c:
+  - stefan@freifunk-bingen.de
+asn: 64858
+networks:
+  ipv4:
+    - 10.25.0.0/16
+#bgp:
+#  bingen1:
+#    ipv4: 10.207.0.25
+domains:
+  - freifunk-bingen.de
+  - ffbin
+  - 25.10.in-addr.arpa
+nameservers:
+  - 10.25.1.1
+  - 10.25.1.2

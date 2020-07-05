@@ -6,13 +6,13 @@ networks:
     - 10.129.0.0/16
   ipv6:
     - 2001:bf7:10::/44
-bgp:
-  flensburg1:
-    ipv4: 10.207.0.129
-    ipv6: fec0::a:cf:0:10
-  flensburg2:
-    ipv4: 10.207.0.128
-    ipv6: fec0::a:cf:0:11
+#bgp:
+#  flensburg1:
+#    ipv4: 10.207.0.129
+#    ipv6: fec0::a:cf:0:10
+#  flensburg2:
+#    ipv4: 10.207.0.128
+#    ipv6: fec0::a:cf:0:11
 domains:
   - fffl
 nameservers:

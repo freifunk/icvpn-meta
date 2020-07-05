@@ -1,0 +1,23 @@
+asn: 64525
+tech-c:
+  - technik@freifunk-uelzen.de
+networks:
+  ipv4:
+    - 10.134.0.0/16
+  ipv6:
+    - fd83:e002:c8a1::/48
+#bgp:
+#  uelzen_uegw1: 
+#    ipv4: 10.207.0.18
+#    ipv6: fec0::a:cf:0:12
+domains:
+  - ffue
+  - 134.10.in-addr.arpa
+  - 1.a.8.c.2.0.0.e.3.8.d.f.ip6.arpa
+nameservers:
+  - 10.134.10.1
+  - 10.134.20.1
+  - 10.134.30.1
+  - fd83:e002:c8a1::1
+  - fd83:e002:c8a1::2
+  - fd83:e002:c8a1::3

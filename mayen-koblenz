@@ -1,0 +1,22 @@
+tech-c:
+  - freifunk@ansgartaflinski.de
+  - freifunk@adlerweb.info
+  - freifunk@niyawe.de
+  - freifunk@loppermann.de
+asn: 65032
+bgp:
+  mayen_koblenz_myk1:
+    ipv4: 10.207.0.80
+    ipv6: fec0::a:cf:0:50
+#  mayen_koblenz_myk2:
+#    ipv4: 10.207.0.81
+#    ipv6: fec0::a:cf:0:51
+#  mayen_koblenz_myk3:
+#    ipv4: 10.207.0.82
+#    ipv6: fec0::a:cf:0:52
+networks:
+  ipv4:
+    - 10.222.0.0/16
+  ipv6:
+    - fd62:44e1:da::/48
+    - 2a03:2260:1016::/48

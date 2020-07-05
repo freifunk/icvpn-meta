@@ -1,0 +1,13 @@
+  asn: 64885
+
+  tech-c:
+    - patrik.herrscher@freifunk-rothenburg.de
+    - alexander.bass@freifunk-rothenburg.de
+
+  networks:
+    ipv4:
+      - 10.67.0.0/16
+    ipv6:
+      - fdf9:9417:5844::/64
+      - 2001:470:1f15:6d9::/64
+

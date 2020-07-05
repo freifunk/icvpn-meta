@@ -6,10 +6,10 @@ networks:
     - 10.38.0.0/16
   ipv6:
     - 2001:bf7:380::/44
-bgp:
-  braunschweig1:
-    ipv4: 10.207.0.40
-    ipv6: fec0::a:cf:0:28
-  braunschweig2:
-    ipv4: 10.207.0.41
-    ipv6: fec0::a:cf:0:29
+#bgp:
+#  braunschweig1:
+#    ipv4: 10.207.0.40
+#    ipv6: fec0::a:cf:0:28
+#  braunschweig2:
+#    ipv4: 10.207.0.41
+#    ipv6: fec0::a:cf:0:29

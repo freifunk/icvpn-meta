@@ -1,0 +1,11 @@
+tech-c:
+  - stefan@bka.li
+
+networks:
+  ipv4:
+    - 10.11.192.0/18
+  ipv6:
+    - fddf:ebfd:a801:ff00::/56
+
+domains:
+  - ffobh

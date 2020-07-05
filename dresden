@@ -1,16 +1,17 @@
 tech-c:
-  - freifunk@ddmesh.de
+  - freifunk@freifunk-dresden.de
 asn: 65051
 networks:
   ipv4:
     - 10.200.0.0/16
     - 10.201.0.0/16
+    - 10.203.0.0/16
   ipv6:
     - fd11:11ae:7466::/48 
-bgp:
-  dresden1:
-    ipv4: 10.207.0.19
-    ipv6: fec0::a:cf:dd:1
-  dresden2:
-    ipv4: 10.207.0.20
-    ipv6: fec0::a:cf:dd:2
+#bgp:
+#  dresden1:
+#    ipv4: 10.207.0.19
+#    ipv6: fec0::a:cf:dd:1
+#  dresden2:
+#    ipv4: 10.207.0.20
+#    ipv6: fec0::a:cf:dd:2

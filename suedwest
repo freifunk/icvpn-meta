@@ -1,0 +1,33 @@
+tech-c:
+  - it@freifunk-suedwest.de
+  - mirko@freifunk-suedwest.de
+asn: 65502
+networks:
+  ipv4:
+    - 10.210.0.0/18
+  ipv6:
+    - fd00:ffba:ffba:0000::/64
+
+domains:
+  - ffws
+  - ffweyher
+  - ffvp
+  - ffaw
+  - 0.0.0.0.a.b.f.f.a.b.f.f.0.0.d.f.ip6.arpa
+  - 210.10.in-addr.arpa
+
+nameservers:
+  - 10.210.0.101
+  - 10.210.0.102
+  - 10.210.0.103
+  - 10.210.0.104
+  - 10.210.0.105
+  - 10.210.0.106
+  - 10.210.0.199
+  - fd00:ffba:ffba::101
+  - fd00:ffba:ffba::102
+  - fd00:ffba:ffba::103
+  - fd00:ffba:ffba::104
+  - fd00:ffba:ffba::105
+  - fd00:ffba:ffba::106
+  - fd00:ffba:ffba::199

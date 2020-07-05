@@ -1,14 +1,12 @@
 tech-c:
-  - mail@nazco.de
-asn: 76118
+  - icvpn@ffrn.de
+asn: 64946
 networks:
   ipv4:
     - 10.142.0.0/16
-    - 172.23.138.0/23
   ipv6:
-    - 2a01:4f8:100:57ff::/64
-    - fd42:23:138::/48
-bgp:
-  rhein_neckar:
-    ipv4: 10.207.0.142
-    ipv6: fec0::a:cf:0:142
+    - fdc3:67ce:cc7e::/48
+# bgp:
+  # rhein_neckar:
+    # ipv4: 10.207.0.142
+    # ipv6: fec0::a:cf:0:142

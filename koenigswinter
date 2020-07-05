@@ -1,0 +1,14 @@
+tech-c:
+  - m1nzl3r@freifunk-koenigswinter.de
+asn: 64893
+networks:
+  ipv4:
+    - 10.15.64.0/18
+  ipv6:
+    - fda0:747e:ab29:7407::/64
+#bgp:
+#  koenigswinter1:
+#    ipv4: 10.207.0.53
+#    ipv6: fec0::a:cf:0:35
+domains:
+  - freifunk-koenigswinter.de

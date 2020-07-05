@@ -1,0 +1,37 @@
+asn: 64899
+
+tech-c:
+  - freifunk-vpn@saar.freifunk.net
+
+networks:
+  ipv4:
+    - 10.24.192.0/18
+    - 10.252.64.0/18
+  ipv6:
+    - fd4e:f2d7:88d2:ffff::/64
+    - fd4e:f2d7:88d2:fffd::/64
+    - fd4e:f2d7:88d2:fffc::/64
+    - fd4e:f2d7:88d2:fffb::/64
+    - fd4e:f2d7:88d2:fffa::/64
+    - fd4e:f2d7:88d2:fff9::/64
+    - fd4e:f2d7:88d2:fff8::/64
+
+#bgp:
+# Not participating in the IC-VPN yet!
+
+domains:
+  - ffsaar
+  - f.f.f.f.2.d.8.8.7.d.2.f.e.4.d.f.ip6.arpa
+  - d.f.f.f.2.d.8.8.7.d.2.f.e.4.d.f.ip6.arpa
+  - 192/18.24.10.in-addr.arpa
+  - 64/18.252.10.in-addr.arpa
+
+nameservers:
+  - 10.24.193.1
+  - 10.24.193.2
+  - 10.24.193.3
+  - 10.24.193.4
+  - fd4e:f2d7:88d2:ffff::101
+  - fd4e:f2d7:88d2:ffff::102
+  - fd4e:f2d7:88d2:ffff::103
+  - fd4e:f2d7:88d2:ffff::104

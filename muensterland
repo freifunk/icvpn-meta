@@ -1,0 +1,39 @@
+
+# This is your ASN.
+asn: 65251
+
+
+# A list of people to contact in case of technical emergency.
+# Automated monitoring systems might use this.
+tech-c:
+  - info@freifunk-muensterland.de
+
+  
+# Prefixes announced by your AS. This may be used for filtering
+# routes. Keep the prefixes a short as possible. If you're
+# assigned 10.130.0.0/16 while you're using just a subnet of it
+# (e.g. 10.130.0.0/20) you must include 10.130.0.0/16 here. The details
+# will be taken care of by the routing daemons.
+networks:
+  ipv4:
+    - 10.43.0.0/16
+    - 10.48.0.0/16
+  ipv6:
+    - 2a03:2260:115::/48
+
+# If you're using custom TLDs, include them here.
+# Don't forget reverse zones!
+domains:
+  - ffms
+
+# A list of nameservers capable of resolving your domains.
+# All nameservers must be able to handle all domains listed above!  
+nameservers:
+  - 10.43.8.2
+  - 2a03:2260:115:100::2
+  - 10.43.8.3
+  - 2a03:2260:115:100::3
+  - 10.43.16.2
+  - 2a03:2260:115:200::2
+  - 10.43.16.3
+  - 2a03:2260:115:200::3

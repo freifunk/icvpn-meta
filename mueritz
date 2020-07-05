@@ -1,18 +1,27 @@
 tech-c:
-  - wusel+ffmue@uu.org
+  - support@4830.org
+
 asn: 65534
+
 networks:
   ipv4:
     - 10.169.0.0/16
   ipv6:
-    - fd39:e4e3:eee1::/48
+    - 2001:bf7:170::/44
+
 bgp:
   mueritz_bgp1:
     ipv4: 10.207.0.138
     ipv6: fec0::a:cf:0:8a
+
 domains:
   - mueritz
   - 169.10.in-addr.arpa
-  - 9.a.a.0.1.e.e.e.3.e.4.e.9.3.d.f.ip6.arpa
-nameserver:
+
+nameservers:
   - 10.169.1.1
+
+delegate:
+  65533:
+   - 10.169.0.0/16
+   - 2001:bf7:170::/44

@@ -7,3 +7,15 @@ domains:
  - 103.10.in-addr.arpa
 nameservers:
  - 172.31.0.5
+ - 172.31.255.53
+networks:
+  # https://wiki.hamburg.ccc.de/ChaosVPN:IPRanges
+  ipv4:
+    - 10.4.0.0/16   # ChaosVPN Hamburg
+    - 10.9.0.0/16   # ChaosVPN Hannover
+    - 10.32.0.0/16  # ChaosVPN Hamburg
+    - 10.42.0.0/16  # ChaosVPN packbart
+    - 10.96.0.0/16  # ChaosVPN Stuttgart
+    - 10.100.0.0/14 # In use by American and other hackerspaces 
+    # Without warzones. Who would want to peer with a warzone anyway?
+    - 172.31.0.0/16 # In use by European Hackerspaces

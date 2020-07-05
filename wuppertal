@@ -1,15 +1,23 @@
 tech-c:
-  - felix@devtal.de
+  - phip@devtal.de
 asn: 65523
 networks:
   ipv4:
     - 10.3.0.0/16
   ipv6:
     - fda0:747e:ab29:e1ba::/64
-bgp:
-  wuppertal1:
-    ipv4: 10.207.0.73
-    ipv6: fec0::a:cf:0:71
+#bgp:
+#  wuppertal1:
+#    ipv4: 10.207.0.73
+#    ipv6: fec0::a:cf:0:71
 domains:
   - ffw
-# FIXME: Nameserver eintragen
+  - 3.10.in-addr.arpa
+  - a.b.1.e.9.2.b.a.e.7.4.7.0.a.d.f.ip6.arpa
+nameservers:
+  - 10.3.0.247
+  - 10.3.0.249
+  - 10.3.0.250
+  - 10.3.0.251
+  - fda0:747e:ab29:e1ba:ff07::1
+

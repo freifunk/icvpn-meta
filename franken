@@ -1,11 +1,26 @@
 tech-c:
-  - fragen@freifunk-franken.de
-  - casandro_lion@web.de
   - franken-dev@freifunk.net
 asn: 65024
 networks:
   ipv4:
     - 10.50.0.0/16
+    - 10.83.0.0/16
+  ipv6:
+    - fd43:5602:29bd::/48
 bgp:
-  franken_ro1:
+  franken_icvpn:
     ipv4: 10.207.0.23
+    ipv6: fec0::a:cf:0:17
+  franken_fff_gw_m1:
+    ipv4: 10.207.0.26
+  # franken_fff_gw_m4:
+    # ipv4: 10.207.0.83
+
+domains:
+  - fff.community
+  - 50.10.in-addr.arpa
+  - 83.10.in-addr.arpa
+nameservers:
+  - 10.50.40.10
+  - 10.83.252.11
+  - 10.50.252.0

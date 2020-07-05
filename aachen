@@ -1,0 +1,23 @@
+tech-c:
+  - technik@freifunk-aachen.de
+asn: 65077
+networks:
+  ipv4:
+    - 10.5.0.0/16
+    - 10.145.0.0/16
+  ipv6:
+    - 2a03:2260:114::/48
+bgp:
+  aachen1:
+    ipv4: 10.207.0.114
+    ipv6: fec0::a:cf:0:72
+domains:
+  - ffac
+  - 5.10.in-addr.arpa.
+  
+nameservers:
+  - 10.5.0.241
+  - 10.5.0.242
+  - 2a03:2260:114::1:53
+  - 2a03:2260:114::2:53
+

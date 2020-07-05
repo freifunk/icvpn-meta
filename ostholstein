@@ -6,10 +6,6 @@ networks:
     - 10.135.0.0/16
   ipv6:
     - fd73:111:e824::/48
-bgp:
-  ostholstein1:
-    ipv4: 10.207.0.135
-    ipv6: fec0::a:cf:0:87
 domains:
   - ffoh
-# FIXME: Nameserver eintragen
+# not going to happen anyway...: Nameserver eintragen

@@ -1,15 +1,38 @@
 tech-c:
-  - marcus@wolschon.biz
+  - birger@brunswiek.org
+  - mar@cccfr.de
 asn: 65060
+#bgp:
+#  freiburg1:
+#    ipv4: 10.207.0.33
+#    ipv6: fec0::a:cf:0:21
+#  freiburg2:
+#    ipv4: 10.207.0.48
+#    ipv6: fec0::a:cf:0:30
+#  freiburg3:
+#    ipv4: 10.207.0.49
+#    ipv6: fec0::a:cf:0:31
 networks:
   ipv4:
-    - 104.60.0.0/16
+    - 10.60.0.0/16
   ipv6:
     - fdf0:09bb:7814::/48
-bgp:
-  freiburg1:
-    ipv4: 10.207.0.21
-    ipv6: fec0::a:cf:0:21
+    - 2001:bf7:2810::/44
+delegate:
+  65043: # dreilaendereck
+    - 10.60.128.0/18
 domains:
   - fffr
-# FIXME: Nameserver eintragen
+  - 4.1.8.7.b.b.9.0.0.f.d.f.ip6.arpa
+  - 60.10.in-addr.arpa
+  - 0.1.8.2.7.f.b.0.1.0.0.2.ip6.arpa
+nameservers:
+  - 10.60.0.103
+  - 10.60.0.106
+  - 10.60.0.112
+  - fdf0:9bb:7814:a630::1113
+  - fdf0:9bb:7814:a630::1116
+  - fdf0:9bb:7814:a630::1122
+  - 2001:bf7:2810::1113
+  - 2001:bf7:2810::1116
+  - 2001:bf7:2810::1122

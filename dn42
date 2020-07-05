@@ -1,7 +1,16 @@
 domains:
   - dn42
+  - 20.172.in-addr.arpa
+  - 21.172.in-addr.arpa
   - 22.172.in-addr.arpa
   - 23.172.in-addr.arpa
 nameservers:
-  - 172.22.0.53
-  - fd42:d42:d42:53::1
+  # anycast resolvers
+  # a.recursive-servers.dn42
+  - 172.20.0.53
+  - fd42:d42:d42:54::1
+networks:
+  # https://dn42.net/services/Whois#names-and-numbers_address-space
+  ipv4:
+    - 172.16.0.0/14 # reserved
+    - 172.20.0.0/14 # in use

@@ -1,0 +1,96 @@
+asn: 64861
+
+tech-c:
+  - info@freifunk-celle.de
+  - hostmaster@freifunk-celle.de
+
+networks:
+  ipv4:
+    - 10.252.0.0/18
+  ipv6:
+    - fd92:2dff:d232::/48
+    - 2001:470:743f::/48
+
+domains:
+  - freifunk-celle.de
+  - 0.252.10.in-addr.arpa
+  - 1.252.10.in-addr.arpa
+  - 2.252.10.in-addr.arpa
+  - 3.252.10.in-addr.arpa
+  - 4.252.10.in-addr.arpa
+  - 5.252.10.in-addr.arpa
+  - 6.252.10.in-addr.arpa
+  - 7.252.10.in-addr.arpa
+  - 8.252.10.in-addr.arpa
+  - 9.252.10.in-addr.arpa
+  - 10.252.10.in-addr.arpa
+  - 11.252.10.in-addr.arpa
+  - 12.252.10.in-addr.arpa
+  - 13.252.10.in-addr.arpa
+  - 14.252.10.in-addr.arpa
+  - 15.252.10.in-addr.arpa
+  - 16.252.10.in-addr.arpa
+  - 17.252.10.in-addr.arpa
+  - 18.252.10.in-addr.arpa
+  - 19.252.10.in-addr.arpa
+  - 20.252.10.in-addr.arpa
+  - 21.252.10.in-addr.arpa
+  - 22.252.10.in-addr.arpa
+  - 23.252.10.in-addr.arpa
+  - 24.252.10.in-addr.arpa
+  - 25.252.10.in-addr.arpa
+  - 26.252.10.in-addr.arpa
+  - 27.252.10.in-addr.arpa
+  - 28.252.10.in-addr.arpa
+  - 29.252.10.in-addr.arpa
+  - 30.252.10.in-addr.arpa
+  - 31.252.10.in-addr.arpa
+  - 32.252.10.in-addr.arpa
+  - 33.252.10.in-addr.arpa
+  - 34.252.10.in-addr.arpa
+  - 35.252.10.in-addr.arpa
+  - 36.252.10.in-addr.arpa
+  - 37.252.10.in-addr.arpa
+  - 38.252.10.in-addr.arpa
+  - 39.252.10.in-addr.arpa
+  - 40.252.10.in-addr.arpa
+  - 41.252.10.in-addr.arpa
+  - 42.252.10.in-addr.arpa
+  - 43.252.10.in-addr.arpa
+  - 44.252.10.in-addr.arpa
+  - 45.252.10.in-addr.arpa
+  - 46.252.10.in-addr.arpa
+  - 47.252.10.in-addr.arpa
+  - 48.252.10.in-addr.arpa
+  - 49.252.10.in-addr.arpa
+  - 50.252.10.in-addr.arpa
+  - 51.252.10.in-addr.arpa
+  - 52.252.10.in-addr.arpa
+  - 53.252.10.in-addr.arpa
+  - 54.252.10.in-addr.arpa
+  - 55.252.10.in-addr.arpa
+  - 56.252.10.in-addr.arpa
+  - 57.252.10.in-addr.arpa
+  - 58.252.10.in-addr.arpa
+  - 59.252.10.in-addr.arpa
+  - 60.252.10.in-addr.arpa
+  - 61.252.10.in-addr.arpa
+  - 62.252.10.in-addr.arpa
+  - 63.252.10.in-addr.arpa
+  - 2.3.2.d.f.f.d.2.2.9.d.f.ip6.arpa
+  - f.3.4.7.0.7.4.0.1.0.0.2.ip6.arpa
+
+nameservers:
+  - 10.252.0.1
+  - 10.252.0.2
+  - fd92:2dff:d232::1
+  - fd92:2dff:d232::2
+
+# bgp:
+  # celle1:
+    # Received: Bad peer AS
+    # ipv4: 10.207.0.44
+    # ipv6: fec0::a:cf:0:2c
+  # celle2:
+    # ipv4: 10.207.0.56
+    # ipv6: fec0::a:cf:0:38

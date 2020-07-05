@@ -6,25 +6,27 @@ networks:
     - 10.119.0.0/16
   ipv6:
     - fdc7:3c9d:b889:a272::/64
+    - fdc7:3c9d:ff31::/48
 bgp:
-  dreilaendereck1:
-    ipv4: 10.207.0.75
-    ipv6: fec0::a:cf:0:be
-  dreilaendereck2:
+  # dreilaendereck7:
+    # ipv4: 10.207.0.75
+    # disabled for #reasons
+    # ipv6: fec0::a:cf:0:be
+  dreilaendereck9:
     ipv4: 10.207.0.74
     ipv6: fec0::a:cf:0:ba  
   dreilaendereck3:
-    ipv4: 10.207.0.72
-    ipv6: fec0::a:cf:0:bc
+    ipv4: 10.207.0.71
+    ipv6: fec0::a:cf:0:47
 domains:
   - ff3l
   - 119.10.in-addr.arpa
   - 2.7.2.a.9.8.8.b.d.9.c.3.7.c.d.f.ip6.arpa
+  - 1.3.f.f.d.9.c.3.7.c.d.f.ip6.arpa
 nameservers:
-  - 10.119.0.2
-  - 10.119.0.3
+  - 10.119.0.5
   - 10.119.0.4
-  - fdc7:3c9d:b889:a272::2
-  - fdc7:3c9d:b889:a272::3
+  - 10.119.0.10
+  - fdc7:3c9d:b889:a272::5
   - fdc7:3c9d:b889:a272::4
-
+  - fdc7:3c9d:b889:a272::a

@@ -1,0 +1,55 @@
+tech-c:
+  - icvpn@freifunk-mwu.de
+asn: 65037
+networks:
+  ipv4:
+    - 10.86.0.0/15 # Multidomain
+    - 10.37.0.0/16 # Mainz legacy
+    - 10.56.0.0/16 # Wiesbaden legacy
+  ipv6:
+    - fd86:b4dc:4b1e::/48 # Multidomain
+    - fd37:b4dc:4b1e::/48 # Mainz legacy
+    - fd56:b4dc:4b1e::/48 # Wiesbaden legacy
+bgp:
+  mwu7:
+    ipv4: 10.207.37.7
+    ipv6: fec0::a:cf:25:7
+  mwu23:
+    ipv4: 10.207.37.23
+    ipv6: fec0::a:cf:25:17
+  mwu101:
+    ipv4: 10.207.37.101
+    ipv6: fec0::a:cf:25:65
+  mwu111:
+    ipv4: 10.207.37.111
+    ipv6: fec0::a:cf:25:6f
+  mwu161:
+    ipv4: 10.207.37.161
+    ipv6: fec0::a:cf:25:a1
+  mwu231:
+    ipv4: 10.207.37.231
+    ipv6: fec0::a:cf:25:e7
+domains:
+  - ffmwu.org
+  - ffmz.org
+  - ffwi.org
+  - 37.10.in-addr.arpa
+  - 56.10.in-addr.arpa
+  - 86.10.in-addr.arpa
+  - 87.10.in-addr.arpa
+  - e.1.b.4.c.d.4.b.7.3.d.f.ip6.arpa
+  - e.1.b.4.c.d.4.b.6.5.d.f.ip6.arpa
+  - e.1.b.4.c.d.4.b.6.8.d.f.ip6.arpa
+nameservers:
+  - 10.87.255.7
+  - fd86:b4dc:4b1e:ff::7
+  - 10.87.255.23
+  - fd86:b4dc:4b1e:ff::17
+  - 10.87.255.101
+  - fd86:b4dc:4b1e:ff::65
+  - 10.87.255.111
+  - fd86:b4dc:4b1e:ff::6f
+  - 10.87.255.161
+  - fd86:b4dc:4b1e:ff::a1
+  - 10.87.255.231
+  - fd86:b4dc:4b1e:ff::e7

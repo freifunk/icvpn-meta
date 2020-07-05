@@ -1,0 +1,17 @@
+asn: 65003
+
+tech-c:
+    - mitmachen@freifunk-neunkirchen.de
+
+networks:
+  ipv4:
+    - 10.55.192.0/18
+
+domains:
+#   - ffsl_nk
+    - 192-255.55.10.in-addr.arpa
+
+nameservers:
+    - 10.55.255.55
+    - 10.55.192.3
+    

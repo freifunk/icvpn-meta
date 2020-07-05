@@ -1,5 +1,5 @@
 tech-c:
-  - ffki-noc@in-kiel.de
+  - ffki-noc@lists.in-kiel.de
   - sargon@toppoint.de
   - wklaebe@toppoint.de
 asn: 65525
@@ -8,13 +8,10 @@ networks:
     - 10.116.0.0/16
   ipv6:
     - fda1:384a:74de::/48
-bgp:
-  kiel0:
-    #ipv4: 10.207.0.52
-    ipv6: fec0::a:cf:0:34
-  #kiel3:
-  #  #ipv4: 10.207.0.59
-  #  ipv6: fec0::a:cf:0:3b
+# bgp:
+  # kiel0:
+    # ipv4: 10.207.0.52
+    # ipv6: fec0::a:cf:0:34
 domains:
   - ffki
   - e.d.4.7.a.4.8.3.1.a.d.f.ip6.arpa
@@ -22,4 +19,8 @@ domains:
 nameservers:
   - fda1:384a:74de:4242::ff00
   - fda1:384a:74de:4242::ff01
+  - fda1:384a:74de:4242::ff02
   - fda1:384a:74de:4242::ff03
+  - fda1:384a:74de:4242::ff05
+  - fda1:384a:74de:4242::ff06
+  - fda1:384a:74de:4242::ff07

@@ -1,0 +1,11 @@
+tech-c:
+  - noc@freifunk-altdorf.de
+networks:
+  ipv4:
+    - 10.120.0.0/16
+  ipv6:
+    - fdef:ffc0:4ffa::/48
+    - 2001:470:733f::/48
+domains:
+  - freifunk-altdorf.de
+  - tecff.de

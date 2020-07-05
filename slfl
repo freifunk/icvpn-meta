@@ -1,0 +1,15 @@
+tech-c:
+  - technick@ffslfl.net
+asn: 64901
+networks:
+  ipv4:
+    - 10.24.32.0/19
+  ipv6:
+    - fd07:96ae:572e::/48
+#bgp:
+#  slfl1:
+#    ipv4: 10.207.0.99
+#    ipv6: fec0::a:cf:0:63
+#  slfl2:
+#    ipv4: 10.207.0.98
+#    ipv6: fec0::a:cf:0:62

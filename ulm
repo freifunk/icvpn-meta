@@ -1,0 +1,12 @@
+tech-c:
+    - info@freifunk-ulm.de
+asn: 64860
+networks:
+  ipv4:
+    - 10.33.0.0/16
+  ipv6:
+    - fdef:17a0:fff1::/48
+domains:
+  - ffulm
+  - 33.10.in-addr.arpa
+  - 1.f.f.f.0.a.7.1.f.e.d.f.ip6.arpa

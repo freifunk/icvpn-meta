@@ -1,20 +1,29 @@
 asn: 65022
+
 tech-c:
-  - icvpn@basisbit.de
+  - icvpn-trier@starletp9.de
+
 networks:
   ipv4:
     - 10.172.0.0/16
   ipv6:
-    - fdca:ffee:fc0f::/64
+    - 2001:bf7:fc00::/44
+
 bgp:
   trier1:
-    ipv4: 10.207.0.220
-    ipv6: fec0::a:cf:0:dc
+    ipv4: 10.207.0.223
+    ipv6: fec0::a:cf:0:df
   trier2:
-    ipv4: 10.207.0.221
-    ipv6: fec0::a:cf:0:dd
+    ipv4: 10.207.0.224
+    ipv6: fec0::a:cf:0:e0
+
 domains:
   - fftr
-  - f.0.c.f.e.e.f.f.a.c.d.f.ip6.arpa
+  - 0.c.f.7.f.b.0.1.0.0.2.ip6.arpa
   - 172.10.in-addr.arpa
-  
+
+nameservers:
+  - 10.172.0.14
+  - 10.172.0.16
+  - 2001:bf7:fc0f::14
+  - 2001:bf7:fc0f::16

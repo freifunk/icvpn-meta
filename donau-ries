@@ -1,0 +1,8 @@
+tech-c:
+  - noc@freifunk-donau-ries.de
+networks:
+  ipv4: 
+    - 10.11.144.0/20
+  ipv6:
+    - fdc4:d762:2143::/48
+asn: 64874

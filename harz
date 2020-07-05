@@ -1,0 +1,22 @@
+tech-c:
+  - technik@harz.freifunk.net 
+asn: 65134
+networks:
+  ipv4:
+    - 10.7.0.0/16
+  ipv6:
+    - fd0e:8db3:d50a::/64
+#bgp:
+#  harz1:
+#    ipv4: 10.207.0.11
+#    ipv6: fec0::a:cf:0:b
+
+domains:
+  - ffharz
+  - 7.10.in-addr.arpa
+
+nameservers:
+  - 10.7.0.2
+  - 10.7.0.10
+  - fd0e:8db3:d50a::2
+  - fd0e:8db3:d50a::100 

@@ -1,0 +1,8 @@
+tech-c:
+  - technik@freifunk-elm-lappwald.de
+asn: 65138
+networks:
+  ipv4:
+    - 10.138.0.0/16
+  ipv6:
+    - 2001:bf7:130::/44

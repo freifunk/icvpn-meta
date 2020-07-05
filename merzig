@@ -1,0 +1,16 @@
+asn: 65002
+
+tech-c:
+    - mitmachen@freifunk-merzig.de
+
+networks:
+  ipv4:
+    - 10.55.128.0/18
+
+domains:
+#   - ffsl_mzg
+    - 128-191.55.10.in-addr.arpa
+
+nameservers:
+    - 10.55.155.55
+    - 10.55.128.3

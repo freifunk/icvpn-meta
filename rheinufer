@@ -9,10 +9,7 @@ networks:
   ipv6:
     - fda0:747e:ab29:cafe::/64
 
-bgp:
-  rheinufer1:
-    ipv4: 10.207.0.76
-    ipv6: fec0::a:cf:0:4c
-  rheinufer3:
-    ipv4: 10.207.0.77
-    ipv6: fec0::a:cf:0:4d
+#bgp:
+#  rheinufer3:
+#    ipv4: 10.207.0.77
+#    ipv6: fec0::a:cf:0:4d

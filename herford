@@ -1,0 +1,19 @@
+tech-c:    
+    - info@herford.freifunk.net
+
+asn: 64866
+
+networks:  
+    ipv4:    
+      - 10.34.0.0/16   
+    ipv6:    
+      - fdf3:2049:5152::/48
+    
+#bgp:  
+#    herford1:   
+#      ipv4: 10.207.0.21
+#      ipv6: fec0::a:cf:0:15
+
+#    herford2:    
+#      ipv4: 10.207.0.24   
+#      ipv6: fec0::a:cf:0:18

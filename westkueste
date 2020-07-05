@@ -1,0 +1,17 @@
+tech-c:
+  - noc@freifunk-westkueste.de
+asn: 65432
+networks:
+  ipv4: 
+    - 10.13.0.0/18
+  ipv6:
+    - fd23:dead:beef::/48
+#bgp:
+#  westkueste1:
+#    ipv4: 10.207.0.12
+#    ipv6: fec0::a:cf:0:c
+domains:
+  - ffwk
+nameservers:
+  - 10.13.1.1
+  - fd23:dead:beef::ff01

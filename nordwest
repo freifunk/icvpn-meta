@@ -4,13 +4,10 @@ asn: 65513
 networks:
   ipv4:
     - 10.18.0.0/16
-bgp:
-  nordwest1:
-    ipv4: 10.207.0.27
-  nordwest2:
-    ipv4: 10.207.0.38
-  nordwest3:
-    ipv4: 10.207.0.39
+    - 10.72.0.0/16
+#bgp:
+#  nordwest2:
+#    ipv4: 10.207.0.38
 
 domains:
   - ffnw

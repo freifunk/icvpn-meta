@@ -1,0 +1,16 @@
+tech-c:
+  - admin@ffnord.net
+asn: 65187
+networks:
+  ipv4:
+    - 10.187.0.0/16
+domains:
+  - ffnord
+  - 187.10.in-addr.arpa
+nameservers:
+  - 10.187.1.1
+  - fd42:eb49:c0b5:4242::fd00
+#bgp:
+#  nordgw0:
+#    ipv4: 10.207.11.12
+#    ipv6: fec0::a:cf:b:c 

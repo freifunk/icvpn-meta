@@ -1,0 +1,22 @@
+tech-c:
+  - ops@ffho.net
+asn: 65132
+networks:
+  ipv4:
+    - 10.132.0.0/16
+  ipv6:
+    - 2a03:2260:2342::/48
+bgp:
+  ffho01:
+    ipv4: 10.207.0.231
+    ipv6: fec0::a:cf:0:e7
+  ffho02:
+    ipv4: 10.207.0.232
+    ipv6: fec0::a:cf:0:e8
+domains:
+  - ffho.net
+  - 132.10.in-addr.arpa
+  - 2.4.3.2.0.6.2.2.3.0.a.2.ip6.arpa
+nameservers:
+  - 10.132.251.53
+  - 2a03:2260:2342:f251::53
