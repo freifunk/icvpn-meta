@@ -11,6 +11,7 @@ bgp:
     # ipv4: 10.207.0.9
   erfurt2:
     ipv4: 10.207.0.10
+    ipv6: fec0::a:cf:0:a
   erfurt3:
     ipv4: 10.207.0.155
     ipv6: fec0::a:cf:0:1b
