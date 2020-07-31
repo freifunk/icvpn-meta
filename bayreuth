@@ -1,6 +1,0 @@
-tech-c:
-  - nospam.freifunk@criede.de
-asn: 65025
-networks:
-  ipv4:
-    - 10.195.0.0/16
