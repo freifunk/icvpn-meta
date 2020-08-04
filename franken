@@ -21,6 +21,7 @@ domains:
   - fff.community
   - 50.10.in-addr.arpa
   - 83.10.in-addr.arpa
+  - d.b.9.2.2.0.6.5.3.4.d.f.ip6.arpa
 
 nameservers:
   - fd43:5602:29bd:ffff::252
