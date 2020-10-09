@@ -2,7 +2,7 @@
   asn: 64882
 
   tech-c:
-    - noc@freifunk-westerwald.de
+    - info@freifunk-limburg.de
   networks:
     ipv4:
       - 10.44.0.0/18
