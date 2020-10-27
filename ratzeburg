@@ -1,0 +1,26 @@
+  asn: 64896
+
+  tech-c:
+    - freifunk@technodreamer.de
+
+  networks:
+    ipv4:
+      - 10.1.0.0/18
+    ipv6:
+      - fdef:ffe0:3ed7::/48
+
+  bgp:
+    ratzeburg1:
+      ipv4: 10.207.0.5
+      ipv6: fec0::a:cf:0:5
+    ratzeburg2:
+      ipv4: 10.207.0.6
+      ipv6: fec0::a:cf:0:6
+
+  domains:
+    - ffrz
+    - 7.d.e.3.0.e.f.f.f.e.d.f.ip6.arpa
+    - 1.10.in-addr.arpa
+
+  nameservers:
+    - 10.1.0.2
