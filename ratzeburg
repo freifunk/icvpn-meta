@@ -16,6 +16,9 @@
     ratzeburg2:
       ipv4: 10.207.0.6
       ipv6: fec0::a:cf:0:6
+    ratzeburg3:
+      ipv4: 10.207.0.8
+      ipv6: fec0::a:cf:0:8
 
   domains:
     - ffrz
@@ -23,4 +26,7 @@
     - 1.10.in-addr.arpa
 
   nameservers:
+    - 10.1.0.1
     - 10.1.0.2
+    - 10.1.0.3
+    - 10.1.0.4
