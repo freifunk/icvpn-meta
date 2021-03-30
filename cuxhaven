@@ -1,10 +1,10 @@
 tech-c:
-  - gateway@ffcux.net
+  - moin@freifunk-cuxhaven.de
   
 asn: 65115
 networks:
   ipv4:
-    - 10.115.0.0/19
+    - 10.115.0.0/16
   ipv6:
     - fdec:c0f1:afda::/64
     
