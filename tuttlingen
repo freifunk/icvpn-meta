@@ -79,7 +79,7 @@ domains:
   - 189.30.10.in-addr.arpa
   - 190.30.10.in-addr.arpa
   - 191.30.10.in-addr.arpa
-  - 0.3.0.0.4.8.3.5.7.c.d.f.ip6.arpa.
+  - 0.3.0.0.4.8.3.5.7.c.d.f.ip6.arpa
 
 nameservers:
   - 10.119.0.5

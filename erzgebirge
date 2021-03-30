@@ -13,7 +13,7 @@ networks:
 #    ipv6: fec0::a:cf:0:3a
 domains:
   - fferz
-  - 13.10.in-addr.arpa.
+  - 13.10.in-addr.arpa
   
 nameservers:
   - 10.13.80.1
