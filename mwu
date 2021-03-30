@@ -11,9 +11,6 @@ networks:
     - fd37:b4dc:4b1e::/48 # Mainz legacy
     - fd56:b4dc:4b1e::/48 # Wiesbaden legacy
 bgp:
-  mwu7:
-    ipv4: 10.207.37.7
-    ipv6: fec0::a:cf:25:7
   mwu23:
     ipv4: 10.207.37.23
     ipv6: fec0::a:cf:25:17
@@ -41,8 +38,6 @@ domains:
   - e.1.b.4.c.d.4.b.6.5.d.f.ip6.arpa
   - e.1.b.4.c.d.4.b.6.8.d.f.ip6.arpa
 nameservers:
-  - 10.87.255.7
-  - fd86:b4dc:4b1e:ff::7
   - 10.87.255.23
   - fd86:b4dc:4b1e:ff::17
   - 10.87.255.101
