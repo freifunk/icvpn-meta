@@ -1,9 +1,9 @@
 tech-c:
   - technik@freifunk-rhein-sieg.net
-asn: 
+asn: 64856
 networks:
   ipv4:
-    - /18
+    - 10.0.192.0/18
   ipv6:
     - f::/48
 #bgp:
