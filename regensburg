@@ -6,6 +6,9 @@ networks:
     - 10.90.0.0/16
   ipv6:
     - fdef:f00f:1337:cafe::/64
+    - fdef:f10f:1337:cafe::/64
+    - fdef:f20f:1337:cafe::/64
+    - fdef:f30f:1337:cafe::/64
 
 domains:
   - ffrgb

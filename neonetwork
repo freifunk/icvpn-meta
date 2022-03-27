@@ -1,0 +1,12 @@
+domains:
+  - neo
+  - 127.10.in-addr.arpa
+  - 7.2.1.0.0.1.d.f.ip6.arpa
+nameservers:
+  - 10.127.255.53
+  - "fd10:127:ffff:53::"
+networks:
+  ipv4:
+    - 10.127.0.0/16 # in use
+  ipv6:
+    - fd10:127::/32

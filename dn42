@@ -6,8 +6,9 @@ domains:
   - 23.172.in-addr.arpa
 nameservers:
   # anycast resolvers
-  - 172.23.0.53
-  - fd42:d42:d42:53::1
+  # a.recursive-servers.dn42
+  - 172.20.0.53
+  - fd42:d42:d42:54::1
 networks:
   # https://dn42.net/services/Whois#names-and-numbers_address-space
   ipv4:

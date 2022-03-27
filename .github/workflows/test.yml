@@ -1,0 +1,63 @@
+---
+name: Test
+on:
+  push:
+  pull_request:
+    types: [opened, synchronize, reopened]
+jobs:
+  findfree:
+    name: findfree
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: install python3, python3-yaml, git
+        run: sudo apt install git-core python3 python3-yaml python3-requests python3-prettytable python3-jinja2
+      - name: clone icvpn-scripts.git
+        run: git clone https://github.com/freifunk/icvpn-scripts.git
+      - name: run findfree
+        run: ./icvpn-scripts/findfree -s .
+  mkdns:
+    name: mkdns
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: install python3, python3-yaml, git
+        run: sudo apt install git-core python3 python3-yaml python3-requests python3-prettytable python3-jinja2
+      - name: clone icvpn-scripts.git
+        run: git clone https://github.com/freifunk/icvpn-scripts.git
+      - name: dnsmasq
+        run: ./icvpn-scripts/mkdns -s . -f dnsmasq
+      - name: bind
+        run: ./icvpn-scripts/mkdns -s . -f bind
+      - name: bind-forward
+        run: ./icvpn-scripts/mkdns -s . -f bind-forward
+      - name: unbound
+        run: ./icvpn-scripts/mkdns -s . -f unbound
+      - name: pdns
+        run: ./icvpn-scripts/mkdns -s . -f pdns
+  mkbgp:
+    name: mkbgp
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: install python3, python3-yaml, git
+        run: sudo apt install git-core python3 python3-yaml python3-requests python3-prettytable python3-jinja2
+      - name: clone icvpn-scripts.git
+        run: git clone https://github.com/freifunk/icvpn-scripts.git
+      - name: ipv4
+        run: ./icvpn-scripts/mkbgp -s . -4 -P 0
+      - name: ipv6
+        run: ./icvpn-scripts/mkbgp -s . -6 -P 0
+  mkroa:
+    name: mkroa
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: install python3, python3-yaml, git
+        run: sudo apt install git-core python3 python3-yaml python3-requests python3-prettytable python3-jinja2
+      - name: clone icvpn-scripts.git
+        run: git clone https://github.com/freifunk/icvpn-scripts.git
+      - name: ipv4
+        run: ./icvpn-scripts/mkroa -s . -4 -f bird
+      - name: ipv6
+        run: ./icvpn-scripts/mkroa -s . -6 -f bird
