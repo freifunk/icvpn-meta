@@ -1,0 +1,24 @@
+tech-c:
+  - technik@freifunk-rhein-sieg.net
+asn: 
+networks:
+  ipv4:
+    - /18
+  ipv6:
+    - f::/48
+#bgp:
+#  niederkassel1:
+#    ipv4: 
+#    ipv6: 
+#  siegburg2:
+#    ipv4: 
+#    ipv6:   
+domains:
+  - ffnk
+  - .in-addr.arpa
+  - .ip6.arpa
+nameservers:
+  - 10.
+  - 10.
+  - fd::1
+  - fd::1
