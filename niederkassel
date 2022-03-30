@@ -18,7 +18,7 @@ domains:
   - .in-addr.arpa
   - .ip6.arpa
 nameservers:
-  - 10.
+  - 10.0.192.10
   - 10.
   - fd::1
   - fd::1
