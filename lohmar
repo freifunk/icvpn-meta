@@ -1,9 +1,9 @@
 # 
-asn: 64896
-# 
 tech-c:
   - lohmar@freifunk-rhein-sieg.net
-
+# 
+asn: 64896
+#
 networks:
   ipv4:
     - 10.6.0.0/18
