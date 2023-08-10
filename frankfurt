@@ -13,9 +13,3 @@ bgp:
   frankfurt2:
     ipv4: 10.207.0.1
     ipv6: fec0::a:cf:0:1
-domains:
-  - ffffm
-  - b.f.7.8.1.8.6.0.d.f.ip6.arpa
-  - 126.10.in-addr.arpa
-nameservers:
-  - 10.126.255.14
