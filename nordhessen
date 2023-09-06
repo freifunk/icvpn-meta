@@ -1,0 +1,23 @@
+tech-c:
+  - technik@freifunk-nordhessen.de
+  - d.rippen@freifunk-nordhessen.de
+asn: 64890
+networks:
+  ipv4:
+    - 10.15.128.0/18
+  ipv6:
+    - 	2a03:2260:3013::/48
+#domains:
+#  - ffnh
+#nameservers:
+#  - 10.1.0.1
+#  - 10.1.0.2
+#  - 10.1.0.3
+#  - 10.1.0.4
+#bgp:
+#  nordhessen2:
+#    ipv4: 10.207.0.60
+#    ipv6: fec0::a:cf:0:3c
+#  nordhessen4:
+#    ipv4: 10.207.0.62
+#    ipv6: fec0::a:cf:0:3e
