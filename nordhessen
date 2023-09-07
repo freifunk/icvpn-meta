@@ -6,7 +6,7 @@ networks:
   ipv4:
     - 10.15.128.0/18
   ipv6:
-    - 	2a03:2260:3013::/48
+    - 2a03:2260:3013::/48
 #domains:
 #  - ffnh
 #nameservers:
