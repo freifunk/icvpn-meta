@@ -1,23 +1,5 @@
+# merged into kreisgt, to be deleted
 tech-c:
-    - felixannen@web.de
-    - moritzwarning@web.de
-asn: 65529
-networks:
-  ipv4:
-    - 10.29.0.0/16
-    - 10.26.0.0/16
-  ipv6:
-    - fdef:17a0:ffb1::/48
-    - 2001:bf7:1320::/44
-delegate:
- 4242420022:
-    - fdef:17a0:ffb1:ffff::/64
-    - 10.26.64.0/18
-    - 10.26.48.0/20
-bgp:
-  bielefeldbgp1:
-    ipv4: 10.207.0.54
-    ipv6: fec0::a:cf:0:36
-#  bielefeldbgp2:
-#    ipv4: 10.207.0.59
-#    ipv6: fec0::a:cf:0:3b
+    - support@4830.org
+
+# asn: 65529
