@@ -1,29 +1,50 @@
 tech-c:
-  - support@freifunk-kreisgt.de
+  - support@4830.org
 
 asn: 65533
 
 networks:
   ipv4:
-    - 10.255.0.0/16
+    - 10.26.0.0/16
+    - 10.29.0.0/16
+    - 10.169.0.0/16
     - 10.234.0.0/15
+    - 10.255.0.0/16
+
   ipv6:
-    - 2a06:e881:1700::/44
+    - fd10:ca1:1::/48
+    - fd10:ca1:2::/48
+    - fd10:ca1:3::/48
+    - fd10:ca1:4::/48
+    - fd10:ca1:11::/48
+    - fd10:ca1:12::/48
+    - fd10:ca1:17::/48
+    - fd10:ca1:66::/48
+    - fd10:ca1:bfe::/48
+    - fd39:e4e3:eee1::/48
+    - fdef:17a0:ffb1::/48
+    - fdff:fe1d:be86::/48
+    - 2001:bf7:170::/44
     - 2001:bf7:1310::/44
+    - 2001:bf7:1320::/44
+#    - 2001:bf7:1350::/44
 
 bgp:
-  kreisgt_fks:
-    ipv4: 10.207.0.134
-    ipv6: fec0::a:cf:0:86
-  kreisgt_gut:
+  kreisgt_a:
     ipv4: 10.207.0.137
     ipv6: fec0::a:cf:0:89
+  kreisgt_b:
+    ipv4: 10.207.0.138
+    ipv6: fec0::a:cf:0:8a
 
 domains:
   - 255.10.in-addr.arpa
   - 235.10.in-addr.arpa
   - 234.10.in-addr.arpa 
+  - 169.10.in-addr.arpa
+  - 29.10.in-addr.arpa
+  - 26.10.in-addr.arpa
 
-nameservers:
-  - 10.255.128.53
-  - 2001:bf7:1310:200::53
+#nameservers:
+#  - 10.255.128.53
+#  - 2001:bf7:1310:200::53

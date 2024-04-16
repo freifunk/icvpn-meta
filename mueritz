@@ -1,27 +1,5 @@
+# merged into kreisgt, to be deleted
 tech-c:
-  - support@4830.org
+    - support@4830.org
 
-asn: 65534
-
-networks:
-  ipv4:
-    - 10.169.0.0/16
-  ipv6:
-    - 2001:bf7:170::/44
-
-bgp:
-  mueritz_bgp1:
-    ipv4: 10.207.0.138
-    ipv6: fec0::a:cf:0:8a
-
-domains:
-  - mueritz
-  - 169.10.in-addr.arpa
-
-nameservers:
-  - 10.169.1.1
-
-delegate:
-  65533:
-   - 10.169.0.0/16
-   - 2001:bf7:170::/44
+# asn: 65534
